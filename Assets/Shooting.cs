@@ -40,7 +40,7 @@ public class PlayerShooting : MonoBehaviour
 
         // Set bullet velocity toward mouse position
         Rigidbody2D rb = bullet.GetComponent<Rigidbody2D>();
-        rb.velocity = direction * bulletSpeed;
+        rb.linearVelocity = direction * bulletSpeed;
 
         // Rotate bullet sprite to face direction
         float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
