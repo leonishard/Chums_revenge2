@@ -2,15 +2,34 @@ using UnityEngine;
 
 public class PlayerHealth : MonoBehaviour
 {
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
+    public int maxHealth = 3;
+    private int currentHealth;
+
+    public HealthUI healthUI;
+
     void Start()
     {
-        
+        currentHealth = maxHealth;
+        healthUI.SetMaxHearts(maxHealth);
     }
 
-    // Update is called once per frame
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-        
+        Enemy enemy = collision.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            TakeDamage(enemy.damage);
+        }
+    }
+
+    public void TakeDamage(int damage)
+    {
+        currentHealth -= damage;
+        healthUI.UpdateHearts(currentHealth);
+
+        if (currentHealth <= 0)
+        {
+            // Player is dead
+        }
     }
 }
