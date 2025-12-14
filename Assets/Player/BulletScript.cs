@@ -1,4 +1,4 @@
-using System.Collections;
+﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -31,12 +31,19 @@ public class BulletScript : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D collision)
     {
-        // Check if the collided object has an Enemy component
+        // 🔴 Enemy hit
         Enemy enemy = collision.GetComponent<Enemy>();
         if (enemy != null)
         {
             Destroy(collision.gameObject); // destroy enemy
-            Destroy(gameObject);           // destroy bullet (recommended)
+            Destroy(gameObject);           // destroy bullet
+            return;
+        }
+
+        // 🧱 Wall hit (OnTop tilemap layer)
+        if (collision.gameObject.layer == LayerMask.NameToLayer("OnTop"))
+        {
+            Destroy(gameObject); // destroy bullet only
         }
     }
 }
