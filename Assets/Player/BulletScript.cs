@@ -29,8 +29,14 @@ public class BulletScript : MonoBehaviour
         transform.rotation = Quaternion.Euler(0f, 0f, rot + 90f);
     }
 
-    void Update()
+    private void OnTriggerEnter2D(Collider2D collision)
     {
-
+        // Check if the collided object has an Enemy component
+        Enemy enemy = collision.GetComponent<Enemy>();
+        if (enemy != null)
+        {
+            Destroy(collision.gameObject); // destroy enemy
+            Destroy(gameObject);           // destroy bullet (recommended)
+        }
     }
 }
