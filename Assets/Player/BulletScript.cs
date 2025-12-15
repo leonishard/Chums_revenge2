@@ -1,49 +1,44 @@
-﻿using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
+﻿using UnityEngine;
 
 public class BulletScript : MonoBehaviour
 {
-    private Vector3 mousePos;
     private Camera mainCam;
     private Rigidbody2D rb;
 
-    public float force;
+    public float force = 12f;
 
     void Start()
     {
-        mainCam = GameObject.FindGameObjectWithTag("MainCamera").GetComponent<Camera>();
+        mainCam = Camera.main;
         rb = GetComponent<Rigidbody2D>();
 
-        // Get mouse position in world space
-        mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
+        Vector3 mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
+        mousePos.z = 0f;
 
-        // Compute direction
-        Vector3 direction = mousePos - transform.position;
+        Vector2 direction = (mousePos - transform.position);
+        direction.Normalize();
 
-        // Apply velocity
-        rb.linearVelocity = new Vector2(direction.x, direction.y).normalized * force;
+        rb.linearVelocity = direction * force;
 
-        // Rotate bullet to face direction
         float rot = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rot + 90f);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D col)
     {
-        // 🔴 Enemy hit
-        Enemy enemy = collision.GetComponent<Enemy>();
+        // Enemy hit
+        Enemy enemy = col.collider.GetComponent<Enemy>();
         if (enemy != null)
         {
-            Destroy(collision.gameObject); // destroy enemy
-            Destroy(gameObject);           // destroy bullet
+            Destroy(enemy.gameObject);
+            Destroy(gameObject);
             return;
         }
 
-        // 🧱 Wall hit (OnTop tilemap layer)
-        if (collision.gameObject.layer == LayerMask.NameToLayer("OnTop"))
+        // Wall/tilemap hit (checks the OTHER object's layer)
+        if (col.gameObject.layer == LayerMask.NameToLayer("OnTop"))
         {
-            Destroy(gameObject); // destroy bullet only
+            Destroy(gameObject);
         }
     }
 }
