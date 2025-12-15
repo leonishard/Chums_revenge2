@@ -5,6 +5,10 @@ public class BulletScript : MonoBehaviour
     private Camera mainCam;
     private Rigidbody2D rb;
 
+    [Header("Combat")]
+    public int damage = 1;
+
+    [Header("Movement")]
     public float force = 12f;
 
     void Start()
@@ -22,6 +26,8 @@ public class BulletScript : MonoBehaviour
 
         float rot = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
         transform.rotation = Quaternion.Euler(0f, 0f, rot + 90f);
+
+        Destroy(gameObject, 3f); // bullet lifetime fail-safe
     }
 
     private void OnCollisionEnter2D(Collision2D col)
@@ -30,12 +36,12 @@ public class BulletScript : MonoBehaviour
         Enemy enemy = col.collider.GetComponent<Enemy>();
         if (enemy != null)
         {
-            Destroy(enemy.gameObject);
+            enemy.TakeDamage(damage);
             Destroy(gameObject);
             return;
         }
 
-        // Wall/tilemap hit (checks the OTHER object's layer)
+        // Wall hit
         if (col.gameObject.layer == LayerMask.NameToLayer("OnTop"))
         {
             Destroy(gameObject);

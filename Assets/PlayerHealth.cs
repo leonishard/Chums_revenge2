@@ -13,9 +13,9 @@ public class PlayerHealth : MonoBehaviour
         healthUI.SetMaxHearts(maxHealth);
     }
 
-    private void OnTriggerEnter2D(Collider2D collision)
+    private void OnCollisionEnter2D(Collision2D collision)
     {
-        Enemy enemy = collision.GetComponent<Enemy>();
+        Enemy enemy = collision.collider.GetComponent<Enemy>();
         if (enemy != null)
         {
             TakeDamage(enemy.damage);
