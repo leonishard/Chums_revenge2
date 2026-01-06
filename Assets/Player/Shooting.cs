@@ -52,6 +52,13 @@ public class Shooting : MonoBehaviour
         }
     }
 
+    public void AddFireRate(float amount)
+    {
+        // If you interpret "more fire rate" as "shoot faster",
+        // you want SMALLER timeBetweenFiring.
+        timeBetweenFiring = Mathf.Max(0.05f, timeBetweenFiring - amount);
+    }
+
     private void Fire()
     {
         int count = stats ? stats.projectileCount : 1;
