@@ -1075,9 +1075,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: -0.5
-    width: 0
-    height: 1
+    y: 0.03481625
+    width: 0.9991756
+    height: 0.9284333
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -4919,6 +4919,8 @@ GameObject:
   - component: {fileID: 1758522654}
   - component: {fileID: 1758522653}
   - component: {fileID: 1758522652}
+  - component: {fileID: 1758522658}
+  - component: {fileID: 1758522657}
   m_Layer: 7
   m_Name: PatrolEnemy
   m_TagString: Untagged
@@ -5077,12 +5079,49 @@ Transform:
   m_GameObject: {fileID: 1758522651}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -4.98, y: -4.68, z: 0}
-  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_LocalPosition: {x: -5.0967, y: -4.68, z: 0}
+  m_LocalScale: {x: 0.07319638, y: 0.084653914, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1758522657
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758522651}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 73da9745ccf8ee94fa5b78b80fc14933, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointA: {fileID: 1839611616}
+  pointB: {fileID: 24126818}
+  speed: 2
+--- !u!95 &1758522658
+Animator:
+  serializedVersion: 7
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1758522651}
+  m_Enabled: 1
+  m_Avatar: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: 70bea862cbeaac34091e407d1913cc4e, type: 2}
+  m_CullingMode: 0
+  m_UpdateMode: 0
+  m_ApplyRootMotion: 0
+  m_LinearVelocityBlending: 0
+  m_StabilizeFeet: 0
+  m_AnimatePhysics: 0
+  m_WarningMessage: 
+  m_HasTransformHierarchy: 1
+  m_AllowConstantClipSamplingOptimization: 1
+  m_KeepAnimatorStateOnDisable: 0
+  m_WriteDefaultValuesOnDisable: 0
 --- !u!1 &1839611616
 GameObject:
   m_ObjectHideFlags: 0
