@@ -63,10 +63,10 @@ public class PauseMenu : MonoBehaviour
     }
 
     // Put your main menu scene name in the button OnClick parameter, e.g. "MainMenu"
-    public void LoadMainMenu(string sceneName)
+    public void LoadMainMenu(string MainMenu)
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneName);
+        SceneManager.LoadScene(MainMenu);
     }
 
     public void QuitGame()
