@@ -25,7 +25,10 @@ public class Shooting : MonoBehaviour
 
     void Update()
     {
-        // Rotate this pivot (square) towards mouse (YOUR OLD BEHAVIOR)
+        // Stop all aiming/shooting while paused
+        if (Time.timeScale == 0f) return;
+
+        // Rotate this pivot towards mouse
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
         mousePos.z = 0f;
 
@@ -54,8 +57,7 @@ public class Shooting : MonoBehaviour
 
     public void AddFireRate(float amount)
     {
-        // If you interpret "more fire rate" as "shoot faster",
-        // you want SMALLER timeBetweenFiring.
+        // Smaller timeBetweenFiring = faster shooting
         timeBetweenFiring = Mathf.Max(0.05f, timeBetweenFiring - amount);
     }
 
