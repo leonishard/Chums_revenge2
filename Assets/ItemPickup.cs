@@ -6,22 +6,24 @@ public class ItemPickup : MonoBehaviour
     {
         DamageUp,
         FireRateUp,
-        ProjectilesUp
+        ProjectilesUp,
+        Heal,         // NEW: heals current health
+        MaxHealthUp   // OPTIONAL: increases max health
     }
 
     public ItemType type;
-    public int intAmount = 1;         // for damage/projectiles
-    public float floatAmount = 0.02f; // for fire rate (seconds reduced)
+
+    [Header("Amounts")]
+    public int intAmount = 1;         // used for damage/projectiles/heal/maxHealth
+    public float floatAmount = 0.02f; // used for fire rate
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (!other.CompareTag("Player")) return;
 
-        // PlayerStats is on Player
         PlayerStats stats = other.GetComponent<PlayerStats>();
-
-        // Shooting is on child/pivot (your setup)
         Shooting shooting = other.GetComponentInChildren<Shooting>();
+        PlayerHealth health = other.GetComponent<PlayerHealth>(); // NEW
 
         switch (type)
         {
@@ -35,6 +37,14 @@ public class ItemPickup : MonoBehaviour
 
             case ItemType.FireRateUp:
                 if (shooting != null) shooting.AddFireRate(floatAmount);
+                break;
+
+            case ItemType.Heal:
+                if (health != null) health.Heal(intAmount);
+                break;
+
+            case ItemType.MaxHealthUp:
+                if (health != null) health.AddMaxHealth(intAmount);
                 break;
         }
 
