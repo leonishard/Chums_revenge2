@@ -1469,7 +1469,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!114 &744294996
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -1486,6 +1486,9 @@ MonoBehaviour:
   maxHealth: 114
   hitFlashDuration: 0.1
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  knockbackForce: 1
+  maxKnockbackSpeed: 1
+  knockbackDampTime: 0.1
 --- !u!1 &812067337
 GameObject:
   m_ObjectHideFlags: 0
@@ -5198,6 +5201,9 @@ MonoBehaviour:
   maxHealth: 5
   hitFlashDuration: 0.1
   hitColor: {r: 1, g: 0, b: 0, a: 1}
+  knockbackForce: 3
+  maxKnockbackSpeed: 3
+  knockbackDampTime: 0.1
 --- !u!61 &1758522653
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -5590,6 +5596,10 @@ PrefabInstance:
       propertyPath: player
       value: 
       objectReference: {fileID: 2475817863372887925, guid: 2b828070f99645c488665af169b2e808, type: 3}
+    - target: {fileID: 3323823721071976798, guid: 2b828070f99645c488665af169b2e808, type: 3}
+      propertyPath: m_Constraints
+      value: 4
+      objectReference: {fileID: 0}
     - target: {fileID: 3323823721071976798, guid: 2b828070f99645c488665af169b2e808, type: 3}
       propertyPath: m_GravityScale
       value: 0
