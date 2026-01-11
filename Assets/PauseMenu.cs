@@ -39,6 +39,7 @@ public class PauseMenu : MonoBehaviour
         // Mouse can stay enabled; doesn't hurt even if you don't use it
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
+
     }
 
     public void Resume()
@@ -74,4 +75,5 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         Application.Quit();
     }
+
 }
