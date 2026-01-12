@@ -138,6 +138,9 @@ public class Enemy : MonoBehaviour
 
     private void Die()
     {
+        Debug.Log("Enemy died");
+        DropCoins();
+        Destroy(gameObject);
         DropCoins();
         Destroy(gameObject);
     }
