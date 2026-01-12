@@ -2221,7 +2221,7 @@ MonoBehaviour:
   coinPickupPrefab: {fileID: 4352824150652879905, guid: e10831da47145ee41848422e2b6e35f6, type: 3}
   minCoins: 10
   maxCoins: 10
-  dropScatter: 1
+  dropScatter: 10
 --- !u!1 &746037856
 GameObject:
   m_ObjectHideFlags: 0
@@ -7084,6 +7084,10 @@ PrefabInstance:
     - target: {fileID: 193464053198178895, guid: e10831da47145ee41848422e2b6e35f6, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 2996208812626206392, guid: e10831da47145ee41848422e2b6e35f6, type: 3}
+      propertyPath: m_Radius
+      value: 0.23
       objectReference: {fileID: 0}
     - target: {fileID: 4352824150652879905, guid: e10831da47145ee41848422e2b6e35f6, type: 3}
       propertyPath: m_Name

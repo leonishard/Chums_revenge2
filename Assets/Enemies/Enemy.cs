@@ -114,23 +114,27 @@ public class Enemy : MonoBehaviour
 
         int amount = Random.Range(minCoins, maxCoins + 1);
 
-        // Spawn ONE pickup worth "amount"
-        Vector3 pos = transform.position + (Vector3)Random.insideUnitCircle * dropScatter;
-        GameObject go = Instantiate(coinPickupPrefab, pos, Quaternion.identity);
-
-        CoinPickup coin = go.GetComponent<CoinPickup>();
-        if (coin != null)
-            coin.SetAmount(amount);
-
-        // If you want multiple 1-coin pickups instead, use this instead:
-        /*
         for (int i = 0; i < amount; i++)
         {
-            Vector3 p = transform.position + (Vector3)Random.insideUnitCircle * dropScatter;
-            Instantiate(coinPickupPrefab, p, Quaternion.identity);
+            Vector3 pos = transform.position + (Vector3)Random.insideUnitCircle * dropScatter;
+            GameObject go = Instantiate(coinPickupPrefab, pos, Quaternion.identity);
+
+            // each coin worth 1 (or you can randomize this)
+            CoinPickup coin = go.GetComponent<CoinPickup>();
+            if (coin != null)
+                coin.SetAmount(1);
+
+            // optional: add a little burst so it "pops" outward
+            Rigidbody2D rb = go.GetComponent<Rigidbody2D>();
+            if (rb != null)
+            {
+                Vector2 dir = Random.insideUnitCircle.normalized;
+                float force = Random.Range(1.5f, 3.5f);
+                rb.AddForce(dir * force, ForceMode2D.Impulse);
+            }
         }
-        */
     }
+
 
     private void Die()
     {
