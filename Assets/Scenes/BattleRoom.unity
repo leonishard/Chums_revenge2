@@ -1292,7 +1292,7 @@ MonoBehaviour:
   knockbackForce: 1
   maxKnockbackSpeed: 1
   knockbackDampTime: 0.1
-  coinPickupPrefab: {fileID: 4352824150652879905, guid: e10831da47145ee41848422e2b6e35f6, type: 3}
+  coinPickupPrefab: {fileID: 8464981365113011934, guid: c52848448e508284eab8bf05df2b6805, type: 3}
   minCoins: 10
   maxCoins: 10
   dropScatter: 1
@@ -2440,7 +2440,7 @@ MonoBehaviour:
   knockbackForce: 1
   maxKnockbackSpeed: 1
   knockbackDampTime: 0.1
-  coinPickupPrefab: {fileID: 4352824150652879905, guid: e10831da47145ee41848422e2b6e35f6, type: 3}
+  coinPickupPrefab: {fileID: 8464981365113011934, guid: c52848448e508284eab8bf05df2b6805, type: 3}
   minCoins: 10
   maxCoins: 10
   dropScatter: 1
@@ -6842,9 +6842,9 @@ MonoBehaviour:
   knockbackForce: 3
   maxKnockbackSpeed: 3
   knockbackDampTime: 0.1
-  coinPickupPrefab: {fileID: 0}
-  minCoins: 1
-  maxCoins: 3
+  coinPickupPrefab: {fileID: 8464981365113011934, guid: c52848448e508284eab8bf05df2b6805, type: 3}
+  minCoins: 5
+  maxCoins: 5
   dropScatter: 0.4
 --- !u!61 &1758522653
 BoxCollider2D:
@@ -6918,7 +6918,7 @@ Rigidbody2D:
   m_Interpolate: 0
   m_SleepingMode: 1
   m_CollisionDetection: 0
-  m_Constraints: 0
+  m_Constraints: 4
 --- !u!212 &1758522655
 SpriteRenderer:
   m_ObjectHideFlags: 0
@@ -7065,7 +7065,7 @@ MonoBehaviour:
   knockbackForce: 1
   maxKnockbackSpeed: 1
   knockbackDampTime: 0.1
-  coinPickupPrefab: {fileID: 4352824150652879905, guid: e10831da47145ee41848422e2b6e35f6, type: 3}
+  coinPickupPrefab: {fileID: 8464981365113011934, guid: c52848448e508284eab8bf05df2b6805, type: 3}
   minCoins: 10
   maxCoins: 10
   dropScatter: 1
