@@ -2221,7 +2221,7 @@ MonoBehaviour:
   coinPickupPrefab: {fileID: 4352824150652879905, guid: e10831da47145ee41848422e2b6e35f6, type: 3}
   minCoins: 10
   maxCoins: 10
-  dropScatter: 10
+  dropScatter: 1
 --- !u!1 &746037856
 GameObject:
   m_ObjectHideFlags: 0
