@@ -12,6 +12,7 @@ public class Shooting : MonoBehaviour
 
     public bool canFire = true;
     private float timer;
+
     public float timeBetweenFiring = 0.2f;
 
     [Header("Spread")]
@@ -21,6 +22,26 @@ public class Shooting : MonoBehaviour
     {
         mainCam = Camera.main;
         stats = GetComponentInParent<PlayerStats>(); // Shooting is on child/pivot, stats is on Player
+
+        ApplyFromManager(); // <-- pull persistent value
+    }
+
+    private void ApplyFromManager()
+    {
+        if (GameManager.I == null) return;
+
+        timeBetweenFiring = GameManager.I.timeBetweenFiring;
+        // If you later want spread persisted too:
+        // spreadDegrees = GameManager.I.spreadDegrees;
+    }
+
+    private void SaveToManager()
+    {
+        if (GameManager.I == null) return;
+
+        GameManager.I.timeBetweenFiring = timeBetweenFiring;
+        // If you later want spread persisted too:
+        // GameManager.I.spreadDegrees = spreadDegrees;
     }
 
     void Update()
@@ -59,6 +80,12 @@ public class Shooting : MonoBehaviour
     {
         // Smaller timeBetweenFiring = faster shooting
         timeBetweenFiring = Mathf.Max(0.05f, timeBetweenFiring - amount);
+
+        // Persist it
+        SaveToManager();
+
+        // Optional: if you want the upgrade to feel instant even mid-cooldown
+        // timer = Mathf.Min(timer, timeBetweenFiring);
     }
 
     private void Fire()

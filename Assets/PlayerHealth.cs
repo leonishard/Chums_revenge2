@@ -4,23 +4,49 @@ using System.Collections;
 public class PlayerHealth : MonoBehaviour
 {
     public int maxHealth = 3;
-    private int currentHealth;
+    [SerializeField] private int currentHealth;
 
     [Header("Invincibility")]
     public float invincibilityDuration = 1f;
     private bool isInvincible = false;
 
     public HealthUI healthUI;
-
     private SpriteRenderer spriteRenderer;
 
     void Start()
     {
-        currentHealth = maxHealth;
+        spriteRenderer = GetComponent<SpriteRenderer>();
+        ApplyFromManager();
+
+        // If manager doesn't exist, fall back to local defaults
+        if (GameManager.I == null)
+        {
+            currentHealth = maxHealth;
+        }
+
         healthUI.SetMaxHearts(maxHealth);
         healthUI.UpdateHearts(currentHealth);
+        SaveToManager();
+    }
 
-        spriteRenderer = GetComponent<SpriteRenderer>();
+    public void ApplyFromManager()
+    {
+        if (GameManager.I == null) return;
+
+        maxHealth = GameManager.I.maxHealth;
+        currentHealth = GameManager.I.currentHealth;
+
+        // Keep sane
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+        if (currentHealth == 0) currentHealth = maxHealth;
+    }
+
+    private void SaveToManager()
+    {
+        if (GameManager.I == null) return;
+
+        GameManager.I.maxHealth = maxHealth;
+        GameManager.I.currentHealth = currentHealth;
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -40,7 +66,9 @@ public class PlayerHealth : MonoBehaviour
 
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
         healthUI.UpdateHearts(currentHealth);
+        SaveToManager();
 
         if (currentHealth <= 0)
         {
@@ -57,7 +85,9 @@ public class PlayerHealth : MonoBehaviour
 
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
         healthUI.UpdateHearts(currentHealth);
+        SaveToManager();
     }
 
     public void AddMaxHealth(int amount)
@@ -66,8 +96,11 @@ public class PlayerHealth : MonoBehaviour
 
         maxHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+
         healthUI.SetMaxHearts(maxHealth);
         healthUI.UpdateHearts(currentHealth);
+
+        SaveToManager();
     }
 
     private IEnumerator InvincibilityCoroutine()
