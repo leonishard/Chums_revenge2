@@ -13,7 +13,6 @@ public class ShopUI : MonoBehaviour
     [SerializeField] private TextMeshProUGUI coinsText;
 
     private VendingMachine currentMachine;
-    private float previousTimeScale = 1f;
 
     public bool IsOpen => panel != null && panel.activeSelf;
 
@@ -29,8 +28,6 @@ public class ShopUI : MonoBehaviour
     {
         if (!IsOpen) return;
 
-        // Optional: let ESC close the shop.
-        // If your pause menu also uses ESC, you may want to REMOVE this line.
         if (Input.GetKeyDown(KeyCode.Escape))
             Close();
 
@@ -63,9 +60,11 @@ public class ShopUI : MonoBehaviour
             b.onClick.AddListener(() => currentMachine.TryBuy(index));
         }
 
-        previousTimeScale = Time.timeScale;   // <-- important
         panel.SetActive(true);
-        Time.timeScale = 0f;
+
+        // Optional: make cursor usable if your game ever locks it
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 
     public void Close()
@@ -73,7 +72,9 @@ public class ShopUI : MonoBehaviour
         if (panel == null) return;
 
         panel.SetActive(false);
-        Time.timeScale = previousTimeScale;  // <-- restore what it was
         currentMachine = null;
+
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
     }
 }

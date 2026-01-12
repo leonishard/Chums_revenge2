@@ -4,70 +4,72 @@ using UnityEngine.EventSystems;
 
 public class PauseMenu : MonoBehaviour
 {
+    [Header("UI")]
     [SerializeField] private GameObject pausePanel;
     [SerializeField] private GameObject firstSelectedButton;
 
-    private bool isPaused = false;
+    public bool IsOpen => pausePanel != null && pausePanel.activeSelf;
 
-    private void Start()
+    private float previousTimeScale = 1f;
+
+    private void Awake()
     {
-        Resume(); // sets correct initial state
+        if (pausePanel != null)
+            pausePanel.SetActive(false);
     }
 
     private void Update()
     {
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (isPaused) Resume();
-            else Pause();
+            if (IsOpen) Close();
+            else Open();
         }
     }
 
-    public void Pause()
+    public void Open()
     {
-        isPaused = true;
+        if (pausePanel == null) return;
+
+        previousTimeScale = Time.timeScale;
         pausePanel.SetActive(true);
         Time.timeScale = 0f;
 
-        // If you want keyboard/controller navigation:
+        Cursor.visible = true;
+        Cursor.lockState = CursorLockMode.None;
+
         if (EventSystem.current != null && firstSelectedButton != null)
         {
             EventSystem.current.SetSelectedGameObject(null);
             EventSystem.current.SetSelectedGameObject(firstSelectedButton);
         }
-
-        // Mouse can stay enabled; doesn't hurt even if you don't use it
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
-
     }
 
-    public void Resume()
+    public void Close()
     {
-        isPaused = false;
-        pausePanel.SetActive(false);
-        Time.timeScale = 1f;
+        if (pausePanel == null) return;
 
-        // For a top-down mouse-aim game, keep cursor free
+        pausePanel.SetActive(false);
+        Time.timeScale = previousTimeScale;
+
         Cursor.visible = true;
         Cursor.lockState = CursorLockMode.None;
 
-        // Optional: clear selection when leaving pause
         if (EventSystem.current != null)
             EventSystem.current.SetSelectedGameObject(null);
     }
 
+    // Hook these to your UI Buttons
     public void Restart()
     {
         Time.timeScale = 1f;
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    // Put your main menu scene name in the button OnClick parameter, e.g. "MainMenu"
-    public void LoadMainMenu(string MainMenu)
+    public void LoadMainMenu(string sceneName)
     {
         Time.timeScale = 1f;
-        SceneManager.LoadScene(MainMenu);
+        SceneManager.LoadScene(sceneName);
     }
 
     public void QuitGame()
@@ -75,5 +77,4 @@ public class PauseMenu : MonoBehaviour
         Time.timeScale = 1f;
         Application.Quit();
     }
-
 }

@@ -31,8 +31,6 @@ public class Shooting : MonoBehaviour
         if (GameManager.I == null) return;
 
         timeBetweenFiring = GameManager.I.timeBetweenFiring;
-        // If you later want spread persisted too:
-        // spreadDegrees = GameManager.I.spreadDegrees;
     }
 
     private void SaveToManager()
@@ -40,14 +38,15 @@ public class Shooting : MonoBehaviour
         if (GameManager.I == null) return;
 
         GameManager.I.timeBetweenFiring = timeBetweenFiring;
-        // If you later want spread persisted too:
-        // GameManager.I.spreadDegrees = spreadDegrees;
     }
 
     void Update()
     {
         // Stop all aiming/shooting while paused
         if (Time.timeScale == 0f) return;
+
+        // Stop shooting while shop is open
+        if (ShopUI.I != null && ShopUI.I.IsOpen) return;
 
         // Rotate this pivot towards mouse
         mousePos = mainCam.ScreenToWorldPoint(Input.mousePosition);
@@ -83,9 +82,6 @@ public class Shooting : MonoBehaviour
 
         // Persist it
         SaveToManager();
-
-        // Optional: if you want the upgrade to feel instant even mid-cooldown
-        // timer = Mathf.Min(timer, timeBetweenFiring);
     }
 
     private void Fire()

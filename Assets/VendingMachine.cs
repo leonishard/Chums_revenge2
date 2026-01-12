@@ -35,6 +35,7 @@ public class VendingMachine : MonoBehaviour
         }
     }
 
+
     public void TryBuy(int index)
     {
         if (GameManager.I == null) return;
@@ -70,6 +71,12 @@ public class VendingMachine : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
+        if (!other.CompareTag("Player")) return; 
         if (other.CompareTag("Player")) playerInRange = false;
+
+        playerInRange = false;
+
+        if (ShopUI.I != null && ShopUI.I.IsOpen)
+            ShopUI.I.Close();
     }
 }
