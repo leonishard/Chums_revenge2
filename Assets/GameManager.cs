@@ -14,10 +14,10 @@ public class GameManager : MonoBehaviour
     public int maxHealth = 3;
     public int currentHealth = 3;
 
-    [Header("Weapon/Combat")]
+    [Header("Weapon / Combat")]
     public float timeBetweenFiring = 0.3f;
 
-    [Header("Currency (add later)")]
+    [Header("Currency")]
     public int currency = 0;
 
     public int Damage => baseDamage + bonusDamage;
@@ -33,9 +33,10 @@ public class GameManager : MonoBehaviour
         I = this;
         DontDestroyOnLoad(gameObject);
 
-        // If starting values are inconsistent
+        // Keep health sane
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-        if (currentHealth == 0) currentHealth = maxHealth;
+        if (currentHealth == 0)
+            currentHealth = maxHealth;
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -48,21 +49,43 @@ public class GameManager : MonoBehaviour
 
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
-        // Find player in the new scene and apply stored values
-        var player = FindFirstObjectByType<PlayerStats>();
-        if (player != null)
-        {
-            player.ApplyFromManager();
-        }
+        var stats = FindFirstObjectByType<PlayerStats>();
+        if (stats != null)
+            stats.ApplyFromManager();
 
         var health = FindFirstObjectByType<PlayerHealth>();
         if (health != null)
-        {
             health.ApplyFromManager();
-        }
 
-        // If you have a shooting script, do the same pattern there (see note at bottom)
+        var shooting = FindFirstObjectByType<Shooting>();
+        if (shooting != null)
+            shooting.ApplyFromManager();
     }
+
+    // =====================
+    // Currency API
+    // =====================
+
+    public void AddCurrency(int amount)
+    {
+        if (amount <= 0) return;
+
+        currency += amount;
+        // Later: notify UI here
+    }
+
+    public bool SpendCurrency(int amount)
+    {
+        if (amount <= 0) return true;
+        if (currency < amount) return false;
+
+        currency -= amount;
+        return true;
+    }
+
+    // =====================
+    // Run / Game Reset
+    // =====================
 
     public void ResetRun()
     {

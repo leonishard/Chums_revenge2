@@ -18,6 +18,12 @@ public class Enemy : MonoBehaviour
     public float maxKnockbackSpeed = 3f;
     public float knockbackDampTime = 0.1f;
 
+    [Header("Drops")]
+    [SerializeField] private GameObject coinPickupPrefab;
+    [SerializeField] private int minCoins = 1;
+    [SerializeField] private int maxCoins = 3;
+    [SerializeField] private float dropScatter = 0.4f;
+
     private SpriteRenderer spriteRenderer;
     private Color originalColor;
     private bool isHit = false;
@@ -53,8 +59,11 @@ public class Enemy : MonoBehaviour
     {
         if (rb == null) return;
 
+        GameObject playerObj = GameObject.FindGameObjectWithTag("Player");
+        if (playerObj == null) return;
+
         // Push enemy away from player
-        Vector2 knockDir = (transform.position - GameObject.FindGameObjectWithTag("Player").transform.position);
+        Vector2 knockDir = (transform.position - playerObj.transform.position);
         knockDir.Normalize();
 
         // Prevent stacking velocity into rockets
@@ -69,6 +78,8 @@ public class Enemy : MonoBehaviour
 
     private IEnumerator DampKnockback()
     {
+        if (rb == null) yield break;
+
         Vector2 startVel = rb.linearVelocity;
         float t = 0f;
 
@@ -97,8 +108,33 @@ public class Enemy : MonoBehaviour
         isHit = false;
     }
 
+    private void DropCoins()
+    {
+        if (coinPickupPrefab == null) return;
+
+        int amount = Random.Range(minCoins, maxCoins + 1);
+
+        // Spawn ONE pickup worth "amount"
+        Vector3 pos = transform.position + (Vector3)Random.insideUnitCircle * dropScatter;
+        GameObject go = Instantiate(coinPickupPrefab, pos, Quaternion.identity);
+
+        CoinPickup coin = go.GetComponent<CoinPickup>();
+        if (coin != null)
+            coin.SetAmount(amount);
+
+        // If you want multiple 1-coin pickups instead, use this instead:
+        /*
+        for (int i = 0; i < amount; i++)
+        {
+            Vector3 p = transform.position + (Vector3)Random.insideUnitCircle * dropScatter;
+            Instantiate(coinPickupPrefab, p, Quaternion.identity);
+        }
+        */
+    }
+
     private void Die()
     {
+        DropCoins();
         Destroy(gameObject);
     }
 }

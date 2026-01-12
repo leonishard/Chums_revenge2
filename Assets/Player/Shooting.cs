@@ -26,7 +26,7 @@ public class Shooting : MonoBehaviour
         ApplyFromManager(); // <-- pull persistent value
     }
 
-    private void ApplyFromManager()
+    public void ApplyFromManager()
     {
         if (GameManager.I == null) return;
 
