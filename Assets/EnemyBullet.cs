@@ -1,60 +1,59 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class EnemyBullet : MonoBehaviour
 {
     [Header("Bullet Settings")]
-    public float speed = 10f;   // Bullet movement speed
-    public int damage = 1;      // Damage to player
-    public float lifetime = 3f; // How long before bullet auto-destroys
+    public float speed = 10f;
+    public int damage = 1;
+    public float lifetime = 3f;
 
     private Rigidbody2D rb;
-    private Transform player;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
         if (rb == null)
         {
-            Debug.LogError("EnemyBullet: Rigidbody2D is missing!");
+            Debug.LogError("EnemyBullet: Rigidbody2D missing!");
             return;
         }
 
-        // Find player safely
-        GameObject p = GameObject.FindGameObjectWithTag("Player");
-        if (p != null)
+        // Find player
+        GameObject player = GameObject.FindGameObjectWithTag("Player");
+        if (player != null)
         {
-            player = p.transform;
+            Vector2 direction =
+                ((Vector2)player.transform.position - rb.position).normalized;
 
-            // Compute direction as Vector2 explicitly
-            Vector2 direction = ((Vector2)player.position - (Vector2)transform.position).normalized;
-            rb.velocity = direction * speed;
+            rb.linearVelocity = direction * speed;
 
-            // Rotate bullet to face movement
             float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
             transform.rotation = Quaternion.Euler(0f, 0f, angle);
         }
 
-        // Use UnityEngine.Object.Destroy explicitly to avoid ambiguity
-        UnityEngine.Object.Destroy(gameObject, lifetime);
+        Destroy(gameObject, lifetime);
     }
 
+    // 🔥 Damage player (trigger collider)
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (other.CompareTag("Player"))
-        {
-            PlayerHealth playerHealth = other.GetComponent<PlayerHealth>();
-            if (playerHealth != null)
-            {
-                playerHealth.TakeDamage(damage);
-            }
+        if (!other.CompareTag("Player")) return;
 
-            UnityEngine.Object.Destroy(gameObject);
+        PlayerHealth health = other.GetComponent<PlayerHealth>();
+        if (health != null)
+        {
+            health.TakeDamage(damage);
         }
 
-        // Optional: destroy bullet on walls
-        // if (other.CompareTag("Obstacle"))
-        // {
-        //     UnityEngine.Object.Destroy(gameObject);
-        // }
+        Destroy(gameObject);
+    }
+
+    // 🧱 Hit walls / map (normal collider)
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        // Optional: only destroy on environment
+        // if (!collision.collider.CompareTag("Wall")) return;
+
+        Destroy(gameObject);
     }
 }
