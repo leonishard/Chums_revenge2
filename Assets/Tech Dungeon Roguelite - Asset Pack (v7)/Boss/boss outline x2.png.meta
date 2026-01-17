@@ -1,0 +1,2691 @@
+fileFormatVersion: 2
+guid: 637d8a2cd5d7a2749ac419055ba4ae59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 8663973384406053416
+    second: boss outline x2_0
+  - first:
+      213: 3399119715872078129
+    second: boss outline x2_1
+  - first:
+      213: -6442374548017367469
+    second: boss outline x2_2
+  - first:
+      213: -2416094377638533568
+    second: boss outline x2_3
+  - first:
+      213: -2972491620930147295
+    second: boss outline x2_4
+  - first:
+      213: -4364482042902890818
+    second: boss outline x2_5
+  - first:
+      213: 3992371903096161890
+    second: boss outline x2_6
+  - first:
+      213: -2014904502881733310
+    second: boss outline x2_7
+  - first:
+      213: 9053825271505429435
+    second: boss outline x2_8
+  - first:
+      213: 8843088243182241968
+    second: boss outline x2_9
+  - first:
+      213: 1613819764335425741
+    second: boss outline x2_10
+  - first:
+      213: 4552245285088471178
+    second: boss outline x2_11
+  - first:
+      213: 5617710942524970871
+    second: boss outline x2_12
+  - first:
+      213: -2746808994871186913
+    second: boss outline x2_13
+  - first:
+      213: 4127790334050066287
+    second: boss outline x2_14
+  - first:
+      213: 5812433694470629418
+    second: boss outline x2_15
+  - first:
+      213: 4331648201307527176
+    second: boss outline x2_16
+  - first:
+      213: -3072423918100340973
+    second: boss outline x2_17
+  - first:
+      213: 7547521513643273473
+    second: boss outline x2_18
+  - first:
+      213: 6410298107779326432
+    second: boss outline x2_19
+  - first:
+      213: -5387346775321412505
+    second: boss outline x2_20
+  - first:
+      213: -7542573422299764732
+    second: boss outline x2_21
+  - first:
+      213: -3725766091911425745
+    second: boss outline x2_22
+  - first:
+      213: 6967077208759849966
+    second: boss outline x2_23
+  - first:
+      213: 4090267050171513395
+    second: boss outline x2_24
+  - first:
+      213: 2250423396836193072
+    second: boss outline x2_25
+  - first:
+      213: 891178280659339133
+    second: boss outline x2_26
+  - first:
+      213: -1454845117052820295
+    second: boss outline x2_27
+  - first:
+      213: -460922851683726304
+    second: boss outline x2_28
+  - first:
+      213: 824062340734856211
+    second: boss outline x2_29
+  - first:
+      213: -4288180915610150333
+    second: boss outline x2_30
+  - first:
+      213: 5016284664255528062
+    second: boss outline x2_31
+  - first:
+      213: -2686828163577370418
+    second: boss outline x2_32
+  - first:
+      213: 430106049372841315
+    second: boss outline x2_33
+  - first:
+      213: 8889003652319363081
+    second: boss outline x2_34
+  - first:
+      213: 7117230445461869256
+    second: boss outline x2_35
+  - first:
+      213: -52594605027877567
+    second: boss outline x2_36
+  - first:
+      213: 4457559869427726046
+    second: boss outline x2_37
+  - first:
+      213: 6205840605643100838
+    second: boss outline x2_38
+  - first:
+      213: -4141354772214318674
+    second: boss outline x2_39
+  - first:
+      213: 6486927367413969799
+    second: boss outline x2_40
+  - first:
+      213: -1584501164962895384
+    second: boss outline x2_41
+  - first:
+      213: -2312792926144435628
+    second: boss outline x2_42
+  - first:
+      213: -4424164532959127865
+    second: boss outline x2_43
+  - first:
+      213: -5290879355840459024
+    second: boss outline x2_44
+  - first:
+      213: 4269661951979736797
+    second: boss outline x2_45
+  - first:
+      213: -1194728196445627484
+    second: boss outline x2_46
+  - first:
+      213: -7304011425480299159
+    second: boss outline x2_47
+  - first:
+      213: 4881217063162589899
+    second: boss outline x2_48
+  - first:
+      213: 2018057904497039146
+    second: boss outline x2_49
+  - first:
+      213: 5384493466414308642
+    second: boss outline x2_50
+  - first:
+      213: -3416707634870964788
+    second: boss outline x2_51
+  - first:
+      213: -2540069431001522833
+    second: boss outline x2_52
+  - first:
+      213: 6723007791212125247
+    second: boss outline x2_53
+  - first:
+      213: 4558714312890735269
+    second: boss outline x2_54
+  - first:
+      213: 4871625249978672221
+    second: boss outline x2_55
+  - first:
+      213: 8544320624536866669
+    second: boss outline x2_56
+  - first:
+      213: -2516822585915404054
+    second: boss outline x2_57
+  - first:
+      213: -6611484756872995363
+    second: boss outline x2_58
+  - first:
+      213: -6245788205100033866
+    second: boss outline x2_59
+  - first:
+      213: 1493601932723239578
+    second: boss outline x2_60
+  - first:
+      213: 689471671184667192
+    second: boss outline x2_61
+  - first:
+      213: -6674847453015541091
+    second: boss outline x2_62
+  - first:
+      213: -2169040376753927016
+    second: boss outline x2_63
+  - first:
+      213: -7391643269987100004
+    second: boss outline x2_64
+  - first:
+      213: 5177561106917274891
+    second: boss outline x2_65
+  - first:
+      213: -4766760086870213933
+    second: boss outline x2_66
+  - first:
+      213: 1698740622206084312
+    second: boss outline x2_67
+  - first:
+      213: 4125443036645917510
+    second: boss outline x2_68
+  - first:
+      213: 3888795553301726520
+    second: boss outline x2_69
+  - first:
+      213: 5164040753188959061
+    second: boss outline x2_70
+  - first:
+      213: 7324213569426750609
+    second: boss outline x2_71
+  - first:
+      213: 9148173951018032649
+    second: boss outline x2_72
+  - first:
+      213: -2819202279508132326
+    second: boss outline x2_73
+  - first:
+      213: -7170364262356178160
+    second: boss outline x2_74
+  - first:
+      213: 7779445696237858023
+    second: boss outline x2_75
+  - first:
+      213: 3971547794308092091
+    second: boss outline x2_76
+  - first:
+      213: 7985155147438459368
+    second: boss outline x2_77
+  - first:
+      213: 1354357326873915981
+    second: boss outline x2_78
+  - first:
+      213: 4114129690139099080
+    second: boss outline x2_79
+  - first:
+      213: -2054318874778876346
+    second: boss outline x2_80
+  - first:
+      213: 9163174050503127815
+    second: boss outline x2_81
+  - first:
+      213: -2834435974556461399
+    second: boss outline x2_82
+  - first:
+      213: -4583746923297452171
+    second: boss outline x2_83
+  - first:
+      213: -5108777547399135988
+    second: boss outline x2_84
+  - first:
+      213: -6466125008655255602
+    second: boss outline x2_85
+  - first:
+      213: -3534798071268349801
+    second: boss outline x2_86
+  - first:
+      213: 892912833381568114
+    second: boss outline x2_87
+  - first:
+      213: 3156411843642554600
+    second: boss outline x2_88
+  - first:
+      213: -351156009979948054
+    second: boss outline x2_89
+  - first:
+      213: -5483400066720392585
+    second: boss outline x2_90
+  - first:
+      213: -7203520035064331385
+    second: boss outline x2_91
+  - first:
+      213: -1636750972523689133
+    second: boss outline x2_92
+  - first:
+      213: 4025427871887577504
+    second: boss outline x2_93
+  - first:
+      213: -2683029737461988295
+    second: boss outline x2_94
+  - first:
+      213: 960579251803465138
+    second: boss outline x2_95
+  - first:
+      213: -7179021773918618628
+    second: boss outline x2_96
+  - first:
+      213: -1800565715064962485
+    second: boss outline x2_97
+  - first:
+      213: -2481861515109959802
+    second: boss outline x2_98
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: boss outline x2_0
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 771
+        width: 112
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82236f0b3ed9c3870800000000000000
+      internalID: 8663973384406053416
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_1
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 771
+        width: 112
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 139f49d4f591c2f20800000000000000
+      internalID: 3399119715872078129
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_2
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 771
+        width: 112
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35638635b761896a0800000000000000
+      internalID: -6442374548017367469
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_3
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 771
+        width: 112
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 046690de6fe487ed0800000000000000
+      internalID: -2416094377638533568
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_4
+      rect:
+        serializedVersion: 2
+        x: 551
+        y: 825
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 12c22a4ae969fb6d0800000000000000
+      internalID: -2972491620930147295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_5
+      rect:
+        serializedVersion: 2
+        x: 569
+        y: 831
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb6b33cb4be3e63c0800000000000000
+      internalID: -4364482042902890818
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_6
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 833
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2660c47e711c76730800000000000000
+      internalID: 3992371903096161890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_7
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 771
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2453661b70f9904e0800000000000000
+      internalID: -2014904502881733310
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_8
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 771
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb3298e7d16a5ad70800000000000000
+      internalID: 9053825271505429435
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_9
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 771
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b88f4c87e5f8ba70800000000000000
+      internalID: 8843088243182241968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_10
+      rect:
+        serializedVersion: 2
+        x: 831
+        y: 771
+        width: 36
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc8b7b87680756610800000000000000
+      internalID: 1613819764335425741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_11
+      rect:
+        serializedVersion: 2
+        x: 921
+        y: 771
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a88252cc7f2dc2f30800000000000000
+      internalID: 4552245285088471178
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_12
+      rect:
+        serializedVersion: 2
+        x: 959
+        y: 771
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 777960c965e16fd40800000000000000
+      internalID: 5617710942524970871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_13
+      rect:
+        serializedVersion: 2
+        x: 1049
+        y: 771
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1aeadab5cf51e9d0800000000000000
+      internalID: -2746808994871186913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_14
+      rect:
+        serializedVersion: 2
+        x: 1087
+        y: 771
+        width: 36
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6f5858507bd84930800000000000000
+      internalID: 4127790334050066287
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_15
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 643
+        width: 112
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a28ee6746a9e9a050800000000000000
+      internalID: 5812433694470629418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_16
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 643
+        width: 112
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 80815eac61b1d1c30800000000000000
+      internalID: 4331648201307527176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_17
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 643
+        width: 112
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31f173299be8c55d0800000000000000
+      internalID: -3072423918100340973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_18
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 643
+        width: 112
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10d635304de2eb860800000000000000
+      internalID: 7547521513643273473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_19
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 687
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0e1ab827a24f5f850800000000000000
+      internalID: 6410298107779326432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_20
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 691
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76cfe17b6ac4c35b0800000000000000
+      internalID: -5387346775321412505
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_21
+      rect:
+        serializedVersion: 2
+        x: 577
+        y: 695
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 40825874f65635790800000000000000
+      internalID: -7542573422299764732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_22
+      rect:
+        serializedVersion: 2
+        x: 587
+        y: 693
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f219c67ba7b6b4cc0800000000000000
+      internalID: -3725766091911425745
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_23
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 515
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ee3d9d6eec700b060800000000000000
+      internalID: 6967077208759849966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_24
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 515
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33a35f1063c83c830800000000000000
+      internalID: 4090267050171513395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_25
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 515
+        width: 112
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 03336aaf72c1b3f10800000000000000
+      internalID: 2250423396836193072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_26
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 515
+        width: 112
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d774e32bce91e5c00800000000000000
+      internalID: 891178280659339133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_27
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 515
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b4eadaf21a5fcbe0800000000000000
+      internalID: -1454845117052820295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_28
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 515
+        width: 112
+        height: 96
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 02c0884cb197a99f0800000000000000
+      internalID: -460922851683726304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_29
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 515
+        width: 112
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 31c27443558af6b00800000000000000
+      internalID: 824062340734856211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_30
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 515
+        width: 112
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34a92705d225d74c0800000000000000
+      internalID: -4288180915610150333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_31
+      rect:
+        serializedVersion: 2
+        x: 1063
+        y: 569
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7cb031235c6d9540800000000000000
+      internalID: 5016284664255528062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_32
+      rect:
+        serializedVersion: 2
+        x: 1081
+        y: 569
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec8a479450876bad0800000000000000
+      internalID: -2686828163577370418
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_33
+      rect:
+        serializedVersion: 2
+        x: 1099
+        y: 567
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3656d905c2b08f500800000000000000
+      internalID: 430106049372841315
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_34
+      rect:
+        serializedVersion: 2
+        x: 1181
+        y: 515
+        width: 46
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90045afc9b51c5b70800000000000000
+      internalID: 8889003652319363081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_35
+      rect:
+        serializedVersion: 2
+        x: 1235
+        y: 515
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8c29956a16b75c260800000000000000
+      internalID: 7117230445461869256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_36
+      rect:
+        serializedVersion: 2
+        x: 1313
+        y: 515
+        width: 40
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14d16324c75254ff0800000000000000
+      internalID: -52594605027877567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_37
+      rect:
+        serializedVersion: 2
+        x: 1341
+        y: 545
+        width: 10
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed6b646851f6cdd30800000000000000
+      internalID: 4457559869427726046
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_38
+      rect:
+        serializedVersion: 2
+        x: 1359
+        y: 515
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6a25d00a6239f1650800000000000000
+      internalID: 6205840605643100838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_39
+      rect:
+        serializedVersion: 2
+        x: 1483
+        y: 515
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ea9fb49c6c3f686c0800000000000000
+      internalID: -4141354772214318674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_40
+      rect:
+        serializedVersion: 2
+        x: 1569
+        y: 515
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783387a4212360a50800000000000000
+      internalID: 6486927367413969799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_41
+      rect:
+        serializedVersion: 2
+        x: 1611
+        y: 515
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e9a134e598b20ae0800000000000000
+      internalID: -1584501164962895384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_42
+      rect:
+        serializedVersion: 2
+        x: 1695
+        y: 515
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 45aef1e561f47efd0800000000000000
+      internalID: -2312792926144435628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_43
+      rect:
+        serializedVersion: 2
+        x: 1721
+        y: 515
+        width: 34
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7c6d6192cc53a92c0800000000000000
+      internalID: -4424164532959127865
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_44
+      rect:
+        serializedVersion: 2
+        x: 1819
+        y: 515
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0fe8ea512450396b0800000000000000
+      internalID: -5290879355840459024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_45
+      rect:
+        serializedVersion: 2
+        x: 1839
+        y: 515
+        width: 48
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddec0c67ce2e04b30800000000000000
+      internalID: 4269661951979736797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_46
+      rect:
+        serializedVersion: 2
+        x: 1945
+        y: 515
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4ab17b709097b6fe0800000000000000
+      internalID: -1194728196445627484
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_47
+      rect:
+        serializedVersion: 2
+        x: 1965
+        y: 515
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96d2adc8e40f2aa90800000000000000
+      internalID: -7304011425480299159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_48
+      rect:
+        serializedVersion: 2
+        x: 2073
+        y: 515
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc2b161ae019db340800000000000000
+      internalID: 4881217063162589899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_49
+      rect:
+        serializedVersion: 2
+        x: 2093
+        y: 515
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a2717b5d8f4910c10800000000000000
+      internalID: 2018057904497039146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_50
+      rect:
+        serializedVersion: 2
+        x: 2111
+        y: 515
+        width: 12
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 22d5909874099ba40800000000000000
+      internalID: 5384493466414308642
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_51
+      rect:
+        serializedVersion: 2
+        x: 2131
+        y: 515
+        width: 16
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ccda622328a6590d0800000000000000
+      internalID: -3416707634870964788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_52
+      rect:
+        serializedVersion: 2
+        x: 1441
+        y: 515
+        width: 12
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f6d53547f4cdfbcd0800000000000000
+      internalID: -2540069431001522833
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_53
+      rect:
+        serializedVersion: 2
+        x: 1461
+        y: 527
+        width: 10
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f3cd16157fbec4d50800000000000000
+      internalID: 6723007791212125247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_54
+      rect:
+        serializedVersion: 2
+        x: 1467
+        y: 515
+        width: 8
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5aa5754b38ec34f30800000000000000
+      internalID: 4558714312890735269
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_55
+      rect:
+        serializedVersion: 2
+        x: 1589
+        y: 515
+        width: 14
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d546dc79a5d7b9340800000000000000
+      internalID: 4871625249978672221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_56
+      rect:
+        serializedVersion: 2
+        x: 1715
+        y: 525
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6f40989656839670800000000000000
+      internalID: 8544320624536866669
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_57
+      rect:
+        serializedVersion: 2
+        x: 1983
+        y: 515
+        width: 12
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae015db5133721dd0800000000000000
+      internalID: -2516822585915404054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_58
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 515
+        width: 16
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ddddcac84a94f34a0800000000000000
+      internalID: -6611484756872995363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_59
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 403
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b810b418b08259a0800000000000000
+      internalID: -6245788205100033866
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_60
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 403
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a9a3ecb5b075ab410800000000000000
+      internalID: 1493601932723239578
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_61
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 403
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83238abf4de719900800000000000000
+      internalID: 689471671184667192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_62
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 403
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d9a76193b9d2e53a0800000000000000
+      internalID: -6674847453015541091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_63
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 403
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 89c4a18f44506e1e0800000000000000
+      internalID: -2169040376753927016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_64
+      rect:
+        serializedVersion: 2
+        x: 677
+        y: 443
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c9a130acb9b9b6990800000000000000
+      internalID: -7391643269987100004
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_65
+      rect:
+        serializedVersion: 2
+        x: 689
+        y: 447
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b05bea415646ad740800000000000000
+      internalID: 5177561106917274891
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_66
+      rect:
+        serializedVersion: 2
+        x: 699
+        y: 449
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3da3794d4f019ddb0800000000000000
+      internalID: -4766760086870213933
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_67
+      rect:
+        serializedVersion: 2
+        x: 717
+        y: 449
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d4ae187893239710800000000000000
+      internalID: 1698740622206084312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_68
+      rect:
+        serializedVersion: 2
+        x: 737
+        y: 447
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64383649594804930800000000000000
+      internalID: 4125443036645917510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_69
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 273
+        width: 112
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8350ba6b3f6c7f530800000000000000
+      internalID: 3888795553301726520
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_70
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 273
+        width: 112
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 553f77b64bb5aa740800000000000000
+      internalID: 5164040753188959061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_71
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 273
+        width: 112
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19cf6c0af65d4a560800000000000000
+      internalID: 7324213569426750609
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_72
+      rect:
+        serializedVersion: 2
+        x: 401
+        y: 273
+        width: 112
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90e59e54db7d4fe70800000000000000
+      internalID: 9148173951018032649
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_73
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 273
+        width: 112
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a1e32fba67e20e8d0800000000000000
+      internalID: -2819202279508132326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_74
+      rect:
+        serializedVersion: 2
+        x: 655
+        y: 275
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01baa1091bfbd7c90800000000000000
+      internalID: -7170364262356178160
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_75
+      rect:
+        serializedVersion: 2
+        x: 783
+        y: 275
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7ece2b9b4a426fb60800000000000000
+      internalID: 7779445696237858023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_76
+      rect:
+        serializedVersion: 2
+        x: 911
+        y: 275
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb058304da5cd1730800000000000000
+      internalID: 3971547794308092091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_77
+      rect:
+        serializedVersion: 2
+        x: 1061
+        y: 315
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e98377ac48f0de60800000000000000
+      internalID: 7985155147438459368
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_78
+      rect:
+        serializedVersion: 2
+        x: 1073
+        y: 319
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d42744720d4abc210800000000000000
+      internalID: 1354357326873915981
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_79
+      rect:
+        serializedVersion: 2
+        x: 1083
+        y: 321
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cff0a4d723581930800000000000000
+      internalID: 4114129690139099080
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_80
+      rect:
+        serializedVersion: 2
+        x: 1101
+        y: 321
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 646cc6d1ed79d73e0800000000000000
+      internalID: -2054318874778876346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_81
+      rect:
+        serializedVersion: 2
+        x: 1121
+        y: 319
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 703f05710422a2f70800000000000000
+      internalID: 9163174050503127815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_82
+      rect:
+        serializedVersion: 2
+        x: 1129
+        y: 319
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9a659f5af7f0aa8d0800000000000000
+      internalID: -2834435974556461399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_83
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 147
+        width: 110
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 57fc09085724360c0800000000000000
+      internalID: -4583746923297452171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_84
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 147
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c0d78ca53e9f919b0800000000000000
+      internalID: -5108777547399135988
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_85
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 147
+        width: 110
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec775d94095b346a0800000000000000
+      internalID: -6466125008655255602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_86
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 147
+        width: 112
+        height: 76
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7986051e1efd1fec0800000000000000
+      internalID: -3534798071268349801
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_87
+      rect:
+        serializedVersion: 2
+        x: 549
+        y: 187
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 27e8819bd73446c00800000000000000
+      internalID: 892912833381568114
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_88
+      rect:
+        serializedVersion: 2
+        x: 561
+        y: 191
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8e8762139d3ddcb20800000000000000
+      internalID: 3156411843642554600
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_89
+      rect:
+        serializedVersion: 2
+        x: 571
+        y: 193
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ae3d66c2871702bf0800000000000000
+      internalID: -351156009979948054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_90
+      rect:
+        serializedVersion: 2
+        x: 589
+        y: 193
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a17cd01bc07e3b0800000000000000
+      internalID: -5483400066720392585
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_91
+      rect:
+        serializedVersion: 2
+        x: 609
+        y: 191
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 783c499a1b4f70c90800000000000000
+      internalID: -7203520035064331385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_92
+      rect:
+        serializedVersion: 2
+        x: 617
+        y: 191
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b43f099a71949e0800000000000000
+      internalID: -1636750972523689133
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_93
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 191
+        width: 8
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0a1d0d462513dd730800000000000000
+      internalID: 4025427871887577504
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_94
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 59
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 934c4c84ba6f3cad0800000000000000
+      internalID: -2683029737461988295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_95
+      rect:
+        serializedVersion: 2
+        x: 1199
+        y: 59
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2b52b5a7db9a45d00800000000000000
+      internalID: 960579251803465138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_96
+      rect:
+        serializedVersion: 2
+        x: 1209
+        y: 61
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfb39c29bbdfe5c90800000000000000
+      internalID: -7179021773918618628
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_97
+      rect:
+        serializedVersion: 2
+        x: 1223
+        y: 61
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b424ece950b1307e0800000000000000
+      internalID: -1800565715064962485
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: boss outline x2_98
+      rect:
+        serializedVersion: 2
+        x: 1233
+        y: 59
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 687782af918ae8dd0800000000000000
+      internalID: -2481861515109959802
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      boss outline x2_0: 8663973384406053416
+      boss outline x2_1: 3399119715872078129
+      boss outline x2_10: 1613819764335425741
+      boss outline x2_11: 4552245285088471178
+      boss outline x2_12: 5617710942524970871
+      boss outline x2_13: -2746808994871186913
+      boss outline x2_14: 4127790334050066287
+      boss outline x2_15: 5812433694470629418
+      boss outline x2_16: 4331648201307527176
+      boss outline x2_17: -3072423918100340973
+      boss outline x2_18: 7547521513643273473
+      boss outline x2_19: 6410298107779326432
+      boss outline x2_2: -6442374548017367469
+      boss outline x2_20: -5387346775321412505
+      boss outline x2_21: -7542573422299764732
+      boss outline x2_22: -3725766091911425745
+      boss outline x2_23: 6967077208759849966
+      boss outline x2_24: 4090267050171513395
+      boss outline x2_25: 2250423396836193072
+      boss outline x2_26: 891178280659339133
+      boss outline x2_27: -1454845117052820295
+      boss outline x2_28: -460922851683726304
+      boss outline x2_29: 824062340734856211
+      boss outline x2_3: -2416094377638533568
+      boss outline x2_30: -4288180915610150333
+      boss outline x2_31: 5016284664255528062
+      boss outline x2_32: -2686828163577370418
+      boss outline x2_33: 430106049372841315
+      boss outline x2_34: 8889003652319363081
+      boss outline x2_35: 7117230445461869256
+      boss outline x2_36: -52594605027877567
+      boss outline x2_37: 4457559869427726046
+      boss outline x2_38: 6205840605643100838
+      boss outline x2_39: -4141354772214318674
+      boss outline x2_4: -2972491620930147295
+      boss outline x2_40: 6486927367413969799
+      boss outline x2_41: -1584501164962895384
+      boss outline x2_42: -2312792926144435628
+      boss outline x2_43: -4424164532959127865
+      boss outline x2_44: -5290879355840459024
+      boss outline x2_45: 4269661951979736797
+      boss outline x2_46: -1194728196445627484
+      boss outline x2_47: -7304011425480299159
+      boss outline x2_48: 4881217063162589899
+      boss outline x2_49: 2018057904497039146
+      boss outline x2_5: -4364482042902890818
+      boss outline x2_50: 5384493466414308642
+      boss outline x2_51: -3416707634870964788
+      boss outline x2_52: -2540069431001522833
+      boss outline x2_53: 6723007791212125247
+      boss outline x2_54: 4558714312890735269
+      boss outline x2_55: 4871625249978672221
+      boss outline x2_56: 8544320624536866669
+      boss outline x2_57: -2516822585915404054
+      boss outline x2_58: -6611484756872995363
+      boss outline x2_59: -6245788205100033866
+      boss outline x2_6: 3992371903096161890
+      boss outline x2_60: 1493601932723239578
+      boss outline x2_61: 689471671184667192
+      boss outline x2_62: -6674847453015541091
+      boss outline x2_63: -2169040376753927016
+      boss outline x2_64: -7391643269987100004
+      boss outline x2_65: 5177561106917274891
+      boss outline x2_66: -4766760086870213933
+      boss outline x2_67: 1698740622206084312
+      boss outline x2_68: 4125443036645917510
+      boss outline x2_69: 3888795553301726520
+      boss outline x2_7: -2014904502881733310
+      boss outline x2_70: 5164040753188959061
+      boss outline x2_71: 7324213569426750609
+      boss outline x2_72: 9148173951018032649
+      boss outline x2_73: -2819202279508132326
+      boss outline x2_74: -7170364262356178160
+      boss outline x2_75: 7779445696237858023
+      boss outline x2_76: 3971547794308092091
+      boss outline x2_77: 7985155147438459368
+      boss outline x2_78: 1354357326873915981
+      boss outline x2_79: 4114129690139099080
+      boss outline x2_8: 9053825271505429435
+      boss outline x2_80: -2054318874778876346
+      boss outline x2_81: 9163174050503127815
+      boss outline x2_82: -2834435974556461399
+      boss outline x2_83: -4583746923297452171
+      boss outline x2_84: -5108777547399135988
+      boss outline x2_85: -6466125008655255602
+      boss outline x2_86: -3534798071268349801
+      boss outline x2_87: 892912833381568114
+      boss outline x2_88: 3156411843642554600
+      boss outline x2_89: -351156009979948054
+      boss outline x2_9: 8843088243182241968
+      boss outline x2_90: -5483400066720392585
+      boss outline x2_91: -7203520035064331385
+      boss outline x2_92: -1636750972523689133
+      boss outline x2_93: 4025427871887577504
+      boss outline x2_94: -2683029737461988295
+      boss outline x2_95: 960579251803465138
+      boss outline x2_96: -7179021773918618628
+      boss outline x2_97: -1800565715064962485
+      boss outline x2_98: -2481861515109959802
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

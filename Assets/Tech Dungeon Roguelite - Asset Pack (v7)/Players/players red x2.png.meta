@@ -1,0 +1,4329 @@
+fileFormatVersion: 2
+guid: 71cde4e73de1ce24ebe34f4d761e0c87
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 6901987536999773305
+    second: players red x2_0
+  - first:
+      213: -5515711183120899085
+    second: players red x2_1
+  - first:
+      213: -8145444386590931735
+    second: players red x2_2
+  - first:
+      213: 4960934041779120264
+    second: players red x2_3
+  - first:
+      213: 6786627481802035800
+    second: players red x2_4
+  - first:
+      213: 1728125818667321309
+    second: players red x2_5
+  - first:
+      213: 4254821334032361387
+    second: players red x2_6
+  - first:
+      213: -2609150462577768128
+    second: players red x2_7
+  - first:
+      213: 3479396840521353473
+    second: players red x2_8
+  - first:
+      213: 5489422093107334104
+    second: players red x2_9
+  - first:
+      213: -5813542182698696887
+    second: players red x2_10
+  - first:
+      213: 3081923961444585366
+    second: players red x2_11
+  - first:
+      213: 8716991399648380276
+    second: players red x2_12
+  - first:
+      213: 2886978626277555815
+    second: players red x2_13
+  - first:
+      213: 8004795838094946240
+    second: players red x2_14
+  - first:
+      213: 6219197079276682279
+    second: players red x2_15
+  - first:
+      213: -617045561396198063
+    second: players red x2_16
+  - first:
+      213: -3773180720091790602
+    second: players red x2_17
+  - first:
+      213: 1642776979046840973
+    second: players red x2_18
+  - first:
+      213: 1022056697634504611
+    second: players red x2_19
+  - first:
+      213: -2096673369442000846
+    second: players red x2_20
+  - first:
+      213: 6639762325110924906
+    second: players red x2_21
+  - first:
+      213: -7533479788312992966
+    second: players red x2_22
+  - first:
+      213: 2146780010814134405
+    second: players red x2_23
+  - first:
+      213: 8310181448205097938
+    second: players red x2_24
+  - first:
+      213: 911886483010924952
+    second: players red x2_25
+  - first:
+      213: -2109871378654284713
+    second: players red x2_26
+  - first:
+      213: -4178644257636268533
+    second: players red x2_27
+  - first:
+      213: -477175339132816557
+    second: players red x2_28
+  - first:
+      213: 588213947146023384
+    second: players red x2_29
+  - first:
+      213: -6705575165212541842
+    second: players red x2_30
+  - first:
+      213: 4209021024498304784
+    second: players red x2_31
+  - first:
+      213: 8692492361882440710
+    second: players red x2_32
+  - first:
+      213: -4082734907111813601
+    second: players red x2_33
+  - first:
+      213: -6833202116294942627
+    second: players red x2_34
+  - first:
+      213: 2528026595320110131
+    second: players red x2_35
+  - first:
+      213: 5281233191179420096
+    second: players red x2_36
+  - first:
+      213: -3421549470406373424
+    second: players red x2_37
+  - first:
+      213: 2014805316090808366
+    second: players red x2_38
+  - first:
+      213: 5966552168740962998
+    second: players red x2_39
+  - first:
+      213: -6117515829933598789
+    second: players red x2_40
+  - first:
+      213: -5288281459039635329
+    second: players red x2_41
+  - first:
+      213: 8207872953972520570
+    second: players red x2_42
+  - first:
+      213: 3308250242940606072
+    second: players red x2_43
+  - first:
+      213: -1003806192347454698
+    second: players red x2_44
+  - first:
+      213: -7998047583989568667
+    second: players red x2_45
+  - first:
+      213: -8802861001869859028
+    second: players red x2_46
+  - first:
+      213: 1386535679794608710
+    second: players red x2_47
+  - first:
+      213: -8336473145824415873
+    second: players red x2_48
+  - first:
+      213: -5474930690857511530
+    second: players red x2_49
+  - first:
+      213: -3686092007832490148
+    second: players red x2_50
+  - first:
+      213: -7079037574338942539
+    second: players red x2_51
+  - first:
+      213: -6656388757389975150
+    second: players red x2_52
+  - first:
+      213: -1509898536804803674
+    second: players red x2_53
+  - first:
+      213: -8502129507245139111
+    second: players red x2_54
+  - first:
+      213: 6399995716804702978
+    second: players red x2_55
+  - first:
+      213: 1231564522844177018
+    second: players red x2_56
+  - first:
+      213: 7101277238146697130
+    second: players red x2_57
+  - first:
+      213: -2778324584056788716
+    second: players red x2_58
+  - first:
+      213: 1681459387372122846
+    second: players red x2_59
+  - first:
+      213: -6093046285130497035
+    second: players red x2_60
+  - first:
+      213: -7593733196688010389
+    second: players red x2_61
+  - first:
+      213: 323469975261679118
+    second: players red x2_62
+  - first:
+      213: -3696798530923237707
+    second: players red x2_63
+  - first:
+      213: 1860729120736512958
+    second: players red x2_64
+  - first:
+      213: 6184723656481826254
+    second: players red x2_65
+  - first:
+      213: 1126668808224538106
+    second: players red x2_66
+  - first:
+      213: 5448766023990591546
+    second: players red x2_67
+  - first:
+      213: -8955878507200399024
+    second: players red x2_68
+  - first:
+      213: 9109013278723731018
+    second: players red x2_69
+  - first:
+      213: 4516455247220139013
+    second: players red x2_70
+  - first:
+      213: -5898680008097674301
+    second: players red x2_71
+  - first:
+      213: 8277530684030427110
+    second: players red x2_72
+  - first:
+      213: -5563850728723156807
+    second: players red x2_73
+  - first:
+      213: -8265240253820715068
+    second: players red x2_74
+  - first:
+      213: 4624185647190905567
+    second: players red x2_75
+  - first:
+      213: -8884423553324288774
+    second: players red x2_76
+  - first:
+      213: -4255028457231834931
+    second: players red x2_77
+  - first:
+      213: -7838218932852407695
+    second: players red x2_78
+  - first:
+      213: -7236518838995921212
+    second: players red x2_79
+  - first:
+      213: 7830983950961728347
+    second: players red x2_80
+  - first:
+      213: -8702405206468559928
+    second: players red x2_81
+  - first:
+      213: -2153420552269882938
+    second: players red x2_82
+  - first:
+      213: 619905290975925175
+    second: players red x2_83
+  - first:
+      213: 6982547826178715442
+    second: players red x2_84
+  - first:
+      213: -4506469149643207664
+    second: players red x2_85
+  - first:
+      213: -9042971163417366479
+    second: players red x2_86
+  - first:
+      213: -410395600976289927
+    second: players red x2_87
+  - first:
+      213: 5835002166639378150
+    second: players red x2_88
+  - first:
+      213: 3870353543744018781
+    second: players red x2_89
+  - first:
+      213: -2785968553098616488
+    second: players red x2_90
+  - first:
+      213: -9137759355713460631
+    second: players red x2_91
+  - first:
+      213: -326466189282316316
+    second: players red x2_92
+  - first:
+      213: 4461304632347040768
+    second: players red x2_93
+  - first:
+      213: 1918849429639732878
+    second: players red x2_94
+  - first:
+      213: -4006809784915856968
+    second: players red x2_95
+  - first:
+      213: 8575363905536647296
+    second: players red x2_96
+  - first:
+      213: -4196547532649662724
+    second: players red x2_97
+  - first:
+      213: -4804701144730547593
+    second: players red x2_98
+  - first:
+      213: -1627717316791944277
+    second: players red x2_99
+  - first:
+      213: -7613505773979546658
+    second: players red x2_100
+  - first:
+      213: 1896798262873891941
+    second: players red x2_101
+  - first:
+      213: 6310367280996633588
+    second: players red x2_102
+  - first:
+      213: -823662159393557339
+    second: players red x2_103
+  - first:
+      213: 8136900510831694284
+    second: players red x2_104
+  - first:
+      213: -2163291088468857438
+    second: players red x2_105
+  - first:
+      213: 7857779093070324634
+    second: players red x2_106
+  - first:
+      213: -6506549232931859632
+    second: players red x2_107
+  - first:
+      213: 1545979323747414170
+    second: players red x2_108
+  - first:
+      213: 1517660960486529059
+    second: players red x2_109
+  - first:
+      213: 4078297085164228013
+    second: players red x2_110
+  - first:
+      213: 1054701070188260859
+    second: players red x2_111
+  - first:
+      213: -5486154999571827969
+    second: players red x2_112
+  - first:
+      213: -638879165858712351
+    second: players red x2_113
+  - first:
+      213: 400171628163282064
+    second: players red x2_114
+  - first:
+      213: -1455558511977350106
+    second: players red x2_115
+  - first:
+      213: 4821467999594509356
+    second: players red x2_116
+  - first:
+      213: 5678374368306801553
+    second: players red x2_117
+  - first:
+      213: 6054009950495197894
+    second: players red x2_118
+  - first:
+      213: 6263655830235473551
+    second: players red x2_119
+  - first:
+      213: -1966317196640267024
+    second: players red x2_120
+  - first:
+      213: 6547086407627910209
+    second: players red x2_121
+  - first:
+      213: -5365731300862945382
+    second: players red x2_122
+  - first:
+      213: 6355757721751533349
+    second: players red x2_123
+  - first:
+      213: 8982432308540620441
+    second: players red x2_124
+  - first:
+      213: 98664584343192717
+    second: players red x2_125
+  - first:
+      213: 8051920356804157120
+    second: players red x2_126
+  - first:
+      213: -5136439856719187819
+    second: players red x2_127
+  - first:
+      213: 8863838142673225367
+    second: players red x2_128
+  - first:
+      213: 274433014443414687
+    second: players red x2_129
+  - first:
+      213: -3906182659197012092
+    second: players red x2_130
+  - first:
+      213: 7726233930955791389
+    second: players red x2_131
+  - first:
+      213: -5401766694372218240
+    second: players red x2_132
+  - first:
+      213: 7753564591129479629
+    second: players red x2_133
+  - first:
+      213: 4949260140558573909
+    second: players red x2_134
+  - first:
+      213: -1900689975367294728
+    second: players red x2_135
+  - first:
+      213: 4928388714232860067
+    second: players red x2_136
+  - first:
+      213: -8888972858747963255
+    second: players red x2_137
+  - first:
+      213: -5135189892199779895
+    second: players red x2_138
+  - first:
+      213: -8836908273314671711
+    second: players red x2_139
+  - first:
+      213: 617597475242941428
+    second: players red x2_140
+  - first:
+      213: 5705382972719413869
+    second: players red x2_141
+  - first:
+      213: 2060868930922558128
+    second: players red x2_142
+  - first:
+      213: -4626020803226771586
+    second: players red x2_143
+  - first:
+      213: -7156309921995725507
+    second: players red x2_144
+  - first:
+      213: 6078165581374971460
+    second: players red x2_145
+  - first:
+      213: 4218729132798906558
+    second: players red x2_146
+  - first:
+      213: 6309063178337809436
+    second: players red x2_147
+  - first:
+      213: -2210764257710820013
+    second: players red x2_148
+  - first:
+      213: 8587890123338453011
+    second: players red x2_149
+  - first:
+      213: -7145229021216101379
+    second: players red x2_150
+  - first:
+      213: 6311649370172124726
+    second: players red x2_151
+  - first:
+      213: -1189200421005124874
+    second: players red x2_152
+  - first:
+      213: -7146497595257251995
+    second: players red x2_153
+  - first:
+      213: -2272218228899354214
+    second: players red x2_154
+  - first:
+      213: 6017427212830125622
+    second: players red x2_155
+  - first:
+      213: -3542605259217398787
+    second: players red x2_156
+  - first:
+      213: -3948266121844599370
+    second: players red x2_157
+  - first:
+      213: -7320057574763272707
+    second: players red x2_158
+  - first:
+      213: -2802325943270683267
+    second: players red x2_159
+  - first:
+      213: -9073477822748634242
+    second: players red x2_160
+  - first:
+      213: 8969421696157937746
+    second: players red x2_161
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: players red x2_0
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 793
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9747b0bb819c8cf50800000000000000
+      internalID: 6901987536999773305
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_1
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 799
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3f3ed6607e14473b0800000000000000
+      internalID: -5515711183120899085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_2
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 801
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e44c8f9c7195fe80800000000000000
+      internalID: -8145444386590931735
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_3
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 807
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 88823621a37c8d440800000000000000
+      internalID: 4960934041779120264
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_4
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 805
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 852d6b3dcb1fe2e50800000000000000
+      internalID: 6786627481802035800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_5
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 767
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dd7c8dca6498bf710800000000000000
+      internalID: 1728125818667321309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_6
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 767
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ba7a0c5d5792c0b30800000000000000
+      internalID: 4254821334032361387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_7
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 781
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04981886a7f6acbd0800000000000000
+      internalID: -2609150462577768128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_8
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 783
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 10944e7edfc494030800000000000000
+      internalID: 3479396840521353473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_9
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 783
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8db08d93f485e2c40800000000000000
+      internalID: 5489422093107334104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_10
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 719
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 94fbe71bf26225fa0800000000000000
+      internalID: -5813542182698696887
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_11
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 743
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 69f4ba2a38135ca20800000000000000
+      internalID: 3081923961444585366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_12
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 741
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4754d2e4e79f8f870800000000000000
+      internalID: 8716991399648380276
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_13
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 703
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 76e3b65c3cb901820800000000000000
+      internalID: 2886978626277555815
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_14
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 703
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0cfac2d476fb61f60800000000000000
+      internalID: 8004795838094946240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_15
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 723
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 72cfe6afac60f4650800000000000000
+      internalID: 6219197079276682279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_16
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 727
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1558fb6c450df67f0800000000000000
+      internalID: -617045561396198063
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_17
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 725
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6f283915028f2abc0800000000000000
+      internalID: -3773180720091790602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_18
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 703
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8ab64965f05cc610800000000000000
+      internalID: 1642776979046840973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_19
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 703
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3af30d2c6231f2e00800000000000000
+      internalID: 1022056697634504611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_20
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 717
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 230636cddae17e2e0800000000000000
+      internalID: -2096673369442000846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_21
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 719
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a66224dd7ac252c50800000000000000
+      internalID: 6639762325110924906
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_22
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 719
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a33e40feb04b37790800000000000000
+      internalID: -7533479788312992966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_23
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 639
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5885c73bb05eacd10800000000000000
+      internalID: 2146780010814134405
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_24
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 639
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2db5e477ff1b35370800000000000000
+      internalID: 8310181448205097938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_25
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 639
+        width: 28
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 891b857cceba7ac00800000000000000
+      internalID: 911886483010924952
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_26
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 639
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7543c81e82b38b2e0800000000000000
+      internalID: -2109871378654284713
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_27
+      rect:
+        serializedVersion: 2
+        x: 275
+        y: 639
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b064dd4ef297206c0800000000000000
+      internalID: -4178644257636268533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_28
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 665
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3537967ae8bb069f0800000000000000
+      internalID: -477175339132816557
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_29
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 667
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d1b19be771c92800800000000000000
+      internalID: 588213947146023384
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_30
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 667
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e6c33d63ae201f2a0800000000000000
+      internalID: -6705575165212541842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_31
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 669
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0174f594252796a30800000000000000
+      internalID: 4209021024498304784
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_32
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 671
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6049cc29fbfe1a870800000000000000
+      internalID: 8692492361882440710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_33
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 585
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f1e4385bb363757c0800000000000000
+      internalID: -4082734907111813601
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_34
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 585
+        width: 30
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d50eacb01e69b21a0800000000000000
+      internalID: -6833202116294942627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_35
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 601
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 33c9bcc5bca551320800000000000000
+      internalID: 2528026595320110131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_36
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 601
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0c180403b95ba4940800000000000000
+      internalID: 5281233191179420096
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_37
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 599
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0df800382e63480d0800000000000000
+      internalID: -3421549470406373424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_38
+      rect:
+        serializedVersion: 2
+        x: 341
+        y: 585
+        width: 22
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e28492592c606fb10800000000000000
+      internalID: 2014805316090808366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_39
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 585
+        width: 32
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b244a7d5937dc250800000000000000
+      internalID: 5966552168740962998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_40
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 615
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bb79af0c3c73a1ba0800000000000000
+      internalID: -6117515829933598789
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_41
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 613
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7878a118004c96b0800000000000000
+      internalID: -5288281459039635329
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_42
+      rect:
+        serializedVersion: 2
+        x: 83
+        y: 575
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a767117e6f838e170800000000000000
+      internalID: 8207872953972520570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_43
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 575
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 876139e611449ed20800000000000000
+      internalID: 3308250242940606072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_44
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 575
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 613eac12693c112f0800000000000000
+      internalID: -1003806192347454698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_45
+      rect:
+        serializedVersion: 2
+        x: 531
+        y: 575
+        width: 26
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56b61ab091a310190800000000000000
+      internalID: -7998047583989568667
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_46
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 589
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c276860fe84f5d580800000000000000
+      internalID: -8802861001869859028
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_47
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 591
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 64aff86cad6fd3310800000000000000
+      internalID: 1386535679794608710
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_48
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 591
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7f6d87a7d5ee4c80800000000000000
+      internalID: -8336473145824415873
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_49
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 575
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 695dd894b832504b0800000000000000
+      internalID: -5474930690857511530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_50
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 575
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c5fecbf39de58dcc0800000000000000
+      internalID: -3686092007832490148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_51
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 575
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b962ed15d432cd90800000000000000
+      internalID: -7079037574338942539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_52
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 575
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 291edd431b1cf93a0800000000000000
+      internalID: -6656388757389975150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_53
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 511
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ab1ed2d743cb0be0800000000000000
+      internalID: -1509898536804803674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_54
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 511
+        width: 26
+        height: 44
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 95b5946624e520a80800000000000000
+      internalID: -8502129507245139111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_55
+      rect:
+        serializedVersion: 2
+        x: 147
+        y: 511
+        width: 28
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2037a20223a51d850800000000000000
+      internalID: 6399995716804702978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_56
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 511
+        width: 36
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a72c91e8865671110800000000000000
+      internalID: 1231564522844177018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_57
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 539
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: aa70d4f160ecc8260800000000000000
+      internalID: 7101277238146697130
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_58
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 543
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4196f80d2886179d0800000000000000
+      internalID: -2778324584056788716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_59
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 545
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed2bf80776eb55710800000000000000
+      internalID: 1681459387372122846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_60
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 545
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5f388ce9fa6217ba0800000000000000
+      internalID: -6093046285130497035
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_61
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 451
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b63d15414e3ad9690800000000000000
+      internalID: -7593733196688010389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_62
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 449
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e0e0afa8a323d7400800000000000000
+      internalID: 323469975261679118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_63
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 493
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5be6226925552bcc0800000000000000
+      internalID: -3696798530923237707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_64
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 483
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebb89b8d643a2d910800000000000000
+      internalID: 1860729120736512958
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_65
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 487
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5ed82c56d84d550800000000000000
+      internalID: 6184723656481826254
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_66
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 501
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: afd7cbdcf4bb2af00800000000000000
+      internalID: 1126668808224538106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_67
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 495
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a304d2c74d7ed9b40800000000000000
+      internalID: 5448766023990591546
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_68
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 455
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 059b3cea2f356b380800000000000000
+      internalID: -8955878507200399024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_69
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 491
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a4ee4acb057b96e70800000000000000
+      internalID: 9109013278723731018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_70
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 475
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 504618e3e1cadae30800000000000000
+      internalID: 4516455247220139013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_71
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 477
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3cbc3a109cda32ea0800000000000000
+      internalID: -5898680008097674301
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_72
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 475
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ef97070d42bfd270800000000000000
+      internalID: 8277530684030427110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_73
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 447
+        width: 40
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b07823ad3b39c2b0800000000000000
+      internalID: -5563850728723156807
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_74
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 457
+        width: 40
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4cfb1cfb7c7fb4d80800000000000000
+      internalID: -8265240253820715068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_75
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 475
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd2164c98586c2040800000000000000
+      internalID: 4624185647190905567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_76
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 477
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: af4fdf599df24b480800000000000000
+      internalID: -8884423553324288774
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_77
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 447
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc0a489892a13f4c0800000000000000
+      internalID: -4255028457231834931
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_78
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 447
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1724793c86d093390800000000000000
+      internalID: -7838218932852407695
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_79
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 451
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4c6d937e478b29b90800000000000000
+      internalID: -7236518838995921212
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_80
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 453
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b5bdbdeb96e3dac60800000000000000
+      internalID: 7830983950961728347
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_81
+      rect:
+        serializedVersion: 2
+        x: 71
+        y: 345
+        width: 18
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8cb7ee07298da3780800000000000000
+      internalID: -8702405206468559928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_82
+      rect:
+        serializedVersion: 2
+        x: 89
+        y: 351
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c99de1ca638d12e0800000000000000
+      internalID: -2153420552269882938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_83
+      rect:
+        serializedVersion: 2
+        x: 99
+        y: 353
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7b35107e3985a9800800000000000000
+      internalID: 619905290975925175
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_84
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 359
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 23fee86b04ef6e060800000000000000
+      internalID: 6982547826178715442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_85
+      rect:
+        serializedVersion: 2
+        x: 209
+        y: 357
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 01c82484f2ec571c0800000000000000
+      internalID: -4506469149643207664
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_86
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 319
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 130386a73a9e08280800000000000000
+      internalID: -9042971163417366479
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_87
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 319
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97fdc62106bfd4af0800000000000000
+      internalID: -410395600976289927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_88
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 333
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6eebc2e2e871af050800000000000000
+      internalID: 5835002166639378150
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_89
+      rect:
+        serializedVersion: 2
+        x: 229
+        y: 335
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d595902ca0246b530800000000000000
+      internalID: 3870353543744018781
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_90
+      rect:
+        serializedVersion: 2
+        x: 239
+        y: 335
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 851e5259c504659d0800000000000000
+      internalID: -2785968553098616488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_91
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 271
+        width: 20
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 96662b7a748203180800000000000000
+      internalID: -9137759355713460631
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_92
+      rect:
+        serializedVersion: 2
+        x: 323
+        y: 295
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4efe6a40bb8287bf0800000000000000
+      internalID: -326466189282316316
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_93
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 293
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 00c99d51decb9ed30800000000000000
+      internalID: 4461304632347040768
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_94
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 255
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e8e1327c36f11aa10800000000000000
+      internalID: 1918849429639732878
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_95
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 255
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8b1f787cab3f468c0800000000000000
+      internalID: -4006809784915856968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_96
+      rect:
+        serializedVersion: 2
+        x: 145
+        y: 275
+        width: 16
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 080e731b900d10770800000000000000
+      internalID: 8575363905536647296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_97
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 279
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cf6ff59d04ed2c5c0800000000000000
+      internalID: -4196547532649662724
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_98
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 277
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 77a4c68e3c5425db0800000000000000
+      internalID: -4804701144730547593
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_99
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 255
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bab3dd179bf2969e0800000000000000
+      internalID: -1627717316791944277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_100
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 255
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: edb409e26d4675690800000000000000
+      internalID: -7613505773979546658
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_101
+      rect:
+        serializedVersion: 2
+        x: 339
+        y: 269
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5642d2d68f7c25a10800000000000000
+      internalID: 1896798262873891941
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_102
+      rect:
+        serializedVersion: 2
+        x: 357
+        y: 271
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb4d0abb9de29750800000000000000
+      internalID: 6310367280996633588
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_103
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 271
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a47a6641a3c194f0800000000000000
+      internalID: -823662159393557339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_104
+      rect:
+        serializedVersion: 2
+        x: 15
+        y: 191
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cc151d847e31ce070800000000000000
+      internalID: 8136900510831694284
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_105
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 191
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2adab0677327af1e0800000000000000
+      internalID: -2163291088468857438
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_106
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 191
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a93a2fde3707c0d60800000000000000
+      internalID: 7857779093070324634
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_107
+      rect:
+        serializedVersion: 2
+        x: 203
+        y: 191
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 053918122f714b5a0800000000000000
+      internalID: -6506549232931859632
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_108
+      rect:
+        serializedVersion: 2
+        x: 271
+        y: 191
+        width: 44
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a903016010c647510800000000000000
+      internalID: 1545979323747414170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_109
+      rect:
+        serializedVersion: 2
+        x: 325
+        y: 217
+        width: 12
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 32817474a90df0510800000000000000
+      internalID: 1517660960486529059
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_110
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 219
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dad89b95795099830800000000000000
+      internalID: 4078297085164228013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_111
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 219
+        width: 16
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfdabc8090d03ae00800000000000000
+      internalID: 1054701070188260859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_112
+      rect:
+        serializedVersion: 2
+        x: 363
+        y: 221
+        width: 12
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ff2b9c348134dd3b0800000000000000
+      internalID: -5486154999571827969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_113
+      rect:
+        serializedVersion: 2
+        x: 375
+        y: 223
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1e4f79898ce3227f0800000000000000
+      internalID: -638879165858712351
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_114
+      rect:
+        serializedVersion: 2
+        x: 13
+        y: 139
+        width: 42
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 094bcd1c9f1bd8500800000000000000
+      internalID: 400171628163282064
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_115
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 139
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62c3bc7ce31dccbe0800000000000000
+      internalID: -1455558511977350106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_116
+      rect:
+        serializedVersion: 2
+        x: 263
+        y: 153
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c247eb3b99b49e240800000000000000
+      internalID: 4821467999594509356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_117
+      rect:
+        serializedVersion: 2
+        x: 281
+        y: 153
+        width: 14
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19b2c941763adce40800000000000000
+      internalID: 5678374368306801553
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_118
+      rect:
+        serializedVersion: 2
+        x: 299
+        y: 151
+        width: 12
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ca42f579f9240450800000000000000
+      internalID: 6054009950495197894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_119
+      rect:
+        serializedVersion: 2
+        x: 335
+        y: 139
+        width: 34
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f866d749ac9fce650800000000000000
+      internalID: 6263655830235473551
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_120
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 139
+        width: 44
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0f4d38a7dec36b4e0800000000000000
+      internalID: -1966317196640267024
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_121
+      rect:
+        serializedVersion: 2
+        x: 579
+        y: 167
+        width: 14
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 14c2378566cebda50800000000000000
+      internalID: 6547086407627910209
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_122
+      rect:
+        serializedVersion: 2
+        x: 593
+        y: 165
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a979edb8fc71985b0800000000000000
+      internalID: -5365731300862945382
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_123
+      rect:
+        serializedVersion: 2
+        x: 79
+        y: 127
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 527327349ff243850800000000000000
+      internalID: 6355757721751533349
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_124
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 127
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 99e3e89f79208ac70800000000000000
+      internalID: 8982432308540620441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_125
+      rect:
+        serializedVersion: 2
+        x: 399
+        y: 127
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8400bdaae68e5100800000000000000
+      internalID: 98664584343192717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_126
+      rect:
+        serializedVersion: 2
+        x: 527
+        y: 127
+        width: 34
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0ce5c0357ea2ebf60800000000000000
+      internalID: 8051920356804157120
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_127
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 141
+        width: 16
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59038121a23b7b8b0800000000000000
+      internalID: -5136439856719187819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_128
+      rect:
+        serializedVersion: 2
+        x: 613
+        y: 143
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 796889004dda20b70800000000000000
+      internalID: 8863838142673225367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_129
+      rect:
+        serializedVersion: 2
+        x: 623
+        y: 143
+        width: 12
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f941a846f5bfec300800000000000000
+      internalID: 274433014443414687
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_130
+      rect:
+        serializedVersion: 2
+        x: 27
+        y: 127
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 48775ca31937ac9c0800000000000000
+      internalID: -3906182659197012092
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_131
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 127
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d1c903a23d8193b60800000000000000
+      internalID: 7726233930955791389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_132
+      rect:
+        serializedVersion: 2
+        x: 347
+        y: 127
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 08a686eafc11905b0800000000000000
+      internalID: -5401766694372218240
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_133
+      rect:
+        serializedVersion: 2
+        x: 475
+        y: 127
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9c15d5ae13a9b60800000000000000
+      internalID: 7753564591129479629
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_134
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 63
+        width: 48
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5516ef220ed4fa440800000000000000
+      internalID: 4949260140558573909
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_135
+      rect:
+        serializedVersion: 2
+        x: 75
+        y: 63
+        width: 46
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8f02616a9846f95e0800000000000000
+      internalID: -1900689975367294728
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_136
+      rect:
+        serializedVersion: 2
+        x: 143
+        y: 63
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3adc4e28c67256440800000000000000
+      internalID: 4928388714232860067
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_137
+      rect:
+        serializedVersion: 2
+        x: 207
+        y: 63
+        width: 42
+        height: 38
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9883d30e74604a480800000000000000
+      internalID: -8888972858747963255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_138
+      rect:
+        serializedVersion: 2
+        x: 261
+        y: 91
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9c1714d10042cb8b0800000000000000
+      internalID: -5135189892199779895
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_139
+      rect:
+        serializedVersion: 2
+        x: 273
+        y: 95
+        width: 10
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1a35e50debefc5580800000000000000
+      internalID: -8836908273314671711
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_140
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 97
+        width: 18
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4fb980ea1a5229800800000000000000
+      internalID: 617597475242941428
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_141
+      rect:
+        serializedVersion: 2
+        x: 301
+        y: 97
+        width: 14
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d6ab084d5979d2f40800000000000000
+      internalID: 5705382972719413869
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_142
+      rect:
+        serializedVersion: 2
+        x: 195
+        y: 3
+        width: 58
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b2374caf5da99c10800000000000000
+      internalID: 2060868930922558128
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_143
+      rect:
+        serializedVersion: 2
+        x: 257
+        y: 1
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7fd914d6921dcfb0800000000000000
+      internalID: -4626020803226771586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_144
+      rect:
+        serializedVersion: 2
+        x: 319
+        y: 45
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d3567dcaa0eafac90800000000000000
+      internalID: -7156309921995725507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_145
+      rect:
+        serializedVersion: 2
+        x: 327
+        y: 35
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 44e5cdb846bf95450800000000000000
+      internalID: 6078165581374971460
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_146
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 39
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eb012146bcfeb8a30800000000000000
+      internalID: 4218729132798906558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_147
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 53
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c14725aa88b4e8750800000000000000
+      internalID: 6309063178337809436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_148
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 47
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3553409ee99c151e0800000000000000
+      internalID: -2210764257710820013
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_149
+      rect:
+        serializedVersion: 2
+        x: 69
+        y: 9
+        width: 52
+        height: 34
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3109cab01905e2770800000000000000
+      internalID: 8587890123338453011
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_150
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 5
+        width: 56
+        height: 40
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dfb2a9fef0c07dc90800000000000000
+      internalID: -7145229021216101379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_151
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 43
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e6def59ab779750800000000000000
+      internalID: 6311649370172124726
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_152
+      rect:
+        serializedVersion: 2
+        x: 453
+        y: 27
+        width: 10
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6fa9e3b848c1f7fe0800000000000000
+      internalID: -1189200421005124874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_153
+      rect:
+        serializedVersion: 2
+        x: 487
+        y: 29
+        width: 8
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 56712860d4a82dc90800000000000000
+      internalID: -7146497595257251995
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_154
+      rect:
+        serializedVersion: 2
+        x: 497
+        y: 27
+        width: 8
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a99694e3f857770e0800000000000000
+      internalID: -2272218228899354214
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_155
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 0
+        width: 52
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 63e228a1b22328350800000000000000
+      internalID: 6017427212830125622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_156
+      rect:
+        serializedVersion: 2
+        x: 463
+        y: 27
+        width: 10
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df39ae8494326dec0800000000000000
+      internalID: -3542605259217398787
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_157
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 29
+        width: 14
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6b55eb881e0f439c0800000000000000
+      internalID: -3948266121844599370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_158
+      rect:
+        serializedVersion: 2
+        x: 91
+        y: 0
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: df5e3d84b6ee96a90800000000000000
+      internalID: -7320057574763272707
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_159
+      rect:
+        serializedVersion: 2
+        x: 155
+        y: 0
+        width: 10
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d7d4d76e6632c19d0800000000000000
+      internalID: -2802325943270683267
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_160
+      rect:
+        serializedVersion: 2
+        x: 367
+        y: 3
+        width: 18
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e73dea95ef7841280800000000000000
+      internalID: -9073477822748634242
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players red x2_161
+      rect:
+        serializedVersion: 2
+        x: 439
+        y: 5
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 250fc28b289c97c70800000000000000
+      internalID: 8969421696157937746
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      players red x2_0: 6901987536999773305
+      players red x2_1: -5515711183120899085
+      players red x2_10: -5813542182698696887
+      players red x2_100: -7613505773979546658
+      players red x2_101: 1896798262873891941
+      players red x2_102: 6310367280996633588
+      players red x2_103: -823662159393557339
+      players red x2_104: 8136900510831694284
+      players red x2_105: -2163291088468857438
+      players red x2_106: 7857779093070324634
+      players red x2_107: -6506549232931859632
+      players red x2_108: 1545979323747414170
+      players red x2_109: 1517660960486529059
+      players red x2_11: 3081923961444585366
+      players red x2_110: 4078297085164228013
+      players red x2_111: 1054701070188260859
+      players red x2_112: -5486154999571827969
+      players red x2_113: -638879165858712351
+      players red x2_114: 400171628163282064
+      players red x2_115: -1455558511977350106
+      players red x2_116: 4821467999594509356
+      players red x2_117: 5678374368306801553
+      players red x2_118: 6054009950495197894
+      players red x2_119: 6263655830235473551
+      players red x2_12: 8716991399648380276
+      players red x2_120: -1966317196640267024
+      players red x2_121: 6547086407627910209
+      players red x2_122: -5365731300862945382
+      players red x2_123: 6355757721751533349
+      players red x2_124: 8982432308540620441
+      players red x2_125: 98664584343192717
+      players red x2_126: 8051920356804157120
+      players red x2_127: -5136439856719187819
+      players red x2_128: 8863838142673225367
+      players red x2_129: 274433014443414687
+      players red x2_13: 2886978626277555815
+      players red x2_130: -3906182659197012092
+      players red x2_131: 7726233930955791389
+      players red x2_132: -5401766694372218240
+      players red x2_133: 7753564591129479629
+      players red x2_134: 4949260140558573909
+      players red x2_135: -1900689975367294728
+      players red x2_136: 4928388714232860067
+      players red x2_137: -8888972858747963255
+      players red x2_138: -5135189892199779895
+      players red x2_139: -8836908273314671711
+      players red x2_14: 8004795838094946240
+      players red x2_140: 617597475242941428
+      players red x2_141: 5705382972719413869
+      players red x2_142: 2060868930922558128
+      players red x2_143: -4626020803226771586
+      players red x2_144: -7156309921995725507
+      players red x2_145: 6078165581374971460
+      players red x2_146: 4218729132798906558
+      players red x2_147: 6309063178337809436
+      players red x2_148: -2210764257710820013
+      players red x2_149: 8587890123338453011
+      players red x2_15: 6219197079276682279
+      players red x2_150: -7145229021216101379
+      players red x2_151: 6311649370172124726
+      players red x2_152: -1189200421005124874
+      players red x2_153: -7146497595257251995
+      players red x2_154: -2272218228899354214
+      players red x2_155: 6017427212830125622
+      players red x2_156: -3542605259217398787
+      players red x2_157: -3948266121844599370
+      players red x2_158: -7320057574763272707
+      players red x2_159: -2802325943270683267
+      players red x2_16: -617045561396198063
+      players red x2_160: -9073477822748634242
+      players red x2_161: 8969421696157937746
+      players red x2_17: -3773180720091790602
+      players red x2_18: 1642776979046840973
+      players red x2_19: 1022056697634504611
+      players red x2_2: -8145444386590931735
+      players red x2_20: -2096673369442000846
+      players red x2_21: 6639762325110924906
+      players red x2_22: -7533479788312992966
+      players red x2_23: 2146780010814134405
+      players red x2_24: 8310181448205097938
+      players red x2_25: 911886483010924952
+      players red x2_26: -2109871378654284713
+      players red x2_27: -4178644257636268533
+      players red x2_28: -477175339132816557
+      players red x2_29: 588213947146023384
+      players red x2_3: 4960934041779120264
+      players red x2_30: -6705575165212541842
+      players red x2_31: 4209021024498304784
+      players red x2_32: 8692492361882440710
+      players red x2_33: -4082734907111813601
+      players red x2_34: -6833202116294942627
+      players red x2_35: 2528026595320110131
+      players red x2_36: 5281233191179420096
+      players red x2_37: -3421549470406373424
+      players red x2_38: 2014805316090808366
+      players red x2_39: 5966552168740962998
+      players red x2_4: 6786627481802035800
+      players red x2_40: -6117515829933598789
+      players red x2_41: -5288281459039635329
+      players red x2_42: 8207872953972520570
+      players red x2_43: 3308250242940606072
+      players red x2_44: -1003806192347454698
+      players red x2_45: -7998047583989568667
+      players red x2_46: -8802861001869859028
+      players red x2_47: 1386535679794608710
+      players red x2_48: -8336473145824415873
+      players red x2_49: -5474930690857511530
+      players red x2_5: 1728125818667321309
+      players red x2_50: -3686092007832490148
+      players red x2_51: -7079037574338942539
+      players red x2_52: -6656388757389975150
+      players red x2_53: -1509898536804803674
+      players red x2_54: -8502129507245139111
+      players red x2_55: 6399995716804702978
+      players red x2_56: 1231564522844177018
+      players red x2_57: 7101277238146697130
+      players red x2_58: -2778324584056788716
+      players red x2_59: 1681459387372122846
+      players red x2_6: 4254821334032361387
+      players red x2_60: -6093046285130497035
+      players red x2_61: -7593733196688010389
+      players red x2_62: 323469975261679118
+      players red x2_63: -3696798530923237707
+      players red x2_64: 1860729120736512958
+      players red x2_65: 6184723656481826254
+      players red x2_66: 1126668808224538106
+      players red x2_67: 5448766023990591546
+      players red x2_68: -8955878507200399024
+      players red x2_69: 9109013278723731018
+      players red x2_7: -2609150462577768128
+      players red x2_70: 4516455247220139013
+      players red x2_71: -5898680008097674301
+      players red x2_72: 8277530684030427110
+      players red x2_73: -5563850728723156807
+      players red x2_74: -8265240253820715068
+      players red x2_75: 4624185647190905567
+      players red x2_76: -8884423553324288774
+      players red x2_77: -4255028457231834931
+      players red x2_78: -7838218932852407695
+      players red x2_79: -7236518838995921212
+      players red x2_8: 3479396840521353473
+      players red x2_80: 7830983950961728347
+      players red x2_81: -8702405206468559928
+      players red x2_82: -2153420552269882938
+      players red x2_83: 619905290975925175
+      players red x2_84: 6982547826178715442
+      players red x2_85: -4506469149643207664
+      players red x2_86: -9042971163417366479
+      players red x2_87: -410395600976289927
+      players red x2_88: 5835002166639378150
+      players red x2_89: 3870353543744018781
+      players red x2_9: 5489422093107334104
+      players red x2_90: -2785968553098616488
+      players red x2_91: -9137759355713460631
+      players red x2_92: -326466189282316316
+      players red x2_93: 4461304632347040768
+      players red x2_94: 1918849429639732878
+      players red x2_95: -4006809784915856968
+      players red x2_96: 8575363905536647296
+      players red x2_97: -4196547532649662724
+      players red x2_98: -4804701144730547593
+      players red x2_99: -1627717316791944277
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

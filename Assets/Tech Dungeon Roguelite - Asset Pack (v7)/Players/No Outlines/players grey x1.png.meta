@@ -1,0 +1,3653 @@
+fileFormatVersion: 2
+guid: a30c727d9d939284c9e4ceb6909bccde
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -6785553325896014387
+    second: players grey x1_0
+  - first:
+      213: 2093837302442485610
+    second: players grey x1_1
+  - first:
+      213: -8821342552684256510
+    second: players grey x1_2
+  - first:
+      213: 2462440028295751001
+    second: players grey x1_3
+  - first:
+      213: -37656661157494523
+    second: players grey x1_4
+  - first:
+      213: 890167583887446132
+    second: players grey x1_5
+  - first:
+      213: -4118738699837774389
+    second: players grey x1_6
+  - first:
+      213: 9144377740115296465
+    second: players grey x1_7
+  - first:
+      213: -8312288300880372741
+    second: players grey x1_8
+  - first:
+      213: 7587524052272570571
+    second: players grey x1_9
+  - first:
+      213: 758664690518918820
+    second: players grey x1_10
+  - first:
+      213: -7928272579626450857
+    second: players grey x1_11
+  - first:
+      213: -2832523532257275903
+    second: players grey x1_12
+  - first:
+      213: 6017157435600421721
+    second: players grey x1_13
+  - first:
+      213: 8373226456198895299
+    second: players grey x1_14
+  - first:
+      213: -1482683844030006860
+    second: players grey x1_15
+  - first:
+      213: 2412496524138540454
+    second: players grey x1_16
+  - first:
+      213: 3244543514131346352
+    second: players grey x1_17
+  - first:
+      213: 3708414296098589910
+    second: players grey x1_18
+  - first:
+      213: -9168777690928832140
+    second: players grey x1_19
+  - first:
+      213: -1010675478106970773
+    second: players grey x1_20
+  - first:
+      213: 147802648161973451
+    second: players grey x1_21
+  - first:
+      213: -804668100706659111
+    second: players grey x1_22
+  - first:
+      213: -4631108589022399025
+    second: players grey x1_23
+  - first:
+      213: 261360283170533982
+    second: players grey x1_24
+  - first:
+      213: -7397208658544889273
+    second: players grey x1_25
+  - first:
+      213: 7635843588007459778
+    second: players grey x1_26
+  - first:
+      213: -4659292407303227630
+    second: players grey x1_27
+  - first:
+      213: 211953074246713823
+    second: players grey x1_28
+  - first:
+      213: 7959465154626117294
+    second: players grey x1_29
+  - first:
+      213: 2723973336933143078
+    second: players grey x1_30
+  - first:
+      213: -8783578981808295339
+    second: players grey x1_31
+  - first:
+      213: -3606696432342510993
+    second: players grey x1_32
+  - first:
+      213: 8878273055864402309
+    second: players grey x1_33
+  - first:
+      213: 6467637547629973138
+    second: players grey x1_34
+  - first:
+      213: 5626150257200613151
+    second: players grey x1_35
+  - first:
+      213: 9107493985489303312
+    second: players grey x1_36
+  - first:
+      213: -2633390500934222161
+    second: players grey x1_37
+  - first:
+      213: -600945770878029639
+    second: players grey x1_38
+  - first:
+      213: 5749697539179435480
+    second: players grey x1_39
+  - first:
+      213: -7633967536287244819
+    second: players grey x1_40
+  - first:
+      213: -3307790214512197625
+    second: players grey x1_41
+  - first:
+      213: 309031127306692715
+    second: players grey x1_42
+  - first:
+      213: -3341639531561553397
+    second: players grey x1_43
+  - first:
+      213: 3729663262482465318
+    second: players grey x1_44
+  - first:
+      213: -3848824610415640913
+    second: players grey x1_45
+  - first:
+      213: -3326733925214457412
+    second: players grey x1_46
+  - first:
+      213: 3938834146804672134
+    second: players grey x1_47
+  - first:
+      213: -660327739532992091
+    second: players grey x1_48
+  - first:
+      213: 8784893562919578061
+    second: players grey x1_49
+  - first:
+      213: -5760427372538241725
+    second: players grey x1_50
+  - first:
+      213: -2966627678458778797
+    second: players grey x1_51
+  - first:
+      213: -8949716835709440211
+    second: players grey x1_52
+  - first:
+      213: 7074143793375978111
+    second: players grey x1_53
+  - first:
+      213: -617251030938127234
+    second: players grey x1_54
+  - first:
+      213: -4531401346954036184
+    second: players grey x1_55
+  - first:
+      213: -8597871773488591378
+    second: players grey x1_56
+  - first:
+      213: -2886500006717199140
+    second: players grey x1_57
+  - first:
+      213: -6692678861751429170
+    second: players grey x1_58
+  - first:
+      213: -4520747827273045580
+    second: players grey x1_59
+  - first:
+      213: -321405417862810058
+    second: players grey x1_60
+  - first:
+      213: -5140305713125264630
+    second: players grey x1_61
+  - first:
+      213: -9066900262765007108
+    second: players grey x1_62
+  - first:
+      213: -4801911695757354827
+    second: players grey x1_63
+  - first:
+      213: -1143599435954893171
+    second: players grey x1_64
+  - first:
+      213: 1167419412079027255
+    second: players grey x1_65
+  - first:
+      213: -5678717406480118597
+    second: players grey x1_66
+  - first:
+      213: 5244099777023185698
+    second: players grey x1_67
+  - first:
+      213: -5361472825222029744
+    second: players grey x1_68
+  - first:
+      213: 5951074477809240162
+    second: players grey x1_69
+  - first:
+      213: 6465396302310372998
+    second: players grey x1_70
+  - first:
+      213: -60593277632470986
+    second: players grey x1_71
+  - first:
+      213: 3363762082907199113
+    second: players grey x1_72
+  - first:
+      213: -2636056426979133733
+    second: players grey x1_73
+  - first:
+      213: 2815810890275240295
+    second: players grey x1_74
+  - first:
+      213: -7099316597480525786
+    second: players grey x1_75
+  - first:
+      213: -2648980429913767755
+    second: players grey x1_76
+  - first:
+      213: 7226835220142755221
+    second: players grey x1_77
+  - first:
+      213: 6192478596642680799
+    second: players grey x1_78
+  - first:
+      213: -5421803082411431482
+    second: players grey x1_79
+  - first:
+      213: -2100786996821714918
+    second: players grey x1_80
+  - first:
+      213: -4395688231683213769
+    second: players grey x1_81
+  - first:
+      213: -1795271650744489023
+    second: players grey x1_82
+  - first:
+      213: -7346254902198962455
+    second: players grey x1_83
+  - first:
+      213: -8877989968043233647
+    second: players grey x1_84
+  - first:
+      213: -6113410949440505275
+    second: players grey x1_85
+  - first:
+      213: -4687050082743333650
+    second: players grey x1_86
+  - first:
+      213: 8937231842408093119
+    second: players grey x1_87
+  - first:
+      213: -1394613766021505346
+    second: players grey x1_88
+  - first:
+      213: 5800791167280884800
+    second: players grey x1_89
+  - first:
+      213: 6860342347529647396
+    second: players grey x1_90
+  - first:
+      213: 8530097289841369454
+    second: players grey x1_91
+  - first:
+      213: 9111633065624739944
+    second: players grey x1_92
+  - first:
+      213: -1931000616296668005
+    second: players grey x1_93
+  - first:
+      213: -1234951929384077874
+    second: players grey x1_94
+  - first:
+      213: -8302557718201553017
+    second: players grey x1_95
+  - first:
+      213: 3153866331308964473
+    second: players grey x1_96
+  - first:
+      213: 7439269754701675172
+    second: players grey x1_97
+  - first:
+      213: 1014214355283134164
+    second: players grey x1_98
+  - first:
+      213: -8537970202565165548
+    second: players grey x1_99
+  - first:
+      213: -4860054593842934760
+    second: players grey x1_100
+  - first:
+      213: 2138281991772120990
+    second: players grey x1_101
+  - first:
+      213: -8441253508331028203
+    second: players grey x1_102
+  - first:
+      213: 3900530975098950018
+    second: players grey x1_103
+  - first:
+      213: 8547200071763921094
+    second: players grey x1_104
+  - first:
+      213: 5399368026302451476
+    second: players grey x1_105
+  - first:
+      213: -5981415221647970935
+    second: players grey x1_106
+  - first:
+      213: 6957652098330271442
+    second: players grey x1_107
+  - first:
+      213: 2888611096767625765
+    second: players grey x1_108
+  - first:
+      213: 3371852153890158558
+    second: players grey x1_109
+  - first:
+      213: 7498883849448256436
+    second: players grey x1_110
+  - first:
+      213: 1358087422767392037
+    second: players grey x1_111
+  - first:
+      213: -5728130868081595451
+    second: players grey x1_112
+  - first:
+      213: 6501868770711147104
+    second: players grey x1_113
+  - first:
+      213: -3356334512732345829
+    second: players grey x1_114
+  - first:
+      213: -342003500727839029
+    second: players grey x1_115
+  - first:
+      213: 6193740563268445592
+    second: players grey x1_116
+  - first:
+      213: -3289670069595261846
+    second: players grey x1_117
+  - first:
+      213: 6422759849444443530
+    second: players grey x1_118
+  - first:
+      213: 7917729156322300899
+    second: players grey x1_119
+  - first:
+      213: -6187798896928427017
+    second: players grey x1_120
+  - first:
+      213: -6912931361610672515
+    second: players grey x1_121
+  - first:
+      213: 7279428809534474072
+    second: players grey x1_122
+  - first:
+      213: 7518174777983060766
+    second: players grey x1_123
+  - first:
+      213: -4443167801609610487
+    second: players grey x1_124
+  - first:
+      213: -480467048937574541
+    second: players grey x1_125
+  - first:
+      213: -5028066627109154290
+    second: players grey x1_126
+  - first:
+      213: 6468160456250603295
+    second: players grey x1_127
+  - first:
+      213: -6834887705785360191
+    second: players grey x1_128
+  - first:
+      213: 9140163065467177943
+    second: players grey x1_129
+  - first:
+      213: 7859524065227603256
+    second: players grey x1_130
+  - first:
+      213: 2897889775424798272
+    second: players grey x1_131
+  - first:
+      213: -116398895838755716
+    second: players grey x1_132
+  - first:
+      213: -9127093648309313156
+    second: players grey x1_133
+  - first:
+      213: -6209073458012020353
+    second: players grey x1_134
+  - first:
+      213: -1230385329698301657
+    second: players grey x1_135
+  externalObjects: {}
+  serializedVersion: 13
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 4
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 4
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: players grey x1_0
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 396
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc56f75933fd4d1a0800000000000000
+      internalID: -6785553325896014387
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_1
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 399
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a67eb85deedce0d10800000000000000
+      internalID: 2093837302442485610
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_2
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 400
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 203a7319fab449580800000000000000
+      internalID: -8821342552684256510
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_3
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 403
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 955654fb8285c2220800000000000000
+      internalID: 2462440028295751001
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_4
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 402
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 501c74857773a7ff0800000000000000
+      internalID: -37656661157494523
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_5
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 383
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 470dd2483b28a5c00800000000000000
+      internalID: 890167583887446132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_6
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 383
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc5e38979fc47d6c0800000000000000
+      internalID: -4118738699837774389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_7
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 390
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1d0cf8b0b1b57ee70800000000000000
+      internalID: 9144377740115296465
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_8
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 391
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bfbd36ba4d1d4ac80800000000000000
+      internalID: -8312288300880372741
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_9
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 391
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc06074dcec4c4960800000000000000
+      internalID: 7587524052272570571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_10
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 359
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4a603063481578a00800000000000000
+      internalID: 758664690518918820
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_11
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 361
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 75045e8381e19f190800000000000000
+      internalID: -7928272579626450857
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_12
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 362
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 100ded1dadad0b8d0800000000000000
+      internalID: -2832523532257275903
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_13
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 371
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9534092becc318350800000000000000
+      internalID: 6017157435600421721
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_14
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 370
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3c653a1491da33470800000000000000
+      internalID: 8373226456198895299
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_15
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 351
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b9716246e27c6be0800000000000000
+      internalID: -1482683844030006860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_16
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 351
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6ad64278ec8ea7120800000000000000
+      internalID: 2412496524138540454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_17
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 351
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0b3b812c22fe60d20800000000000000
+      internalID: 3244543514131346352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_18
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 351
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6dccfee772fe67330800000000000000
+      internalID: 3708414296098589910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_19
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 358
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 47129a3b445f1c080800000000000000
+      internalID: -9168777690928832140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_20
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 359
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b656c38e10c59f1f0800000000000000
+      internalID: -1010675478106970773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_21
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 359
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc47e84b9b91d0200800000000000000
+      internalID: 147802648161973451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_22
+      rect:
+        serializedVersion: 2
+        x: 10
+        y: 319
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9d49a4f20ae35d4f0800000000000000
+      internalID: -804668100706659111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_23
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 319
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fc53f03664ffabfb0800000000000000
+      internalID: -4631108589022399025
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_24
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 319
+        width: 13
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e5276c4fac980a300800000000000000
+      internalID: 261360283170533982
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_25
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 319
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 742fcf9cae5d75990800000000000000
+      internalID: -7397208658544889273
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_26
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 319
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2cbf0af6947f7f960800000000000000
+      internalID: 7635843588007459778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_27
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 332
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2173406dd3ed65fb0800000000000000
+      internalID: -4659292407303227630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_28
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 333
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fd10783b23201f200800000000000000
+      internalID: 211953074246713823
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_29
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 333
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eaed6971363b57e60800000000000000
+      internalID: 7959465154626117294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_30
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 334
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6221985515f7dc520800000000000000
+      internalID: 2723973336933143078
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_31
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 335
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 552bab414757a1680800000000000000
+      internalID: -8783578981808295339
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_32
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 287
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f625e8134b072fdc0800000000000000
+      internalID: -3606696432342510993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_33
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 287
+        width: 14
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 58138b12e46f53b70800000000000000
+      internalID: 8878273055864402309
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_34
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 300
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 29e8672251aa1c950800000000000000
+      internalID: 6467637547629973138
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_35
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 300
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f174a6da9d9141e40800000000000000
+      internalID: 5626150257200613151
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_36
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 299
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 017b817b681546e70800000000000000
+      internalID: 9107493985489303312
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_37
+      rect:
+        serializedVersion: 2
+        x: 171
+        y: 287
+        width: 10
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fae7decaa41547bd0800000000000000
+      internalID: -2633390500934222161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_38
+      rect:
+        serializedVersion: 2
+        x: 232
+        y: 287
+        width: 15
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9b0ba8d510309a7f0800000000000000
+      internalID: -600945770878029639
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_39
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 307
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8d55abcd2770bcf40800000000000000
+      internalID: 5749697539179435480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_40
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 306
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ded1cb4e8f2be0690800000000000000
+      internalID: -7633967536287244819
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_41
+      rect:
+        serializedVersion: 2
+        x: 42
+        y: 287
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 700cc78435e5812d0800000000000000
+      internalID: -3307790214512197625
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_42
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 287
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b6867a74c26e94400800000000000000
+      internalID: 309031127306692715
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_43
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 287
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b02fed10d8c10a1d0800000000000000
+      internalID: -3341639531561553397
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_44
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 287
+        width: 12
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 62287140afc62c330800000000000000
+      internalID: 3729663262482465318
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_45
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 294
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: faef465a86a369ac0800000000000000
+      internalID: -3848824610415640913
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_46
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 295
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cb1f95dee1115d1d0800000000000000
+      internalID: -3326733925214457412
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_47
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 295
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686a875a9cc89a630800000000000000
+      internalID: 3938834146804672134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_48
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 255
+        width: 20
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5a1acc16b6b06d6f0800000000000000
+      internalID: -660327739532992091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_49
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 255
+        width: 13
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: dc9ef6fa6263ae970800000000000000
+      internalID: 8784893562919578061
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_50
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 255
+        width: 13
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 34ddb6123d9de00b0800000000000000
+      internalID: -5760427372538241725
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_51
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 255
+        width: 17
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 35b6f9428db64d6d0800000000000000
+      internalID: -2966627678458778797
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_52
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 269
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d2fa43f94f73cc380800000000000000
+      internalID: -8949716835709440211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_53
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 271
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f72a536bc486c2260800000000000000
+      internalID: 7074143793375978111
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_54
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 272
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e7470bb25751f67f0800000000000000
+      internalID: -617251030938127234
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_55
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 272
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 82cf31cbb7a3d11c0800000000000000
+      internalID: -4531401346954036184
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_56
+      rect:
+        serializedVersion: 2
+        x: 68
+        y: 223
+        width: 23
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eedcadcec293ea880800000000000000
+      internalID: -8597871773488591378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_57
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 225
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cdc6577898711f7d0800000000000000
+      internalID: -2886500006717199140
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_58
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 224
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec75a89d804de13a0800000000000000
+      internalID: -6692678861751429170
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_59
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 246
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b965449dc31341c0800000000000000
+      internalID: -4520747827273045580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_60
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 241
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 636b66fa9732a8bf0800000000000000
+      internalID: -321405417862810058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_61
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 243
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a03f14c3037f9a8b0800000000000000
+      internalID: -5140305713125264630
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_62
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 226
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: cfeeeffdf36eb2280800000000000000
+      internalID: -9066900262765007108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_63
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 237
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b8d69b11ce2c5db0800000000000000
+      internalID: -4801911695757354827
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_64
+      rect:
+        serializedVersion: 2
+        x: 6
+        y: 223
+        width: 19
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d8e429e3f5e1120f0800000000000000
+      internalID: -1143599435954893171
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_65
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 223
+        width: 19
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 734add025c1833010800000000000000
+      internalID: 1167419412079027255
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_66
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 237
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bbcccee1b942131b0800000000000000
+      internalID: -5678717406480118597
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_67
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 225
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2231c2876f8c6c840800000000000000
+      internalID: 5244099777023185698
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_68
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 172
+        width: 10
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 05e1bbb2fd83895b0800000000000000
+      internalID: -5361472825222029744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_69
+      rect:
+        serializedVersion: 2
+        x: 44
+        y: 175
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 26886b915b6769250800000000000000
+      internalID: 5951074477809240162
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_70
+      rect:
+        serializedVersion: 2
+        x: 49
+        y: 176
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 686755b8ea3b9b950800000000000000
+      internalID: 6465396302310372998
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_71
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 179
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 630a0fa2cbab82ff0800000000000000
+      internalID: -60593277632470986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_72
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 178
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9869c9cdacb7eae20800000000000000
+      internalID: 3363762082907199113
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_73
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 159
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bd6f50665a8da6bd0800000000000000
+      internalID: -2636056426979133733
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_74
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 159
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 769388df515c31720800000000000000
+      internalID: 2815810890275240295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_75
+      rect:
+        serializedVersion: 2
+        x: 105
+        y: 166
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 620732b1b292a7d90800000000000000
+      internalID: -7099316597480525786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_76
+      rect:
+        serializedVersion: 2
+        x: 114
+        y: 167
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5b0470a755eec3bd0800000000000000
+      internalID: -2648980429913767755
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_77
+      rect:
+        serializedVersion: 2
+        x: 119
+        y: 167
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 59d04e2e750ea4460800000000000000
+      internalID: 7226835220142755221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_78
+      rect:
+        serializedVersion: 2
+        x: 66
+        y: 135
+        width: 11
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fdfa818797a10f550800000000000000
+      internalID: 6192478596642680799
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_79
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 137
+        width: 13
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c9afbe82d2e1c4b0800000000000000
+      internalID: -5421803082411431482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_80
+      rect:
+        serializedVersion: 2
+        x: 85
+        y: 138
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a189ea95b5188d2e0800000000000000
+      internalID: -2100786996821714918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_81
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 147
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7363827b7d06ff2c0800000000000000
+      internalID: -4395688231683213769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_82
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 146
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1cbab0602f9e517e0800000000000000
+      internalID: -1795271650744489023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_83
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 127
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 9e675fca61cdc0a90800000000000000
+      internalID: -7346254902198962455
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_84
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 127
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 19e2d43692b0bc480800000000000000
+      internalID: -8877989968043233647
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_85
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 127
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 54a7d98b12dc82ba0800000000000000
+      internalID: -6113410949440505275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_86
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 127
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: eec4e9568c044feb0800000000000000
+      internalID: -4687050082743333650
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_87
+      rect:
+        serializedVersion: 2
+        x: 169
+        y: 134
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: fb55b0a520d670c70800000000000000
+      internalID: 8937231842408093119
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_88
+      rect:
+        serializedVersion: 2
+        x: 178
+        y: 135
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ebe1b653b2655ace0800000000000000
+      internalID: -1394613766021505346
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_89
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 135
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04c200e25dc808050800000000000000
+      internalID: 5800791167280884800
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_90
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 95
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 425f2167405d43f50800000000000000
+      internalID: 6860342347529647396
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_91
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 95
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e61648c6a4ef06670800000000000000
+      internalID: 8530097289841369454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_92
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 95
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 86024486ff5037e70800000000000000
+      internalID: 9111633065624739944
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_93
+      rect:
+        serializedVersion: 2
+        x: 102
+        y: 95
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b94a39c9b25b335e0800000000000000
+      internalID: -1931000616296668005
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_94
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 95
+        width: 21
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ec5f06663c19cdee0800000000000000
+      internalID: -1234951929384077874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_95
+      rect:
+        serializedVersion: 2
+        x: 162
+        y: 108
+        width: 7
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 78f2b6f7eb367cc80800000000000000
+      internalID: -8302557718201553017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_96
+      rect:
+        serializedVersion: 2
+        x: 167
+        y: 109
+        width: 7
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 97a3cbae7b8c4cb20800000000000000
+      internalID: 3153866331308964473
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_97
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 109
+        width: 9
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4aafc4d4d689d3760800000000000000
+      internalID: 7439269754701675172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_98
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 110
+        width: 7
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4d6c0c42596331e00800000000000000
+      internalID: 1014214355283134164
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_99
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 111
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41ebb3d3659038980800000000000000
+      internalID: -8537970202565165548
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_100
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 63
+        width: 20
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 81c8cf8b81e9d8cb0800000000000000
+      internalID: -4860054593842934760
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_101
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 63
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e9721357424bcad10800000000000000
+      internalID: 2138281991772120990
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_102
+      rect:
+        serializedVersion: 2
+        x: 131
+        y: 76
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 511c8e868a4aada80800000000000000
+      internalID: -8441253508331028203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_103
+      rect:
+        serializedVersion: 2
+        x: 140
+        y: 76
+        width: 8
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2815e268148712630800000000000000
+      internalID: 3900530975098950018
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_104
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 75
+        width: 7
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 6c88ea52e21cd9670800000000000000
+      internalID: 8547200071763921094
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_105
+      rect:
+        serializedVersion: 2
+        x: 168
+        y: 63
+        width: 16
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 41f0c53ec986eea40800000000000000
+      internalID: 5399368026302451476
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_106
+      rect:
+        serializedVersion: 2
+        x: 230
+        y: 63
+        width: 21
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 98dee8bfb8ebdfca0800000000000000
+      internalID: -5981415221647970935
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_107
+      rect:
+        serializedVersion: 2
+        x: 289
+        y: 83
+        width: 8
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 2de1abf58bb8e8060800000000000000
+      internalID: 6957652098330271442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_108
+      rect:
+        serializedVersion: 2
+        x: 296
+        y: 82
+        width: 6
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 52af51dec78661820800000000000000
+      internalID: 2888611096767625765
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_109
+      rect:
+        serializedVersion: 2
+        x: 40
+        y: 63
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: ed732cb4ba93bce20800000000000000
+      internalID: 3371852153890158558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_110
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 63
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 4b3f64a5123611860800000000000000
+      internalID: 7498883849448256436
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_111
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 63
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 525e9f7c055e8d210800000000000000
+      internalID: 1358087422767392037
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_112
+      rect:
+        serializedVersion: 2
+        x: 264
+        y: 63
+        width: 16
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 5cbeb0d03579180b0800000000000000
+      internalID: -5728130868081595451
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_113
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 70
+        width: 9
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 0629176d2374b3a50800000000000000
+      internalID: 6501868770711147104
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_114
+      rect:
+        serializedVersion: 2
+        x: 306
+        y: 71
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b1a64351b87eb61d0800000000000000
+      internalID: -3356334512732345829
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_115
+      rect:
+        serializedVersion: 2
+        x: 311
+        y: 71
+        width: 7
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: bc65d2bc0a5f04bf0800000000000000
+      internalID: -342003500727839029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_116
+      rect:
+        serializedVersion: 2
+        x: 5
+        y: 31
+        width: 24
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8952b88f93694f550800000000000000
+      internalID: 6193740563268445592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_117
+      rect:
+        serializedVersion: 2
+        x: 38
+        y: 31
+        width: 23
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a643a89408eb852d0800000000000000
+      internalID: -3289670069595261846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_118
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 31
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: a8507c7cd0a322950800000000000000
+      internalID: 6422759849444443530
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_119
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 31
+        width: 20
+        height: 19
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 3e3185eb7bc61ed60800000000000000
+      internalID: 7917729156322300899
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_120
+      rect:
+        serializedVersion: 2
+        x: 130
+        y: 45
+        width: 6
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7f3f60700b5802aa0800000000000000
+      internalID: -6187798896928427017
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_121
+      rect:
+        serializedVersion: 2
+        x: 136
+        y: 47
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: d76d98a8d855010a0800000000000000
+      internalID: -6912931361610672515
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_122
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 48
+        width: 10
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8570c082fe9b50560800000000000000
+      internalID: 7279428809534474072
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_123
+      rect:
+        serializedVersion: 2
+        x: 150
+        y: 48
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e1b4bf8a02ce55860800000000000000
+      internalID: 7518174777983060766
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_124
+      rect:
+        serializedVersion: 2
+        x: 65
+        y: 0
+        width: 29
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 90b1b93ec62b652c0800000000000000
+      internalID: -4443167801609610487
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_125
+      rect:
+        serializedVersion: 2
+        x: 97
+        y: 1
+        width: 30
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 37fabcdb3c90559f0800000000000000
+      internalID: -480467048937574541
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_126
+      rect:
+        serializedVersion: 2
+        x: 128
+        y: 0
+        width: 31
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: e029920ea08b83ab0800000000000000
+      internalID: -5028066627109154290
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_127
+      rect:
+        serializedVersion: 2
+        x: 159
+        y: 22
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f17bb094aa583c950800000000000000
+      internalID: 6468160456250603295
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_128
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 17
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 1c0aaf828d99521a0800000000000000
+      internalID: -6834887705785360191
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_129
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 19
+        width: 18
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7db0152a1e168de70800000000000000
+      internalID: 9140163065467177943
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_130
+      rect:
+        serializedVersion: 2
+        x: 219
+        y: 2
+        width: 13
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 83d768bee73a21d60800000000000000
+      internalID: 7859524065227603256
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_131
+      rect:
+        serializedVersion: 2
+        x: 236
+        y: 13
+        width: 17
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 04e7e66a56f573820800000000000000
+      internalID: 2897889775424798272
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_132
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 0
+        width: 25
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c74884922d7726ef0800000000000000
+      internalID: -116398895838755716
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_133
+      rect:
+        serializedVersion: 2
+        x: 35
+        y: 0
+        width: 25
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: c71accc2fac065180800000000000000
+      internalID: -9127093648309313156
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_134
+      rect:
+        serializedVersion: 2
+        x: 231
+        y: 13
+        width: 6
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: f7123e64690f4d9a0800000000000000
+      internalID: -6209073458012020353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: players grey x1_135
+      rect:
+        serializedVersion: 2
+        x: 183
+        y: 1
+        width: 10
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 7291b7ebf0bcceee0800000000000000
+      internalID: -1230385329698301657
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    customData: 
+    physicsShape: []
+    bones: []
+    spriteID: 
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    spriteCustomMetadata:
+      entries: []
+    nameFileIdTable:
+      players grey x1_0: -6785553325896014387
+      players grey x1_1: 2093837302442485610
+      players grey x1_10: 758664690518918820
+      players grey x1_100: -4860054593842934760
+      players grey x1_101: 2138281991772120990
+      players grey x1_102: -8441253508331028203
+      players grey x1_103: 3900530975098950018
+      players grey x1_104: 8547200071763921094
+      players grey x1_105: 5399368026302451476
+      players grey x1_106: -5981415221647970935
+      players grey x1_107: 6957652098330271442
+      players grey x1_108: 2888611096767625765
+      players grey x1_109: 3371852153890158558
+      players grey x1_11: -7928272579626450857
+      players grey x1_110: 7498883849448256436
+      players grey x1_111: 1358087422767392037
+      players grey x1_112: -5728130868081595451
+      players grey x1_113: 6501868770711147104
+      players grey x1_114: -3356334512732345829
+      players grey x1_115: -342003500727839029
+      players grey x1_116: 6193740563268445592
+      players grey x1_117: -3289670069595261846
+      players grey x1_118: 6422759849444443530
+      players grey x1_119: 7917729156322300899
+      players grey x1_12: -2832523532257275903
+      players grey x1_120: -6187798896928427017
+      players grey x1_121: -6912931361610672515
+      players grey x1_122: 7279428809534474072
+      players grey x1_123: 7518174777983060766
+      players grey x1_124: -4443167801609610487
+      players grey x1_125: -480467048937574541
+      players grey x1_126: -5028066627109154290
+      players grey x1_127: 6468160456250603295
+      players grey x1_128: -6834887705785360191
+      players grey x1_129: 9140163065467177943
+      players grey x1_13: 6017157435600421721
+      players grey x1_130: 7859524065227603256
+      players grey x1_131: 2897889775424798272
+      players grey x1_132: -116398895838755716
+      players grey x1_133: -9127093648309313156
+      players grey x1_134: -6209073458012020353
+      players grey x1_135: -1230385329698301657
+      players grey x1_14: 8373226456198895299
+      players grey x1_15: -1482683844030006860
+      players grey x1_16: 2412496524138540454
+      players grey x1_17: 3244543514131346352
+      players grey x1_18: 3708414296098589910
+      players grey x1_19: -9168777690928832140
+      players grey x1_2: -8821342552684256510
+      players grey x1_20: -1010675478106970773
+      players grey x1_21: 147802648161973451
+      players grey x1_22: -804668100706659111
+      players grey x1_23: -4631108589022399025
+      players grey x1_24: 261360283170533982
+      players grey x1_25: -7397208658544889273
+      players grey x1_26: 7635843588007459778
+      players grey x1_27: -4659292407303227630
+      players grey x1_28: 211953074246713823
+      players grey x1_29: 7959465154626117294
+      players grey x1_3: 2462440028295751001
+      players grey x1_30: 2723973336933143078
+      players grey x1_31: -8783578981808295339
+      players grey x1_32: -3606696432342510993
+      players grey x1_33: 8878273055864402309
+      players grey x1_34: 6467637547629973138
+      players grey x1_35: 5626150257200613151
+      players grey x1_36: 9107493985489303312
+      players grey x1_37: -2633390500934222161
+      players grey x1_38: -600945770878029639
+      players grey x1_39: 5749697539179435480
+      players grey x1_4: -37656661157494523
+      players grey x1_40: -7633967536287244819
+      players grey x1_41: -3307790214512197625
+      players grey x1_42: 309031127306692715
+      players grey x1_43: -3341639531561553397
+      players grey x1_44: 3729663262482465318
+      players grey x1_45: -3848824610415640913
+      players grey x1_46: -3326733925214457412
+      players grey x1_47: 3938834146804672134
+      players grey x1_48: -660327739532992091
+      players grey x1_49: 8784893562919578061
+      players grey x1_5: 890167583887446132
+      players grey x1_50: -5760427372538241725
+      players grey x1_51: -2966627678458778797
+      players grey x1_52: -8949716835709440211
+      players grey x1_53: 7074143793375978111
+      players grey x1_54: -617251030938127234
+      players grey x1_55: -4531401346954036184
+      players grey x1_56: -8597871773488591378
+      players grey x1_57: -2886500006717199140
+      players grey x1_58: -6692678861751429170
+      players grey x1_59: -4520747827273045580
+      players grey x1_6: -4118738699837774389
+      players grey x1_60: -321405417862810058
+      players grey x1_61: -5140305713125264630
+      players grey x1_62: -9066900262765007108
+      players grey x1_63: -4801911695757354827
+      players grey x1_64: -1143599435954893171
+      players grey x1_65: 1167419412079027255
+      players grey x1_66: -5678717406480118597
+      players grey x1_67: 5244099777023185698
+      players grey x1_68: -5361472825222029744
+      players grey x1_69: 5951074477809240162
+      players grey x1_7: 9144377740115296465
+      players grey x1_70: 6465396302310372998
+      players grey x1_71: -60593277632470986
+      players grey x1_72: 3363762082907199113
+      players grey x1_73: -2636056426979133733
+      players grey x1_74: 2815810890275240295
+      players grey x1_75: -7099316597480525786
+      players grey x1_76: -2648980429913767755
+      players grey x1_77: 7226835220142755221
+      players grey x1_78: 6192478596642680799
+      players grey x1_79: -5421803082411431482
+      players grey x1_8: -8312288300880372741
+      players grey x1_80: -2100786996821714918
+      players grey x1_81: -4395688231683213769
+      players grey x1_82: -1795271650744489023
+      players grey x1_83: -7346254902198962455
+      players grey x1_84: -8877989968043233647
+      players grey x1_85: -6113410949440505275
+      players grey x1_86: -4687050082743333650
+      players grey x1_87: 8937231842408093119
+      players grey x1_88: -1394613766021505346
+      players grey x1_89: 5800791167280884800
+      players grey x1_9: 7587524052272570571
+      players grey x1_90: 6860342347529647396
+      players grey x1_91: 8530097289841369454
+      players grey x1_92: 9111633065624739944
+      players grey x1_93: -1931000616296668005
+      players grey x1_94: -1234951929384077874
+      players grey x1_95: -8302557718201553017
+      players grey x1_96: 3153866331308964473
+      players grey x1_97: 7439269754701675172
+      players grey x1_98: 1014214355283134164
+      players grey x1_99: -8537970202565165548
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
