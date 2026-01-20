@@ -1,21 +1,32 @@
+using System;
+using System.Collections.Generic;
 using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
-    public enum ItemType
+    public enum EffectType
     {
-        DamageUp,
-        FireRateUp,
-        ProjectilesUp,
-        Heal,         // NEW: heals current health
-        MaxHealthUp   // OPTIONAL: increases max health
+        Damage,
+        FireRate,     // uses floatAmount
+        Projectiles,
+        Heal,
+        MaxHealth
     }
 
-    public ItemType type;
+    [Serializable]
+    public class Effect
+    {
+        public EffectType type;
 
-    [Header("Amounts")]
-    public int intAmount = 1;         // used for damage/projectiles/heal/maxHealth
-    public float floatAmount = 0.02f; // used for fire rate
+        [Tooltip("Used for Damage / Projectiles / Heal / MaxHealth. Can be negative.")]
+        public int intAmount = 1;
+
+        [Tooltip("Used for FireRate (timeBetweenFiring change). Can be negative.")]
+        public float floatAmount = 0.02f;
+    }
+
+    [Header("This item can apply multiple effects")]
+    public List<Effect> effects = new List<Effect>();
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -23,29 +34,35 @@ public class ItemPickup : MonoBehaviour
 
         PlayerStats stats = other.GetComponent<PlayerStats>();
         Shooting shooting = other.GetComponentInChildren<Shooting>();
-        PlayerHealth health = other.GetComponent<PlayerHealth>(); // NEW
+        PlayerHealth health = other.GetComponent<PlayerHealth>();
 
-        switch (type)
+        foreach (var e in effects)
         {
-            case ItemType.DamageUp:
-                if (stats != null) stats.AddDamage(intAmount);
-                break;
+            switch (e.type)
+            {
+                case EffectType.Damage:
+                    if (stats != null) stats.AddDamage(e.intAmount); // negative = reduce damage
+                    break;
 
-            case ItemType.ProjectilesUp:
-                if (stats != null) stats.AddProjectiles(intAmount);
-                break;
+                case EffectType.Projectiles:
+                    if (stats != null) stats.AddProjectiles(e.intAmount); // negative = fewer projectiles
+                    break;
 
-            case ItemType.FireRateUp:
-                if (shooting != null) shooting.AddFireRate(floatAmount);
-                break;
+                case EffectType.FireRate:
+                    if (shooting != null) shooting.AddFireRate(e.floatAmount);
+                    // IMPORTANT:
+                    //  +0.03 => faster (timeBetweenFiring goes DOWN)
+                    //  -0.03 => slower (timeBetweenFiring goes UP)
+                    break;
 
-            case ItemType.Heal:
-                if (health != null) health.Heal(intAmount);
-                break;
+                case EffectType.Heal:
+                    if (health != null) health.Heal(e.intAmount); // negative = hurt
+                    break;
 
-            case ItemType.MaxHealthUp:
-                if (health != null) health.AddMaxHealth(intAmount);
-                break;
+                case EffectType.MaxHealth:
+                    if (health != null) health.AddMaxHealth(e.intAmount); // negative = reduce max health
+                    break;
+            }
         }
 
         Destroy(gameObject);

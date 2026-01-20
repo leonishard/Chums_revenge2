@@ -7,11 +7,16 @@ public class PlayerStats : MonoBehaviour
     public int bonusDamage = 0;
     public int projectileCount = 1;
 
-    public int Damage => baseDamage + bonusDamage;
+    [Header("Minimums")]
+    public int minTotalDamage = 1;
+    public int minProjectiles = 1;
+
+    public int Damage => Mathf.Max(minTotalDamage, baseDamage + bonusDamage);
 
     private void Start()
     {
         ApplyFromManager();
+        ClampStats();
     }
 
     public void ApplyFromManager()
@@ -21,6 +26,8 @@ public class PlayerStats : MonoBehaviour
         baseDamage = GameManager.I.baseDamage;
         bonusDamage = GameManager.I.bonusDamage;
         projectileCount = GameManager.I.projectileCount;
+
+        ClampStats();
     }
 
     private void SaveToManager()
@@ -32,15 +39,27 @@ public class PlayerStats : MonoBehaviour
         GameManager.I.projectileCount = projectileCount;
     }
 
+    private void ClampStats()
+    {
+        projectileCount = Mathf.Max(minProjectiles, projectileCount);
+
+        // Ensure total damage doesn't fall below minTotalDamage by adjusting bonusDamage.
+        int total = baseDamage + bonusDamage;
+        if (total < minTotalDamage)
+            bonusDamage += (minTotalDamage - total);
+    }
+
     public void AddDamage(int amount)
     {
         bonusDamage += amount;
+        ClampStats();
         SaveToManager();
     }
 
     public void AddProjectiles(int amount)
     {
         projectileCount += amount;
+        ClampStats();
         SaveToManager();
     }
 }

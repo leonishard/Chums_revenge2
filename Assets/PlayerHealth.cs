@@ -6,6 +6,9 @@ public class PlayerHealth : MonoBehaviour
     public int maxHealth = 3;
     [SerializeField] private int currentHealth;
 
+    [Header("Minimums")]
+    public int minMaxHealth = 1;
+
     [Header("Invincibility")]
     public float invincibilityDuration = 1f;
     private bool isInvincible = false;
@@ -18,11 +21,13 @@ public class PlayerHealth : MonoBehaviour
         spriteRenderer = GetComponent<SpriteRenderer>();
         ApplyFromManager();
 
-        // If manager doesn't exist, fall back to local defaults
         if (GameManager.I == null)
         {
             currentHealth = maxHealth;
         }
+
+        maxHealth = Mathf.Max(minMaxHealth, maxHealth);
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
         healthUI.SetMaxHearts(maxHealth);
         healthUI.UpdateHearts(currentHealth);
@@ -36,8 +41,9 @@ public class PlayerHealth : MonoBehaviour
         maxHealth = GameManager.I.maxHealth;
         currentHealth = GameManager.I.currentHealth;
 
-        // Keep sane
+        maxHealth = Mathf.Max(minMaxHealth, maxHealth);
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
         if (currentHealth == 0) currentHealth = maxHealth;
     }
 
@@ -79,9 +85,17 @@ public class PlayerHealth : MonoBehaviour
         StartCoroutine(InvincibilityCoroutine());
     }
 
+    // Now supports negative values too:
     public void Heal(int amount)
     {
-        if (amount <= 0) return;
+        if (amount == 0) return;
+
+        if (amount < 0)
+        {
+            // Treat negative heal as damage
+            TakeDamage(-amount);
+            return;
+        }
 
         currentHealth += amount;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
@@ -90,12 +104,19 @@ public class PlayerHealth : MonoBehaviour
         SaveToManager();
     }
 
+    // Now supports negative values too:
     public void AddMaxHealth(int amount)
     {
-        if (amount <= 0) return;
+        if (amount == 0) return;
 
-        maxHealth += amount;
-        currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
+        maxHealth = Mathf.Max(minMaxHealth, maxHealth + amount);
+
+        // If maxHealth decreased, currentHealth might now be too high
+        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
+
+        // If maxHealth increased, optionally also increase current by same amount:
+        if (amount > 0)
+            currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
 
         healthUI.SetMaxHearts(maxHealth);
         healthUI.UpdateHearts(currentHealth);
