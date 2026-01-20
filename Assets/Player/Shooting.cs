@@ -27,6 +27,19 @@ public class Shooting : MonoBehaviour
     private bool isReloading = false;
     private float reloadTimer = 0f;
 
+    // Exposed for UI (read-only)
+    public bool IsReloading => isReloading;
+
+    public float ReloadProgress01
+    {
+        get
+        {
+            if (!isReloading) return 0f;
+            if (reloadTime <= 0f) return 1f;
+            return Mathf.Clamp01(reloadTimer / reloadTime);
+        }
+    }
+
     [Header("Spread")]
     public float spreadDegrees = 8f;
 
@@ -47,11 +60,16 @@ public class Shooting : MonoBehaviour
         if (GameManager.I == null) return;
 
         timeBetweenFiring = GameManager.I.timeBetweenFiring;
-
-        // You will add these to GameManager later:
         magazineSize = GameManager.I.magazineSize;
         currentAmmo = GameManager.I.currentAmmo;
         reloadTime = GameManager.I.reloadTime;
+
+        magazineSize = Mathf.Max(1, magazineSize);
+        currentAmmo = Mathf.Clamp(currentAmmo, 0, magazineSize);
+        reloadTime = Mathf.Clamp(reloadTime, 0.1f, maxReloadTime);
+        timeBetweenFiring = Mathf.Clamp(timeBetweenFiring, 0.05f, 1.5f);
+
+        if (currentAmmo == 0) currentAmmo = magazineSize;
     }
 
     private void SaveToManager()
@@ -59,8 +77,6 @@ public class Shooting : MonoBehaviour
         if (GameManager.I == null) return;
 
         GameManager.I.timeBetweenFiring = timeBetweenFiring;
-
-        // You will add these to GameManager later:
         GameManager.I.magazineSize = magazineSize;
         GameManager.I.currentAmmo = currentAmmo;
         GameManager.I.reloadTime = reloadTime;
@@ -136,7 +152,6 @@ public class Shooting : MonoBehaviour
         SaveToManager();
     }
 
-    // NEW: max ammo per magazine (clip)
     public void AddMagazineSize(int amount)
     {
         magazineSize = Mathf.Max(1, magazineSize + amount);
@@ -144,14 +159,13 @@ public class Shooting : MonoBehaviour
         SaveToManager();
     }
 
-    // NEW: changes reload speed. Positive = faster (reloadTime down), negative = slower
     public void AddReloadSpeed(float amount)
     {
+        // Positive amount => faster reload (reloadTime down)
         reloadTime = Mathf.Clamp(reloadTime - amount, 0.1f, maxReloadTime);
         SaveToManager();
     }
 
-    // Optional: refill ammo directly via pickups
     public void AddAmmo(int amount)
     {
         currentAmmo = Mathf.Clamp(currentAmmo + amount, 0, magazineSize);
@@ -164,6 +178,7 @@ public class Shooting : MonoBehaviour
         if (currentAmmo >= magazineSize) return; // already full
 
         isReloading = true;
+
         canFire = false;
         timer = 0f;
 
@@ -176,10 +191,10 @@ public class Shooting : MonoBehaviour
         isReloading = false;
         currentAmmo = magazineSize;
 
-        // Let player shoot again (still respects normal cooldown)
         canFire = true;
         timer = 0f;
 
+        reloadTimer = 0f;
         SaveToManager();
     }
 
