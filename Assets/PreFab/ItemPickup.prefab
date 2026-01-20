@@ -120,9 +120,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: df9a058ff429610499305538d9ebdd65, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  type: 2
-  intAmount: 1
-  floatAmount: 0.02
+  effects: []
 --- !u!212 &3001318396632702759
 SpriteRenderer:
   m_ObjectHideFlags: 0

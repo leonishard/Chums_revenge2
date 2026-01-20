@@ -10,7 +10,11 @@ public class ItemPickup : MonoBehaviour
         FireRate,     // uses floatAmount
         Projectiles,
         Heal,
-        MaxHealth
+        MaxHealth,
+
+        MaxAmmo,      // magazine size change (intAmount)
+        ReloadSpeed,  // reload speed change (floatAmount) - positive = faster
+        Ammo          // adds/removes bullets in current mag (intAmount)
     }
 
     [Serializable]
@@ -18,10 +22,10 @@ public class ItemPickup : MonoBehaviour
     {
         public EffectType type;
 
-        [Tooltip("Used for Damage / Projectiles / Heal / MaxHealth. Can be negative.")]
+        [Tooltip("Used for Damage / Projectiles / Heal / MaxHealth / MaxAmmo / Ammo. Can be negative.")]
         public int intAmount = 1;
 
-        [Tooltip("Used for FireRate (timeBetweenFiring change). Can be negative.")]
+        [Tooltip("Used for FireRate (timeBetweenFiring change) and ReloadSpeed (reloadTime change). Can be negative.")]
         public float floatAmount = 0.02f;
     }
 
@@ -41,26 +45,37 @@ public class ItemPickup : MonoBehaviour
             switch (e.type)
             {
                 case EffectType.Damage:
-                    if (stats != null) stats.AddDamage(e.intAmount); // negative = reduce damage
+                    if (stats != null) stats.AddDamage(e.intAmount);
                     break;
 
                 case EffectType.Projectiles:
-                    if (stats != null) stats.AddProjectiles(e.intAmount); // negative = fewer projectiles
+                    if (stats != null) stats.AddProjectiles(e.intAmount);
                     break;
 
                 case EffectType.FireRate:
                     if (shooting != null) shooting.AddFireRate(e.floatAmount);
-                    // IMPORTANT:
-                    //  +0.03 => faster (timeBetweenFiring goes DOWN)
-                    //  -0.03 => slower (timeBetweenFiring goes UP)
+                    // + => faster (timeBetweenFiring down), - => slower (timeBetweenFiring up)
                     break;
 
                 case EffectType.Heal:
-                    if (health != null) health.Heal(e.intAmount); // negative = hurt
+                    if (health != null) health.Heal(e.intAmount);
                     break;
 
                 case EffectType.MaxHealth:
-                    if (health != null) health.AddMaxHealth(e.intAmount); // negative = reduce max health
+                    if (health != null) health.AddMaxHealth(e.intAmount);
+                    break;
+
+                case EffectType.MaxAmmo:
+                    if (shooting != null) shooting.AddMagazineSize(e.intAmount);
+                    break;
+
+                case EffectType.ReloadSpeed:
+                    if (shooting != null) shooting.AddReloadSpeed(e.floatAmount);
+                    // + => faster reload (reloadTime down), - => slower reload (reloadTime up)
+                    break;
+
+                case EffectType.Ammo:
+                    if (shooting != null) shooting.AddAmmo(e.intAmount);
                     break;
             }
         }

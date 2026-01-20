@@ -17,6 +17,11 @@ public class GameManager : MonoBehaviour
     [Header("Weapon / Combat")]
     public float timeBetweenFiring = 0.3f;
 
+    // NEW: Ammo / Reload persistence
+    public int magazineSize = 10;
+    public int currentAmmo = 10;
+    public float reloadTime = 1.2f;
+
     [Header("Currency")]
     public int currency = 0;
 
@@ -34,9 +39,20 @@ public class GameManager : MonoBehaviour
         DontDestroyOnLoad(gameObject);
 
         // Keep health sane
+        maxHealth = Mathf.Max(1, maxHealth);
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
         if (currentHealth == 0)
             currentHealth = maxHealth;
+
+        // Keep weapon sane
+        timeBetweenFiring = Mathf.Clamp(timeBetweenFiring, 0.05f, 1.5f);
+
+        magazineSize = Mathf.Max(1, magazineSize);
+        currentAmmo = Mathf.Clamp(currentAmmo, 0, magazineSize);
+        if (currentAmmo == 0)
+            currentAmmo = magazineSize;
+
+        reloadTime = Mathf.Clamp(reloadTime, 0.1f, 5f);
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -97,6 +113,12 @@ public class GameManager : MonoBehaviour
         currentHealth = maxHealth;
 
         timeBetweenFiring = 0.3f;
+
+        // NEW: reset ammo / reload
+        magazineSize = 10;
+        currentAmmo = magazineSize;
+        reloadTime = 1.2f;
+
         currency = 0;
     }
 }
