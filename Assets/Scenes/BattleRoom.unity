@@ -2664,7 +2664,7 @@ Transform:
   m_GameObject: {fileID: 497742963}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 1.96, y: 0, z: 0}
+  m_LocalPosition: {x: 0.382, y: -0.126, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -2771,14 +2771,14 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.08462867
+    y: 0
     width: 1
-    height: 0.82901555
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 6.16
+  orthographic size: 7.5
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -4586,7 +4586,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0, y: 0}
+  m_Offset: {x: 0, y: -0.25}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -4596,7 +4596,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.4, y: 0.5}
   m_EdgeRadius: 0
 --- !u!114 &1076371111
 MonoBehaviour:
@@ -11344,7 +11344,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   damage: 1
   maxHealth: 5
-  hitFlashDuration: 0
+  hitFlashDuration: 1
   hitColor: {r: 1, g: 0, b: 0, a: 1}
   knockbackForce: 1
   maxKnockbackSpeed: 1
@@ -11829,7 +11829,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1, y: 1}
+  m_Size: {x: 0.61, y: 0.46}
   m_EdgeRadius: 0
 --- !u!50 &1946310896
 Rigidbody2D:
@@ -12593,6 +12593,10 @@ PrefabInstance:
       value: 0.3
       objectReference: {fileID: 0}
     - target: {fileID: 1633438210065360670, guid: 2b828070f99645c488665af169b2e808, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.484
+      objectReference: {fileID: 0}
+    - target: {fileID: 1633438210065360670, guid: 2b828070f99645c488665af169b2e808, type: 3}
       propertyPath: m_LocalRotation.w
       value: 1
       objectReference: {fileID: 0}
@@ -12674,7 +12678,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 7504436048141961345, guid: 2b828070f99645c488665af169b2e808, type: 3}
       propertyPath: m_LocalPosition.y
-      value: 0
+      value: -0.296
       objectReference: {fileID: 0}
     m_RemovedComponents:
     - {fileID: 3175361723577472234, guid: 2b828070f99645c488665af169b2e808, type: 3}
