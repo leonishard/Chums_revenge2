@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 [RequireComponent(typeof(Rigidbody2D))]
 public class RandomWanderEnemy2D : MonoBehaviour
@@ -11,6 +11,7 @@ public class RandomWanderEnemy2D : MonoBehaviour
     public float idleDuration = 0.5f;   // pause between moves
 
     private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
 
     private Vector2 moveDirection;
     private float timer;
@@ -20,6 +21,13 @@ public class RandomWanderEnemy2D : MonoBehaviour
     {
         rb = GetComponent<Rigidbody2D>();
         rb.gravityScale = 0f;
+
+        // If SpriteRenderer is on the same GameObject
+        spriteRenderer = GetComponent<SpriteRenderer>();
+
+        // If it's on a child instead, use this:
+        // spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
         PickNewDirection();
     }
 
@@ -45,6 +53,12 @@ public class RandomWanderEnemy2D : MonoBehaviour
         if (isMoving)
         {
             rb.linearVelocity = moveDirection * moveSpeed;
+
+            // 🔁 Flip only when moving left/right
+            if (Mathf.Abs(moveDirection.x) > 0.01f)
+            {
+                spriteRenderer.flipX = moveDirection.x < 0f;
+            }
         }
     }
 
