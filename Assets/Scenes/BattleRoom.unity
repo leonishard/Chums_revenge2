@@ -4952,7 +4952,7 @@ Transform:
   m_GameObject: {fileID: 1118059337}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.81, y: -2.93, z: 0}
+  m_LocalPosition: {x: -6.41, y: -12.81, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -11236,6 +11236,7 @@ MonoBehaviour:
   pointA: {fileID: 1839611616}
   pointB: {fileID: 24126818}
   speed: 2
+  idleTime: 0.75
 --- !u!95 &1758522658
 Animator:
   serializedVersion: 7
