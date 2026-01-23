@@ -1,34 +1,56 @@
-using UnityEditor.Experimental.GraphView;
-using UnityEngine;
+﻿using UnityEngine;
 
+[RequireComponent(typeof(Rigidbody2D))]
 public class AIChase : MonoBehaviour
 {
-    public GameObject player;
-    public float speed;
-    public float distanceBetween;
-    private float distance;
+    [Header("References")]
+    [SerializeField] private Transform player;
+    [SerializeField] private Animator animator;
 
-    // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
+    [Header("Movement")]
+    [SerializeField] private float speed = 2f;
+    [SerializeField] private float chaseDistance = 5f;
+
+    private Rigidbody2D rb;
+    private SpriteRenderer spriteRenderer;
+
+    private bool isChasing;
+
+    void Awake()
     {
-        
+        rb = GetComponent<Rigidbody2D>();
+        rb.gravityScale = 0f;
+
+        // Sprite + Animator (usually on child, adjust if needed)
+        spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+
+        if (animator == null)
+            animator = GetComponentInChildren<Animator>();
     }
 
-    // Update is called once per frame
     void Update()
     {
-        distance = Vector2.Distance(transform.position, player.transform.position);
-        Vector2 direction = player.transform.position - transform.position;
-        direction.Normalize();
-        float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        float distance = Vector2.Distance(transform.position, player.position);
 
-        
+        isChasing = distance <= chaseDistance;
+        animator.SetBool("isChasing", isChasing);
+    }
 
-        if(distance < distanceBetween)
+    void FixedUpdate()
+    {
+        if (!isChasing)
         {
-            transform.position = Vector2.MoveTowards(this.transform.position, player.transform.position, speed * Time.deltaTime);
-            transform.rotation = Quaternion.Euler(Vector3.forward * angle);
+            rb.linearVelocity = Vector2.zero;
+            return;
         }
 
+        Vector2 direction = (player.position - transform.position).normalized;
+        rb.linearVelocity = direction * speed;
+
+        // 🔁 Flip sprite ONLY when moving left/right
+        if (Mathf.Abs(direction.x) > 0.01f)
+        {
+            spriteRenderer.flipX = direction.x < 0f;
+        }
     }
 }
