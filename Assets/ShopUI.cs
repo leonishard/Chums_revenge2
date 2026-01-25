@@ -1,4 +1,6 @@
+using System.Collections.Generic;
 using TMPro;
+using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -6,22 +8,40 @@ public class ShopUI : MonoBehaviour
 {
     public static ShopUI I { get; private set; }
 
-    [Header("UI")]
-    [SerializeField] private GameObject panel;
-    [SerializeField] private Transform buttonParent;
-    [SerializeField] private Button buttonPrefab;
-    [SerializeField] private TextMeshProUGUI coinsText;
+    [Header("Root")]
+    [SerializeField] private CanvasGroup rootGroup;
+    public bool IsOpen { get; private set; }
+
+    [Header("Left Grid")]
+    [SerializeField] private Transform gridParent;
+    [SerializeField] private ShopItemButton buttonPrefab;
+
+    [Header("Right Details")]
+    [SerializeField] private Image previewImage;
+    [SerializeField] private TMP_Text nameText;
+    [SerializeField] private TMP_Text costText;
+    [SerializeField] private TMP_Text statsText;
+    [SerializeField] private Button buyButton;
+    [SerializeField] private TMP_Text buyButtonText;
+    [SerializeField] private Button closeButton;
+
+    [Header("Behavior")]
+    [SerializeField] private bool pauseTime = true;
 
     private VendingMachine currentMachine;
-
-    public bool IsOpen => panel != null && panel.activeSelf;
+    private int selectedIndex = -1;
+    private readonly List<ShopItemButton> spawned = new();
+    private float oldTimeScale = 1f;
 
     private void Awake()
     {
         if (I != null && I != this) { Destroy(gameObject); return; }
         I = this;
 
-        if (panel != null) panel.SetActive(false);
+        if (closeButton != null) closeButton.onClick.AddListener(Close);
+        if (buyButton != null) buyButton.onClick.AddListener(BuySelected);
+
+        SetVisible(false);
     }
 
     private void Update()
@@ -30,51 +50,130 @@ public class ShopUI : MonoBehaviour
 
         if (Input.GetKeyDown(KeyCode.Escape))
             Close();
-
-        if (coinsText != null && GameManager.I != null)
-            coinsText.text = "Coins: " + GameManager.I.currency;
     }
 
     public void Open(VendingMachine machine)
     {
-        if (panel == null || buttonParent == null || buttonPrefab == null) return;
-
         currentMachine = machine;
 
-        // clear old buttons
-        for (int i = buttonParent.childCount - 1; i >= 0; i--)
-            Destroy(buttonParent.GetChild(i).gameObject);
+        BuildGrid(machine.items);
 
-        // create buttons
-        for (int i = 0; i < currentMachine.items.Count; i++)
+        // Auto-select first item
+        if (machine.items != null && machine.items.Count > 0)
+            Select(0);
+        else
+            Select(-1);
+
+        SetVisible(true);
+        IsOpen = true;
+
+        if (pauseTime)
         {
-            int index = i;
-            ShopItemData item = currentMachine.items[i];
-
-            Button b = Instantiate(buttonPrefab, buttonParent);
-
-            var tmp = b.GetComponentInChildren<TextMeshProUGUI>();
-            if (tmp != null)
-                tmp.text = $"{item.displayName} - {item.cost}";
-
-            b.onClick.AddListener(() => currentMachine.TryBuy(index));
+            oldTimeScale = Time.timeScale;
+            Time.timeScale = 0f;
         }
-
-        panel.SetActive(true);
-
-        // Optional: make cursor usable if your game ever locks it
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
     }
 
     public void Close()
     {
-        if (panel == null) return;
+        if (!IsOpen) return;
 
-        panel.SetActive(false);
+        if (pauseTime)
+            Time.timeScale = oldTimeScale;
+
+        IsOpen = false;
+        SetVisible(false);
+        ClearGrid();
         currentMachine = null;
+        selectedIndex = -1;
+    }
 
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
+    private void BuildGrid(List<ShopItemData> items)
+    {
+        ClearGrid();
+
+        if (items == null) return;
+
+        for (int i = 0; i < items.Count; i++)
+        {
+            var data = items[i];
+            var btn = Instantiate(buttonPrefab, gridParent);
+            btn.Bind(this, i, data);
+            spawned.Add(btn);
+        }
+    }
+
+    private void ClearGrid()
+    {
+        for (int i = 0; i < spawned.Count; i++)
+        {
+            if (spawned[i] != null) Destroy(spawned[i].gameObject);
+        }
+        spawned.Clear();
+    }
+
+    public void Select(int index)
+    {
+        selectedIndex = index;
+
+        if (currentMachine == null || currentMachine.items == null ||
+            index < 0 || index >= currentMachine.items.Count ||
+            currentMachine.items[index] == null)
+        {
+            // Empty state
+            if (previewImage != null) { previewImage.sprite = null; previewImage.enabled = false; }
+            if (nameText != null) nameText.text = "";
+            if (costText != null) costText.text = "";
+            if (statsText != null) statsText.text = "";
+            if (buyButton != null) buyButton.interactable = false;
+            if (buyButtonText != null) buyButtonText.text = "BUY";
+            return;
+        }
+
+        var item = currentMachine.items[index];
+
+        if (previewImage != null)
+        {
+            previewImage.enabled = true;
+            previewImage.sprite = item.icon; // expects ShopItemData.icon (Sprite)
+        }
+
+        if (nameText != null) nameText.text = item.displayName;
+        if (costText != null) costText.text = $"{item.cost} coins";
+
+        // This expects ShopItemData.statsLines OR description.
+        // Adapt to your actual fields.
+        if (statsText != null)
+            if (statsText != null)
+            {
+                statsText.text =
+                    $"Cost: {item.cost}\n" +
+                    $"Prefab: {(item.pickupPrefab != null ? item.pickupPrefab.name : "None")}";
+            }
+
+        if (buyButton != null) buyButton.interactable = true;
+        if (buyButtonText != null) buyButtonText.text = "BUY";
+    }
+
+    private void BuySelected()
+    {
+        if (currentMachine == null) return;
+        if (selectedIndex < 0) return;
+
+        int before = GameManager.I != null ? GameManager.I.currency : -999999; // optional, remove if you don’t have this
+        currentMachine.TryBuy(selectedIndex);
+
+        // If you want feedback without touching VendingMachine.TryBuy:
+        // just pessimistically show "BOUGHT" and let your TryBuy handle fail logs.
+        if (buyButtonText != null) buyButtonText.text = "BOUGHT!";
+    }
+
+    private void SetVisible(bool visible)
+    {
+        if (rootGroup == null) return;
+
+        rootGroup.alpha = visible ? 1f : 0f;
+        rootGroup.interactable = visible;
+        rootGroup.blocksRaycasts = visible;
     }
 }
