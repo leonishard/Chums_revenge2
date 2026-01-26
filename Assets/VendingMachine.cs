@@ -16,7 +16,6 @@ public class VendingMachine : MonoBehaviour
     [SerializeField] private float popForceMin = 2f;
     [SerializeField] private float popForceMax = 4f;
 
-    // debounce so one keypress can’t close+reopen
     private float lastToggleTime = -999f;
     private const float toggleCooldown = 0.15f;
 
@@ -35,20 +34,32 @@ public class VendingMachine : MonoBehaviour
         }
     }
 
-
-    public void TryBuy(int index)
+    public bool TryBuyByCode(int code)
     {
-        if (GameManager.I == null) return;
-        if (index < 0 || index >= items.Count) return;
+        int index = -1;
+        for (int i = 0; i < items.Count; i++)
+        {
+            if (items[i] != null && items[i].code == code)
+            {
+                index = i;
+                break;
+            }
+        }
+
+        if (index == -1) return false;
+        return TryBuy(index);
+    }
+
+    public bool TryBuy(int index)
+    {
+        if (GameManager.I == null) return false;
+        if (index < 0 || index >= items.Count) return false;
 
         ShopItemData item = items[index];
-        if (item == null || item.pickupPrefab == null) return;
+        if (item == null || item.pickupPrefab == null) return false;
 
         if (!GameManager.I.SpendCurrency(item.cost))
-        {
-            Debug.Log("Not enough coins!");
-            return;
-        }
+            return false;
 
         Vector3 basePos = dropPoint != null ? dropPoint.position : transform.position;
         Vector3 pos = basePos + (Vector3)Random.insideUnitCircle * scatter;
@@ -62,6 +73,8 @@ public class VendingMachine : MonoBehaviour
             float force = Random.Range(popForceMin, popForceMax);
             rb.AddForce(dir * force, ForceMode2D.Impulse);
         }
+
+        return true;
     }
 
     private void OnTriggerEnter2D(Collider2D other)
@@ -71,8 +84,7 @@ public class VendingMachine : MonoBehaviour
 
     private void OnTriggerExit2D(Collider2D other)
     {
-        if (!other.CompareTag("Player")) return; 
-        if (other.CompareTag("Player")) playerInRange = false;
+        if (!other.CompareTag("Player")) return;
 
         playerInRange = false;
 
