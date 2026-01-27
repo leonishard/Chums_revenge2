@@ -9,16 +9,15 @@ public class PlayerMovement : MonoBehaviour
     private Rigidbody2D rb;
     private SpriteRenderer spriteRenderer;
     private Vector2 moveInput;
+    private bool playingFootsteps = false;
+    private AudioManager audioManager;
+    public float footstepSpeed = 0.5f;
 
     void Start()
     {
         rb = GetComponent<Rigidbody2D>();
-
-        // If SpriteRenderer is on the same GameObject
         spriteRenderer = GetComponent<SpriteRenderer>();
-
-        // If SpriteRenderer is on a child object instead, use this:
-        // spriteRenderer = GetComponentInChildren<SpriteRenderer>();
+        audioManager = FindObjectOfType<AudioManager>(); // Make sure AudioManager exists in scene
     }
 
     void Update()
@@ -39,11 +38,39 @@ public class PlayerMovement : MonoBehaviour
         {
             spriteRenderer.flipX = moveInput.x < 0;
         }
+
+        // Start/Stop footsteps based on movement
+        if (isRunning && !playingFootsteps)
+        {
+            StartFootsteps();
+        }
+        else if (!isRunning && playingFootsteps)
+        {
+            StopFootsteps();
+        }
     }
 
     void FixedUpdate()
     {
         // Apply movement
         rb.linearVelocity = moveInput * moveSpeed;
+    }
+
+    void StartFootsteps()
+    {
+        playingFootsteps = true;
+        InvokeRepeating(nameof(PlayFootstep), 0f, footstepSpeed);
+    }
+
+    void StopFootsteps()
+    {
+        playingFootsteps = false;
+        CancelInvoke(nameof(PlayFootstep));
+    }
+
+    void PlayFootstep()
+    {
+        if (audioManager != null)
+            audioManager.PlaySFX(audioManager.footstep);
     }
 }

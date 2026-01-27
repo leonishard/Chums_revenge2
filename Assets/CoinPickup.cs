@@ -1,11 +1,18 @@
-using UnityEngine;
+﻿using UnityEngine;
 
 public class CoinPickup : MonoBehaviour
 {
     [SerializeField] private int amount = 1;
     [SerializeField] private float pickupDelay = 0.05f;
 
+    private AudioManager audioManager;
     private bool canPickup = false;
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio")
+            .GetComponent<AudioManager>();
+    }
 
     private void Start()
     {
@@ -30,6 +37,10 @@ public class CoinPickup : MonoBehaviour
 
         if (GameManager.I != null)
             GameManager.I.AddCurrency(amount);
+
+        // 🔊 Play coin pickup SFX
+        if (audioManager != null)
+            audioManager.PlaySFX(audioManager.coinPickUp);
 
         Destroy(gameObject);
     }
