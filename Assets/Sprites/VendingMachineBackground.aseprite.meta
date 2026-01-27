@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: ea1b3f2c4160e0f4aa23e89d9d3ce193
+guid: a05aba36ae135c648a9e38e6a8518464
 ScriptedImporter:
   internalIDToNameTable: []
   externalObjects: {}
@@ -123,7 +123,7 @@ ScriptedImporter:
     tessellationDetail: 0
     uvTransform: {x: 0, y: 0}
   animatedSpriteImportData:
-  - name: VendingMachineBackground 1
+  - name: VendingMachineBackground
     originalName: 
     pivot: {x: 0.5, y: 0}
     alignment: 9
@@ -134,8 +134,8 @@ ScriptedImporter:
       x: 4
       y: 4
       width: 466
-      height: 292
-    spriteID: 52b27fd3ef9a75a4aac6e01e6fc03783
+      height: 296
+    spriteID: 873677cb4a53e6b4fa13b97f8f459e9a
     spriteBone: []
     spriteOutline: []
     vertices: []
@@ -148,25 +148,25 @@ ScriptedImporter:
   asepriteLayers:
   - layerIndex: 0
     uuid:
-      value0: 1501912931
+      value0: 3975895608
       value1: 0
       value2: 0
       value3: 0
     guid: 0
-    name: VendingMachineBackground 1
+    name: VendingMachineBackground
     layerFlags: 0
     layerType: 0
     blendMode: 0
     cells:
-    - name: VendingMachineBackground 1
+    - name: VendingMachineBackground
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
         x: 0
         y: 0
         width: 466
-        height: 292
-      spriteId: 52b27fd3ef9a75a4aac6e01e6fc03783
+        height: 296
+      spriteId: 873677cb4a53e6b4fa13b97f8f459e9a
     linkedCells: []
     parentIndex: -1
   platformSettings:
@@ -185,5 +185,5 @@ ScriptedImporter:
   generatePhysicsShape: 0
   secondarySpriteTextures: []
   spritePackingTag: 
-  canvasSize: {x: 466, y: 292}
+  canvasSize: {x: 466, y: 296}
   previousTextureSize: {x: 512, y: 512}
