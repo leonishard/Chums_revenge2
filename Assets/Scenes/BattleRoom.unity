@@ -4030,14 +4030,14 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0
+    y: -0.002096436
     width: 1
-    height: 1
+    height: 1.0062892
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 7.5
+  orthographic size: 6.16
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -16687,7 +16687,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 3112706185510030285, guid: 6e5c17de68b1b534189baf5849a8de3f, type: 3}
+  m_Sprite: {fileID: -594539558619225122, guid: 8aa386c478f191040acce5c02c69044a, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
