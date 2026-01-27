@@ -5,6 +5,21 @@ TextureImporter:
   - first:
       213: -7823920381858193813
     second: spezi_0
+  - first:
+      213: 5598718411385830586
+    second: spezi_1
+  - first:
+      213: -584736217741652488
+    second: spezi_2
+  - first:
+      213: -8948169966445332680
+    second: spezi_3
+  - first:
+      213: 3368576287058389563
+    second: spezi_4
+  - first:
+      213: 6248864660837896715
+    second: spezi_5
   externalObjects: {}
   serializedVersion: 13
   mipmaps:
@@ -103,10 +118,10 @@ TextureImporter:
       name: spezi_0
       rect:
         serializedVersion: 2
-        x: 10
-        y: 1
-        width: 12
-        height: 31
+        x: 20
+        y: 49
+        width: 10
+        height: 8
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -117,6 +132,116 @@ TextureImporter:
       bones: []
       spriteID: b6e57689dd9db6390800000000000000
       internalID: -7823920381858193813
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spezi_1
+      rect:
+        serializedVersion: 2
+        x: 29
+        y: 50
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: abc771c5bb4a2bd40800000000000000
+      internalID: 5598718411385830586
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spezi_2
+      rect:
+        serializedVersion: 2
+        x: 34
+        y: 50
+        width: 8
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 8fd043e028992e7f0800000000000000
+      internalID: -584736217741652488
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spezi_3
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 17
+        width: 12
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: 837f43033d6b1d380800000000000000
+      internalID: -8948169966445332680
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spezi_4
+      rect:
+        serializedVersion: 2
+        x: 26
+        y: 7
+        width: 12
+        height: 8
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b3a6bec19469fbe20800000000000000
+      internalID: 3368576287058389563
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: spezi_5
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 0
+        width: 64
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      customData: 
+      outline: []
+      physicsShape: []
+      tessellationDetail: -1
+      bones: []
+      spriteID: b021cb61d4d68b650800000000000000
+      internalID: 6248864660837896715
       vertices: []
       indices: 
       edges: []
@@ -136,6 +261,11 @@ TextureImporter:
       entries: []
     nameFileIdTable:
       spezi_0: -7823920381858193813
+      spezi_1: 5598718411385830586
+      spezi_2: -584736217741652488
+      spezi_3: -8948169966445332680
+      spezi_4: 3368576287058389563
+      spezi_5: 6248864660837896715
   mipmapLimitGroupName: 
   pSDRemoveMatte: 0
   userData: 
