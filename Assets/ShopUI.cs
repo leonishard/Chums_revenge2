@@ -1,3 +1,4 @@
+using System.Collections;
 using System.Collections.Generic;
 using TMPro;
 using UnityEngine;
@@ -11,19 +12,22 @@ public class ShopUI : MonoBehaviour
     [SerializeField] private GameObject root; // panel/whole UI container
 
     [Header("Input Field (yellow)")]
-    [SerializeField] private TMP_Text inputText; // put your yellow field text here
+    [SerializeField] private TMP_Text inputText;
     [SerializeField] private int maxDigits = 4;
+
+    [Header("Message")]
+    [SerializeField] private float messageDuration = 1f;
 
     [Header("Item Slots (red boxes)")]
     [SerializeField] private List<Image> slotImages = new();
-
-    [Header("Optional")]
-    [SerializeField] private TMP_Text messageText; // can be null
 
     public bool IsOpen => root != null && root.activeSelf;
 
     private VendingMachine currentMachine;
     private string currentInput = "";
+
+    private Coroutine messageRoutine;
+    private bool showingMessage = false;
 
     private void Awake()
     {
@@ -38,7 +42,6 @@ public class ShopUI : MonoBehaviour
     {
         if (!IsOpen) return;
 
-        // Confirm with keyboard R too
         if (Input.GetKeyDown(KeyCode.R))
             Confirm();
 
@@ -50,22 +53,26 @@ public class ShopUI : MonoBehaviour
     {
         currentMachine = machine;
         currentInput = "";
-        RefreshInputText();
+        showingMessage = false;
+
         RefreshSlots();
+        RefreshInputText();
 
         root.SetActive(true);
-        ShowMessage("");
-        Time.timeScale = 0f; // optional; remove if you don't want pause
     }
 
     public void Close()
     {
+        if (messageRoutine != null) StopCoroutine(messageRoutine);
+        messageRoutine = null;
+
         if (root != null) root.SetActive(false);
+
         currentMachine = null;
         currentInput = "";
-        RefreshInputText();
-        ShowMessage("");
-        Time.timeScale = 1f; // optional; remove if you don't want pause
+        showingMessage = false;
+
+        if (inputText) inputText.text = "";
     }
 
     // ---- Keypad button hooks ----
@@ -73,6 +80,7 @@ public class ShopUI : MonoBehaviour
     public void PressDigit(int digit)
     {
         if (!IsOpen) return;
+        if (showingMessage) return;
         if (currentInput.Length >= maxDigits) return;
 
         currentInput += Mathf.Clamp(digit, 0, 9).ToString();
@@ -82,6 +90,8 @@ public class ShopUI : MonoBehaviour
     public void Clear()
     {
         if (!IsOpen) return;
+        if (showingMessage) return;
+
         currentInput = "";
         RefreshInputText();
     }
@@ -89,6 +99,7 @@ public class ShopUI : MonoBehaviour
     public void Backspace()
     {
         if (!IsOpen) return;
+        if (showingMessage) return;
         if (currentInput.Length == 0) return;
 
         currentInput = currentInput.Substring(0, currentInput.Length - 1);
@@ -102,22 +113,44 @@ public class ShopUI : MonoBehaviour
 
         if (!int.TryParse(currentInput, out int code))
         {
-            ShowMessage("Invalid code");
+            ShowTempMessage("Invalid code");
             return;
         }
 
-        bool bought = currentMachine.TryBuyByCode(code);
-        if (!bought) ShowMessage("No item / not enough coins");
+        currentMachine.TryBuyByCode(code, out string msg);
+        ShowTempMessage(msg);
 
         currentInput = "";
-        RefreshInputText();
     }
 
     // ---- UI refresh ----
 
     private void RefreshInputText()
     {
-        if (inputText) inputText.text = currentInput;
+        if (!inputText) return;
+        if (showingMessage) return;
+        inputText.text = currentInput;
+    }
+
+    private void ShowTempMessage(string msg)
+    {
+        if (!inputText) return;
+
+        if (messageRoutine != null) StopCoroutine(messageRoutine);
+        messageRoutine = StartCoroutine(TempMessageRoutine(msg));
+    }
+
+    private IEnumerator TempMessageRoutine(string msg)
+    {
+        showingMessage = true;
+        inputText.text = msg;
+
+        yield return new WaitForSecondsRealtime(messageDuration);
+
+        showingMessage = false;
+        inputText.text = "";
+        currentInput = "";
+        messageRoutine = null;
     }
 
     private void RefreshSlots()
@@ -137,7 +170,10 @@ public class ShopUI : MonoBehaviour
 
             var item = currentMachine.items[i];
 
+            // If you added displaySprite in ShopItemData:
             Sprite s = item.displaySprite;
+
+            // Fallback: pull from prefab sprite renderer
             if (s == null && item.pickupPrefab != null)
             {
                 var sr = item.pickupPrefab.GetComponentInChildren<SpriteRenderer>();
@@ -147,10 +183,5 @@ public class ShopUI : MonoBehaviour
             img.sprite = s;
             img.enabled = (s != null);
         }
-    }
-
-    private void ShowMessage(string msg)
-    {
-        if (messageText) messageText.text = msg;
     }
 }

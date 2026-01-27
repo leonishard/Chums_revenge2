@@ -34,8 +34,10 @@ public class VendingMachine : MonoBehaviour
         }
     }
 
-    public bool TryBuyByCode(int code)
+    public bool TryBuyByCode(int code, out string message)
     {
+        message = "";
+
         int index = -1;
         for (int i = 0; i < items.Count; i++)
         {
@@ -46,20 +48,30 @@ public class VendingMachine : MonoBehaviour
             }
         }
 
-        if (index == -1) return false;
-        return TryBuy(index);
+        if (index == -1)
+        {
+            message = "Invalid code";
+            return false;
+        }
+
+        return TryBuy(index, out message);
     }
 
-    public bool TryBuy(int index)
+    public bool TryBuy(int index, out string message)
     {
-        if (GameManager.I == null) return false;
-        if (index < 0 || index >= items.Count) return false;
+        message = "";
+
+        if (GameManager.I == null) { message = "No GameManager"; return false; }
+        if (index < 0 || index >= items.Count) { message = "Invalid item"; return false; }
 
         ShopItemData item = items[index];
-        if (item == null || item.pickupPrefab == null) return false;
+        if (item == null || item.pickupPrefab == null) { message = "Invalid item"; return false; }
 
         if (!GameManager.I.SpendCurrency(item.cost))
+        {
+            message = "Not enough!";
             return false;
+        }
 
         Vector3 basePos = dropPoint != null ? dropPoint.position : transform.position;
         Vector3 pos = basePos + (Vector3)Random.insideUnitCircle * scatter;
@@ -74,8 +86,10 @@ public class VendingMachine : MonoBehaviour
             rb.AddForce(dir * force, ForceMode2D.Impulse);
         }
 
+        message = "Purchased";
         return true;
     }
+
 
     private void OnTriggerEnter2D(Collider2D other)
     {

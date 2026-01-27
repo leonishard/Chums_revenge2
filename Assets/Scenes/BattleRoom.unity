@@ -3699,8 +3699,8 @@ MonoBehaviour:
   m_fontMaterials: []
   m_fontColor32:
     serializedVersion: 2
-    rgba: 4294967295
-  m_fontColor: {r: 1, g: 1, b: 1, a: 1}
+    rgba: 4281981661
+  m_fontColor: {r: 0.8679245, g: 0.8540228, b: 0.2251691, a: 1}
   m_enableVertexGradient: 0
   m_colorMode: 3
   m_fontColorGradient:
@@ -13073,6 +13073,7 @@ MonoBehaviour:
   root: {fileID: 1233557272}
   inputText: {fileID: 453505105}
   maxDigits: 4
+  messageDuration: 1
   slotImages:
   - {fileID: 1854572487}
   - {fileID: 2018769908}
@@ -13083,7 +13084,6 @@ MonoBehaviour:
   - {fileID: 1587775332}
   - {fileID: 1090063419}
   - {fileID: 239071024}
-  messageText: {fileID: 0}
 --- !u!1 &1538063397
 GameObject:
   m_ObjectHideFlags: 0
