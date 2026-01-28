@@ -1,80 +1,71 @@
 using UnityEngine;
 using UnityEngine.SceneManagement;
-using UnityEngine.EventSystems;
 
 public class PauseMenu : MonoBehaviour
 {
-    [Header("UI")]
+    [Header("Assign your pause menu panel (the UI root you want to show/hide)")]
     [SerializeField] private GameObject pausePanel;
-    [SerializeField] private GameObject firstSelectedButton;
 
-    public bool IsOpen => pausePanel != null && pausePanel.activeSelf;
+    [Header("Optional: set your main menu scene name")]
+    [SerializeField] private string mainMenuSceneName = "MainMenu";
 
-    private float previousTimeScale = 1f;
+    public bool IsPaused { get; private set; }
 
     private void Awake()
     {
-        if (pausePanel != null)
-            pausePanel.SetActive(false);
+        if (pausePanel != null) pausePanel.SetActive(false);
+        Resume(); // ensures timescale is normal if you hit play while paused in editor
     }
 
     private void Update()
     {
+        // Toggle with Esc
         if (Input.GetKeyDown(KeyCode.Escape))
         {
-            if (IsOpen) Close();
-            else Open();
+            if (IsPaused) Resume();
+            else Pause();
         }
     }
 
-    public void Open()
+    public void Pause()
     {
-        if (pausePanel == null) return;
+        IsPaused = true;
+        if (pausePanel != null) pausePanel.SetActive(true);
 
-        previousTimeScale = Time.timeScale;
-        pausePanel.SetActive(true);
-        Time.timeScale = 0f;
-
-        Cursor.visible = true;
+        Time.timeScale = 0f; // FREEZE GAME
         Cursor.lockState = CursorLockMode.None;
-
-        if (EventSystem.current != null && firstSelectedButton != null)
-        {
-            EventSystem.current.SetSelectedGameObject(null);
-            EventSystem.current.SetSelectedGameObject(firstSelectedButton);
-        }
+        Cursor.visible = true;
     }
 
-    public void Close()
+    public void Resume()
     {
-        if (pausePanel == null) return;
+        IsPaused = false;
+        if (pausePanel != null) pausePanel.SetActive(false);
 
-        pausePanel.SetActive(false);
-        Time.timeScale = previousTimeScale;
-
-        Cursor.visible = true;
-        Cursor.lockState = CursorLockMode.None;
-
-        if (EventSystem.current != null)
-            EventSystem.current.SetSelectedGameObject(null);
+        Time.timeScale = 1f; // UNFREEZE GAME
+        Cursor.lockState = CursorLockMode.Locked; // change if you don't lock your cursor
+        Cursor.visible = false;                   // change if you always want visible cursor
     }
 
-    // Hook these to your UI Buttons
     public void Restart()
     {
-        Time.timeScale = 1f;
+        Time.timeScale = 1f; // IMPORTANT before loading
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
-    public void LoadMainMenu(string sceneName)
+    public void MainMenu()
     {
-        Time.timeScale = 1f;
-        SceneManager.LoadScene(sceneName);
+        Time.timeScale = 1f; // IMPORTANT before loading
+        SceneManager.LoadScene(mainMenuSceneName);
     }
 
-    public void QuitGame()
+    public void ExitGame()
     {
-        Time.timeScale = 1f;
+        Time.timeScale = 1f; // just in case
         Application.Quit();
+
+#if UNITY_EDITOR
+        UnityEditor.EditorApplication.isPlaying = false;
+#endif
     }
 }
