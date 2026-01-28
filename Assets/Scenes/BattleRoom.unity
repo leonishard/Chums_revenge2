@@ -10942,6 +10942,10 @@ PrefabInstance:
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3910452136326057928, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
+      propertyPath: info
+      value: 
+      objectReference: {fileID: 11400000, guid: 7fdfdfdab10688f47b4b1be3256af0ea, type: 2}
+    - target: {fileID: 3910452136326057928, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
       propertyPath: effects.Array.size
       value: 1
       objectReference: {fileID: 0}
