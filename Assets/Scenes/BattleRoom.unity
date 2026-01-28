@@ -4166,8 +4166,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -6.8, y: 85.399994}
-  m_SizeDelta: {x: 64, y: 64}
+  m_AnchoredPosition: {x: -6.8, y: 74.94}
+  m_SizeDelta: {x: 64, y: 54.0206}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &556135949
 MonoBehaviour:
@@ -6910,7 +6910,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.245, y: 0.24300002}
   m_AnchorMax: {x: 0.7562501, y: 0.72}
-  m_AnchoredPosition: {x: -0.5, y: 8.9968}
+  m_AnchoredPosition: {x: 0, y: -1.2000122}
   m_SizeDelta: {x: 57.153503, y: 63.834198}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1233557274
@@ -15806,8 +15806,8 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -169.3, y: 85.4}
-  m_SizeDelta: {x: 64, y: 64}
+  m_AnchoredPosition: {x: -170.9, y: 74.94}
+  m_SizeDelta: {x: 64, y: 54.0206}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1854572487
 MonoBehaviour:
@@ -16553,7 +16553,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1915834131
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17367,9 +17367,9 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -87.60001, y: 79.98238}
-  m_SizeDelta: {x: 64, y: 64}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchoredPosition: {x: -129.57, y: 47.93}
+  m_SizeDelta: {x: 64, y: 54.0206}
+  m_Pivot: {x: -0.15575989, y: 0.000000067055225}
 --- !u!114 &2018769908
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -17496,7 +17496,7 @@ MonoBehaviour:
     cost: 10
     pickupPrefab: {fileID: 1451434569}
     code: 113
-    displaySprite: {fileID: 3359573281600580444, guid: b3263587408948547ab556252ee4c7f9, type: 3}
+    displaySprite: {fileID: 4726914770291565082, guid: b3263587408948547ab556252ee4c7f9, type: 3}
   dropPoint: {fileID: 497742964}
   scatter: 0.25
   popForceMin: 0.1
