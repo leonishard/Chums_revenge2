@@ -4,6 +4,11 @@ using UnityEngine;
 
 public class ItemPickup : MonoBehaviour
 {
+
+    
+    [Header("Tooltip / Info")]
+    public ItemInfo info;  // assign ScriptableObject with name, description, code
+
     public enum EffectType
     {
         Damage,
