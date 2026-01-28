@@ -3,6 +3,8 @@ using UnityEngine;
 
 public class VendingMachine : MonoBehaviour
 {
+    private AudioManager audioManager;
+
     [Header("Interaction")]
     [SerializeField] private KeyCode interactKey = KeyCode.E;
     private bool playerInRange;
@@ -29,9 +31,14 @@ public class VendingMachine : MonoBehaviour
             if (Time.unscaledTime - lastToggleTime < toggleCooldown) return;
             lastToggleTime = Time.unscaledTime;
 
+            // Play vending machine openclose
+            if (audioManager != null)
+                audioManager.PlaySFX(audioManager.machineOpenClose);
+
             if (ShopUI.I.IsOpen) ShopUI.I.Close();
             else ShopUI.I.Open(this);
         }
+
     }
 
     public bool TryBuyByCode(int code, out string message)
@@ -105,4 +112,12 @@ public class VendingMachine : MonoBehaviour
         if (ShopUI.I != null && ShopUI.I.IsOpen)
             ShopUI.I.Close();
     }
+
+    private void Awake()
+    {
+        audioManager = GameObject.FindGameObjectWithTag("Audio")
+            .GetComponent<AudioManager>();
+    }
+
+
 }
