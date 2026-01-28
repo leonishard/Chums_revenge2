@@ -3,23 +3,27 @@ using UnityEngine.SceneManagement;
 
 public class PauseMenu : MonoBehaviour
 {
-    [Header("Assign your pause menu panel (the UI root you want to show/hide)")]
+    [Header("Assign your pause UI root (Panel or Canvas group)")]
     [SerializeField] private GameObject pausePanel;
 
-    [Header("Optional: set your main menu scene name")]
+    [Header("Main Menu scene name (must be in Build Settings)")]
     [SerializeField] private string mainMenuSceneName = "MainMenu";
 
     public bool IsPaused { get; private set; }
 
     private void Awake()
     {
-        if (pausePanel != null) pausePanel.SetActive(false);
-        Resume(); // ensures timescale is normal if you hit play while paused in editor
+        // Topdown 2D bullethell: keep cursor FREE & visible during gameplay.
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
+        if (pausePanel) pausePanel.SetActive(false);
+        Time.timeScale = 1f;
+        IsPaused = false;
     }
 
     private void Update()
     {
-        // Toggle with Esc
         if (Input.GetKeyDown(KeyCode.Escape))
         {
             if (IsPaused) Resume();
@@ -30,9 +34,11 @@ public class PauseMenu : MonoBehaviour
     public void Pause()
     {
         IsPaused = true;
-        if (pausePanel != null) pausePanel.SetActive(true);
+        if (pausePanel) pausePanel.SetActive(true);
 
-        Time.timeScale = 0f; // FREEZE GAME
+        Time.timeScale = 0f; // freeze game
+
+        // Keep cursor usable in menu
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
@@ -40,28 +46,45 @@ public class PauseMenu : MonoBehaviour
     public void Resume()
     {
         IsPaused = false;
-        if (pausePanel != null) pausePanel.SetActive(false);
+        if (pausePanel) pausePanel.SetActive(false);
 
-        Time.timeScale = 1f; // UNFREEZE GAME
-        Cursor.lockState = CursorLockMode.Locked; // change if you don't lock your cursor
-        Cursor.visible = false;                   // change if you always want visible cursor
+        Time.timeScale = 1f; // unfreeze
+
+        // Keep cursor usable in gameplay (topdown)
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
     }
 
     public void Restart()
     {
-        Time.timeScale = 1f; // IMPORTANT before loading
+        Time.timeScale = 1f;
+        IsPaused = false;
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
 
     public void MainMenu()
     {
-        Time.timeScale = 1f; // IMPORTANT before loading
+        Time.timeScale = 1f;
+        IsPaused = false;
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
         SceneManager.LoadScene(mainMenuSceneName);
     }
 
     public void ExitGame()
     {
-        Time.timeScale = 1f; // just in case
+        Time.timeScale = 1f;
+        IsPaused = false;
+
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+
         Application.Quit();
 
 #if UNITY_EDITOR
