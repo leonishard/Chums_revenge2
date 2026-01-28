@@ -910,6 +910,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
+--- !u!1 &268010725 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1255133144510831290, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
+  m_PrefabInstance: {fileID: 2124645913}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &270602315
 GameObject:
   m_ObjectHideFlags: 0
@@ -9322,7 +9327,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 3910452136326057928, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
       propertyPath: effects.Array.data[1].floatAmount
-      value: -0.1
+      value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 9000785273704643531, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
       propertyPath: m_LocalPosition.x
@@ -17926,6 +17931,11 @@ MonoBehaviour:
   m_InputActionsPerSecond: 10
   m_RepeatDelay: 0.5
   m_ForceModuleActive: 0
+--- !u!1 &1394475763 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1255133144510831290, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
+  m_PrefabInstance: {fileID: 1872185553}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1398711069
 GameObject:
   m_ObjectHideFlags: 0
@@ -18572,6 +18582,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
+--- !u!1 &1531191855 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1255133144510831290, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
+  m_PrefabInstance: {fileID: 824312328}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1538063397
 GameObject:
   m_ObjectHideFlags: 0
@@ -22547,6 +22562,11 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
+--- !u!1 &1896196034 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1255133144510831290, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
+  m_PrefabInstance: {fileID: 619876626}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1915834130
 GameObject:
   m_ObjectHideFlags: 0
@@ -22874,6 +22894,11 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!1 &1949408237 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1255133144510831290, guid: 2dbe3f41a8d37ba43a5c4114e5908640, type: 3}
+  m_PrefabInstance: {fileID: 1528620822}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1952465261
 GameObject:
   m_ObjectHideFlags: 0
@@ -23499,15 +23524,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   interactKey: 101
   items:
-  - displayName: 
+  - displayName: Cigarettes
     cost: 10
-    pickupPrefab: {fileID: 0}
-    code: 112
+    pickupPrefab: {fileID: 268010725}
+    code: 111
     displaySprite: {fileID: 0}
-  - displayName: spezi
+  - displayName: CigarettesBud
     cost: 10
-    pickupPrefab: {fileID: 0}
+    pickupPrefab: {fileID: 1394475763}
+    code: 112
+    displaySprite: {fileID: 4726914770291565082, guid: b3263587408948547ab556252ee4c7f9, type: 3}
+  - displayName: CanOfSpezi
+    cost: 10
+    pickupPrefab: {fileID: 1949408237}
     code: 113
+    displaySprite: {fileID: 4726914770291565082, guid: b3263587408948547ab556252ee4c7f9, type: 3}
+  - displayName: Spezi
+    cost: 10
+    pickupPrefab: {fileID: 1531191855}
+    code: 114
+    displaySprite: {fileID: 4726914770291565082, guid: b3263587408948547ab556252ee4c7f9, type: 3}
+  - displayName: Glasses
+    cost: 10
+    pickupPrefab: {fileID: 1896196034}
+    code: 115
     displaySprite: {fileID: 4726914770291565082, guid: b3263587408948547ab556252ee4c7f9, type: 3}
   dropPoint: {fileID: 497742964}
   scatter: 0.25
