@@ -158,7 +158,7 @@ ScriptedImporter:
     layerType: 0
     blendMode: 0
     cells:
-    - name: FirstButton
+    - name: Button1
       frameIndex: 0
       additiveSortOrder: 0
       cellRect:
