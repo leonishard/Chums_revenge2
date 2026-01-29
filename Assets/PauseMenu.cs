@@ -13,7 +13,7 @@ public class PauseMenu : MonoBehaviour
 
     private void Awake()
     {
-        // Topdown 2D bullethell: keep cursor FREE & visible during gameplay.
+        // Cursor free for topdown games
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
 
@@ -36,9 +36,8 @@ public class PauseMenu : MonoBehaviour
         IsPaused = true;
         if (pausePanel) pausePanel.SetActive(true);
 
-        Time.timeScale = 0f; // freeze game
+        Time.timeScale = 0f;
 
-        // Keep cursor usable in menu
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
@@ -48,9 +47,8 @@ public class PauseMenu : MonoBehaviour
         IsPaused = false;
         if (pausePanel) pausePanel.SetActive(false);
 
-        Time.timeScale = 1f; // unfreeze
+        Time.timeScale = 1f;
 
-        // Keep cursor usable in gameplay (topdown)
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
     }
@@ -59,9 +57,14 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         IsPaused = false;
+        if (pausePanel) pausePanel.SetActive(false);
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        // IMPORTANT: wipe run stats BEFORE reloading the scene
+        if (GameManager.I != null)
+            GameManager.I.ResetRun();
 
         SceneManager.LoadScene(SceneManager.GetActiveScene().buildIndex);
     }
@@ -70,9 +73,14 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         IsPaused = false;
+        if (pausePanel) pausePanel.SetActive(false);
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;
+
+        // IMPORTANT: wipe run stats BEFORE going to menu
+        if (GameManager.I != null)
+            GameManager.I.ResetRun();
 
         SceneManager.LoadScene(mainMenuSceneName);
     }
@@ -81,6 +89,7 @@ public class PauseMenu : MonoBehaviour
     {
         Time.timeScale = 1f;
         IsPaused = false;
+        if (pausePanel) pausePanel.SetActive(false);
 
         Cursor.lockState = CursorLockMode.None;
         Cursor.visible = true;

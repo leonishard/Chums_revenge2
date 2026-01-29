@@ -7171,6 +7171,14 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 20b33a0fdb4841948b386749e36cf45b, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  defaultBaseDamage: 1
+  defaultBonusDamage: 0
+  defaultProjectileCount: 1
+  defaultMaxHealth: 3
+  defaultTimeBetweenFiring: 0.3
+  defaultMagazineSize: 10
+  defaultReloadTime: 1.2
+  defaultCurrency: 20
   baseDamage: 1
   bonusDamage: 0
   projectileCount: 1
@@ -27868,11 +27876,6 @@ MonoBehaviour:
     cost: 10
     pickupPrefab: {fileID: 1531191855}
     code: 114
-    displaySprite: {fileID: 4726914770291565082, guid: b3263587408948547ab556252ee4c7f9, type: 3}
-  - displayName: Glasses
-    cost: 10
-    pickupPrefab: {fileID: 1896196034}
-    code: 115
     displaySprite: {fileID: 4726914770291565082, guid: b3263587408948547ab556252ee4c7f9, type: 3}
   dropPoint: {fileID: 2025116327}
   scatter: 0.25

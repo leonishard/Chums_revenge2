@@ -5,25 +5,40 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager I { get; private set; }
 
-    [Header("Player Persistent Stats")]
-    public int baseDamage = 1;
-    public int bonusDamage = 0;
-    public int projectileCount = 1;
+    // =====================
+    // DEFAULT RUN STATS (edit in Inspector)
+    // =====================
+    [Header("Defaults (New Run)")]
+    [SerializeField] private int defaultBaseDamage = 1;
+    [SerializeField] private int defaultBonusDamage = 0;
+    [SerializeField] private int defaultProjectileCount = 1;
 
-    [Header("Player Persistent Health")]
-    public int maxHealth = 3;
-    public int currentHealth = 3;
+    [SerializeField] private int defaultMaxHealth = 3;
+    [SerializeField] private float defaultTimeBetweenFiring = 0.3f;
 
-    [Header("Weapon / Combat")]
-    public float timeBetweenFiring = 0.3f;
+    [SerializeField] private int defaultMagazineSize = 10;
+    [SerializeField] private float defaultReloadTime = 1.2f;
 
-    // NEW: Ammo / Reload persistence
-    public int magazineSize = 10;
-    public int currentAmmo = 10;
-    public float reloadTime = 1.2f;
+    [SerializeField] private int defaultCurrency = 0;
 
-    [Header("Currency")]
-    public int currency = 0;
+    // =====================
+    // CURRENT RUN STATS (runtime)
+    // =====================
+    [Header("Current Run (Runtime)")]
+    public int baseDamage;
+    public int bonusDamage;
+    public int projectileCount;
+
+    public int maxHealth;
+    public int currentHealth;
+
+    public float timeBetweenFiring;
+
+    public int magazineSize;
+    public int currentAmmo;
+    public float reloadTime;
+
+    public int currency;
 
     public int Damage => baseDamage + bonusDamage;
 
@@ -38,21 +53,8 @@ public class GameManager : MonoBehaviour
         I = this;
         DontDestroyOnLoad(gameObject);
 
-        // Keep health sane
-        maxHealth = Mathf.Max(1, maxHealth);
-        currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
-        if (currentHealth == 0)
-            currentHealth = maxHealth;
-
-        // Keep weapon sane
-        timeBetweenFiring = Mathf.Clamp(timeBetweenFiring, 0.05f, 1.5f);
-
-        magazineSize = Mathf.Max(1, magazineSize);
-        currentAmmo = Mathf.Clamp(currentAmmo, 0, magazineSize);
-        if (currentAmmo == 0)
-            currentAmmo = magazineSize;
-
-        reloadTime = Mathf.Clamp(reloadTime, 0.1f, 5f);
+        // Fresh run on app start (run-stats only)
+        ResetRun();
 
         SceneManager.sceneLoaded += OnSceneLoaded;
     }
@@ -63,6 +65,7 @@ public class GameManager : MonoBehaviour
             SceneManager.sceneLoaded -= OnSceneLoaded;
     }
 
+    // Push manager values into scene objects whenever a scene loads
     private void OnSceneLoaded(Scene scene, LoadSceneMode mode)
     {
         var stats = FindFirstObjectByType<PlayerStats>();
@@ -81,44 +84,39 @@ public class GameManager : MonoBehaviour
     // =====================
     // Currency API
     // =====================
-
     public void AddCurrency(int amount)
     {
         if (amount <= 0) return;
-
         currency += amount;
-        // Later: notify UI here
     }
 
     public bool SpendCurrency(int amount)
     {
         if (amount <= 0) return true;
         if (currency < amount) return false;
-
         currency -= amount;
         return true;
     }
 
     // =====================
-    // Run / Game Reset
+    // Run Reset (New Run)
     // =====================
-
     public void ResetRun()
     {
-        baseDamage = 1;
-        bonusDamage = 0;
-        projectileCount = 1;
+        baseDamage = Mathf.Max(0, defaultBaseDamage);
+        bonusDamage = defaultBonusDamage;
+        projectileCount = Mathf.Max(1, defaultProjectileCount);
 
-        maxHealth = 3;
+        maxHealth = Mathf.Max(1, defaultMaxHealth);
         currentHealth = maxHealth;
 
-        timeBetweenFiring = 0.3f;
+        timeBetweenFiring = Mathf.Clamp(defaultTimeBetweenFiring, 0.05f, 1.5f);
 
-        // NEW: reset ammo / reload
-        magazineSize = 10;
+        magazineSize = Mathf.Max(1, defaultMagazineSize);
         currentAmmo = magazineSize;
-        reloadTime = 1.2f;
 
-        currency = 0;
+        reloadTime = Mathf.Clamp(defaultReloadTime, 0.1f, 5f);
+
+        currency = Mathf.Max(0, defaultCurrency);
     }
 }
