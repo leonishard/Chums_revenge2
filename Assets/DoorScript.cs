@@ -6,16 +6,26 @@ public class DoorTeleport : MonoBehaviour
     [Header("Where the player should appear")]
     [SerializeField] private Transform targetSpawnPoint;
 
-    [Header("Room Enemies container (Room_X/Enemies)")]
+    [Header("Room Enemies container (optional). If not set: door is always open.")]
     [SerializeField] private Transform enemiesRoot;
 
-    [Header("Enemies must have this tag")]
-    [SerializeField] private string enemyTag = "Enemy";
+    [Header("Sprite that blocks the doorway (disable when room is clear / open)")]
+    [SerializeField] private SpriteRenderer blockedSprite; // drag your “base/closed” sprite here (optional)
 
     [Header("Optional: small cooldown to avoid re-triggering")]
     [SerializeField] private float cooldownSeconds = 0.2f;
 
     private bool _onCooldown;
+
+    private void Awake()
+    {
+        UpdateDoorVisual();
+    }
+
+    private void Update()
+    {
+        UpdateDoorVisual();
+    }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
@@ -23,8 +33,8 @@ public class DoorTeleport : MonoBehaviour
         if (!other.CompareTag("Player")) return;
         if (targetSpawnPoint == null) return;
 
-        // Locked until no ENEMY-tagged objects remain in this room
-        if (RoomHasEnemies())
+        // If no enemiesRoot assigned, door is always open
+        if (!IsRoomClear())
         {
             StartCoroutine(Cooldown());
             return;
@@ -34,17 +44,21 @@ public class DoorTeleport : MonoBehaviour
         StartCoroutine(Cooldown());
     }
 
-    private bool RoomHasEnemies()
+    private bool IsRoomClear()
     {
-        if (enemiesRoot == null) return false;
+        // No enemies container assigned => treat as clear (open room)
+        if (enemiesRoot == null) return true;
 
-        for (int i = 0; i < enemiesRoot.childCount; i++)
-        {
-            var child = enemiesRoot.GetChild(i);
-            if (child != null && child.CompareTag(enemyTag))
-                return true;
-        }
-        return false;
+        // You destroy enemies, so clear = no children left
+        return enemiesRoot.childCount == 0;
+    }
+
+    private void UpdateDoorVisual()
+    {
+        if (blockedSprite == null) return;
+
+        // Blocked sprite visible only when NOT clear
+        blockedSprite.enabled = !IsRoomClear();
     }
 
     private IEnumerator Cooldown()
