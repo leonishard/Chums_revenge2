@@ -11168,6 +11168,7 @@ MonoBehaviour:
   bossStep: {fileID: 8300000, guid: 628c202599159484e97cbd26b4e43a13, type: 3}
   bossSingleFire: {fileID: 8300000, guid: 3c0325a82e0bf9f4db61e8e9bbd1ec35, type: 3}
   bossShotgun: {fileID: 8300000, guid: 3ed132c3c7d53f94299560d1314ca28a, type: 3}
+  bossMusic: {fileID: 8300000, guid: 6697d6c4337200a4895ed1228cb84f46, type: 3}
   musicVolume: 0.046
   sfxVolume: 1
   coinPickupVolume: 0.05
@@ -11178,7 +11179,8 @@ MonoBehaviour:
   deniedVolume: 0.1
   bossStepVolume: 0.05
   bossSingleFireVolume: 0.05
-  bossShotgunVolume: 0.08
+  bossShotgunVolume: 0.05
+  bossMusicVolume: 0.1
 --- !u!4 &485110093
 Transform:
   m_ObjectHideFlags: 0
@@ -28569,6 +28571,8 @@ MonoBehaviour:
   singleShotInterval: 2
   singleBulletSpeed: 7
   damage: 1
+  bossMusic: {fileID: 8300000, guid: 6697d6c4337200a4895ed1228cb84f46, type: 3}
+  musicFadeDuration: 1.5
 --- !u!1 &1123323762
 GameObject:
   m_ObjectHideFlags: 0

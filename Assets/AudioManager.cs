@@ -17,6 +17,7 @@ public class AudioManager : MonoBehaviour
     public AudioClip bossStep;
     public AudioClip bossSingleFire;
     public AudioClip bossShotgun;
+    public AudioClip bossMusic;
 
     [Header("Volume")] // SET VOLUME CONTROL FOR NEW SFX / MUSIC HERE
     [Range(0f, 1f)] public float musicVolume = 0.5f;
@@ -30,6 +31,8 @@ public class AudioManager : MonoBehaviour
     [Range(0f, 1f)] public float bossStepVolume = 1f;
     [Range(0f, 1f)] public float bossSingleFireVolume = 1f;
     [Range(0f, 1f)] public float bossShotgunVolume = 1f;
+    [Range(0f, 1f)] public float bossMusicVolume = 1f;
+
 
 
     private void Start()
@@ -66,6 +69,8 @@ public class AudioManager : MonoBehaviour
             volume *= bossSingleFireVolume;
         else if (clip == bossShotgun)
             volume *= bossShotgunVolume;
+        else if (clip == bossMusic)
+            volume *= bossMusicVolume;
 
         SFXSource.PlayOneShot(clip, volume);
     }

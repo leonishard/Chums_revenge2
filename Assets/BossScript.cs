@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class Boss : MonoBehaviour
@@ -45,6 +45,10 @@ public class Boss : MonoBehaviour
     [Header("Contact Damage")]
     public int damage = 1;
 
+    [Header("Boss Music")]
+    [SerializeField] private AudioClip bossMusic;
+    [SerializeField] private float musicFadeDuration = 1.5f;
+
     private Transform player;
     private BossState currentState = BossState.Idle;
 
@@ -55,6 +59,7 @@ public class Boss : MonoBehaviour
     private bool activated = false;
 
     private AudioManager audioManager;
+    private AudioSource musicSource;
 
     private void Awake()
     {
@@ -62,8 +67,12 @@ public class Boss : MonoBehaviour
         CurrentHealth = maxHealth;
 
         player = GameObject.FindGameObjectWithTag("Player")?.transform;
+
         audioManager = GameObject.FindGameObjectWithTag("Audio")
             ?.GetComponent<AudioManager>();
+
+        if (audioManager != null)
+            musicSource = audioManager.musicSource;
     }
 
     private void Update()
@@ -76,6 +85,11 @@ public class Boss : MonoBehaviour
                 Vector2.Distance(transform.position, player.position) <= activationRange)
             {
                 activated = true;
+
+                // 🔥 START BOSS MUSIC
+                if (musicSource != null && bossMusic != null)
+                    StartCoroutine(SwapToBossMusic());
+
                 StartCoroutine(BossRoutine());
             }
 
@@ -101,9 +115,39 @@ public class Boss : MonoBehaviour
         }
     }
 
+    // ================== MUSIC ==================
+    private IEnumerator SwapToBossMusic()
+    {
+        float startVolume = musicSource.volume;
+        float t = 0f;
+
+        // Fade OUT current BGM
+        while (t < musicFadeDuration)
+        {
+            t += Time.deltaTime;
+            musicSource.volume = Mathf.Lerp(startVolume, 0f, t / musicFadeDuration);
+            yield return null;
+        }
+
+        musicSource.Stop();
+        musicSource.clip = bossMusic;
+        musicSource.Play();
+
+        // Fade IN boss music
+        t = 0f;
+        while (t < musicFadeDuration)
+        {
+            t += Time.deltaTime;
+            musicSource.volume = Mathf.Lerp(0f, startVolume, t / musicFadeDuration);
+            yield return null;
+        }
+
+        musicSource.volume = startVolume;
+    }
+
+    // ================== BOSS ROUTINE ==================
     private IEnumerator BossRoutine()
     {
-        // ---------- INTRO MOVE ----------
         currentState = BossState.IntroMove;
         animator.Play("BossRun");
 
@@ -117,11 +161,9 @@ public class Boss : MonoBehaviour
             yield return null;
         }
 
-        // ---------- INITIAL SHOTGUN ----------
         currentState = BossState.ShotgunBurst;
         yield return StartCoroutine(ShotgunBurst(3));
 
-        // ---------- CHASE ----------
         currentState = BossState.Chase;
         lastShotgunTime = Time.time;
         lastSingleShotTime = Time.time;
@@ -138,7 +180,8 @@ public class Boss : MonoBehaviour
         if (Time.time - lastStepTime > stepInterval)
         {
             lastStepTime = Time.time;
-            PlayBossSFX(audioManager?.bossStep, audioManager != null ? audioManager.bossStepVolume : 1f);
+            PlayBossSFX(audioManager?.bossStep,
+                audioManager != null ? audioManager.bossStepVolume : 1f);
         }
 
         if (dir.x != 0)
@@ -162,7 +205,8 @@ public class Boss : MonoBehaviour
     {
         if (player == null) return;
 
-        PlayBossSFX(audioManager?.bossShotgun, audioManager != null ? audioManager.bossShotgunVolume : 1f);
+        PlayBossSFX(audioManager?.bossShotgun,
+            audioManager != null ? audioManager.bossShotgunVolume : 1f);
 
         Vector2 baseDir = (player.position - firePoint.position).normalized;
         float startAngle = -shotgunSpreadAngle / 2f;
@@ -185,7 +229,8 @@ public class Boss : MonoBehaviour
         if (player == null) return;
 
         animator.Play("BossShoot");
-        PlayBossSFX(audioManager?.bossSingleFire, audioManager != null ? audioManager.bossSingleFireVolume : 1f);
+        PlayBossSFX(audioManager?.bossSingleFire,
+            audioManager != null ? audioManager.bossSingleFireVolume : 1f);
 
         Vector2 dir = (player.position - firePoint.position).normalized;
         GameObject bullet = Instantiate(bulletPrefab, firePoint.position, Quaternion.identity);
@@ -199,9 +244,7 @@ public class Boss : MonoBehaviour
     private void PlayBossSFX(AudioClip clip, float volume)
     {
         if (audioManager == null || clip == null) return;
-
-        AudioSource src = audioManager.SFXSource;
-        src.PlayOneShot(clip, volume);
+        audioManager.SFXSource.PlayOneShot(clip, volume);
     }
 
     // ================== HEALTH ==================
