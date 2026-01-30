@@ -12,6 +12,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b1743fddd5918b74db30508ccf783ba0, type: 3}
   m_Name: SpeziInfo
   m_EditorClassIdentifier: 
-  itemName: Spezi
+  itemName: Bottle of Spezi
   description: Germany's best invention
   code: 113
+  effects: +2 Health

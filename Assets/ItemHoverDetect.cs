@@ -9,20 +9,34 @@ public class ItemHoverDetector : MonoBehaviour
 
     private void Update()
     {
-        RaycastHit2D hit = Physics2D.Raycast(transform.position, transform.right, range, itemLayer);
+        RaycastHit2D hit = Physics2D.Raycast(
+            transform.position,
+            transform.right,
+            range,
+            itemLayer
+        );
 
         if (hit.collider != null)
         {
             ItemPickup pickup = hit.collider.GetComponent<ItemPickup>();
+
             if (pickup != null && pickup != current)
             {
                 current = pickup;
 
                 if (pickup.info != null)
-                    TooltipSystem.Show(
-                        pickup.info.itemName,
-                        pickup.info.description + "\nCode: " + pickup.info.code
-                    );
+                {
+                    string content = pickup.info.description;
+
+                    if (!string.IsNullOrEmpty(pickup.info.effects))
+                    {
+                        content += "\n\nEffects: " + pickup.info.effects;
+                    }
+
+                    content += "\nCode: " + pickup.info.code;
+
+                    TooltipSystem.Show(pickup.info.itemName, content);
+                }
             }
         }
         else if (current != null)

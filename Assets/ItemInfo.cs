@@ -9,4 +9,6 @@ public class ItemInfo : ScriptableObject
     public string description;
 
     public int code; // price or code
+
+    public string effects;
 }

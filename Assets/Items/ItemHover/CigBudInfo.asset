@@ -10,9 +10,9 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: b1743fddd5918b74db30508ccf783ba0, type: 3}
-  m_Name: RHCPInfo
+  m_Name: CigBudInfo
   m_EditorClassIdentifier: 
-  itemName: Red Hot Chilli Pepper
-  description: Found under a bridge, then multiplied in a lab environment.
-  code: 115
-  effects: +1 Damage, -0.2 Firerate
+  itemName: Cigarette Bud
+  description: Desperate times call for desperate measures
+  code: 0
+  effects: +1 Damage, -2 Health
