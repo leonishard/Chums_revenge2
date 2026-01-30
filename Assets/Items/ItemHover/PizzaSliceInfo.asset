@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Slice of Pizza
   description: Delivered fresh from the place at the corner.. 2 weeks ago
-  code: 0
+  code: 119
   effects: +2 Max Health, +1 Health

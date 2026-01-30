@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Cigarette Bud
   description: Desperate times call for desperate measures
-  code: 0
+  code: 112
   effects: +1 Damage, -2 Health

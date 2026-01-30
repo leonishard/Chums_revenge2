@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Red Hot Chilli Pepper
   description: Found under a bridge, then multiplied in a lab environment.
-  code: 115
+  code: 116
   effects: +1 Damage, -0.2 Firerate

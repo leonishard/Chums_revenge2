@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Can of Spezi
   description: Great return on investment!
-  code: 0
+  code: 113
   effects: +1 Health

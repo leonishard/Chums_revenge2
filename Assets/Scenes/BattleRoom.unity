@@ -11165,6 +11165,9 @@ MonoBehaviour:
   machineOpenClose: {fileID: 8300000, guid: a42ba05de4c83794096e50af1465f34b, type: 3}
   purchased: {fileID: 8300000, guid: 6ae40c6e233ca1b4895701fcebebf711, type: 3}
   denied: {fileID: 8300000, guid: 9117d0554f7f6f9448c1dd3d5cfd8e36, type: 3}
+  bossStep: {fileID: 8300000, guid: 628c202599159484e97cbd26b4e43a13, type: 3}
+  bossSingleFire: {fileID: 8300000, guid: 3c0325a82e0bf9f4db61e8e9bbd1ec35, type: 3}
+  bossShotgun: {fileID: 8300000, guid: 3ed132c3c7d53f94299560d1314ca28a, type: 3}
   musicVolume: 0.046
   sfxVolume: 1
   coinPickupVolume: 0.05
@@ -11173,6 +11176,9 @@ MonoBehaviour:
   machineOpenCloseVolume: 0.05
   purchasedVolume: 0.08
   deniedVolume: 0.1
+  bossStepVolume: 0.05
+  bossSingleFireVolume: 0.05
+  bossShotgunVolume: 0.08
 --- !u!4 &485110093
 Transform:
   m_ObjectHideFlags: 0
@@ -28359,9 +28365,8 @@ GameObject:
   - component: {fileID: 1118059342}
   - component: {fileID: 1118059341}
   - component: {fileID: 1118059340}
-  - component: {fileID: 1118059339}
-  - component: {fileID: 1118059338}
   - component: {fileID: 1118059344}
+  - component: {fileID: 1118059345}
   m_Layer: 7
   m_Name: BossEnemy
   m_TagString: Untagged
@@ -28369,45 +28374,6 @@ GameObject:
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
   m_IsActive: 1
---- !u!114 &1118059338
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118059337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 124381a4223cc894ebbdd141388ca804, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  aggroRange: 1
-  moveSpeed: 2
-  offsetRadius: 1.5
-  offsetChangeSpeed: 1
---- !u!114 &1118059339
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1118059337}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: f33a73bb2bab6d54581aa3373f998b30, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  damage: 1
-  maxHealth: 5
-  hitFlashDuration: 0.1
-  hitColor: {r: 1, g: 0, b: 0, a: 1}
-  knockbackForce: 1
-  maxKnockbackSpeed: 1
-  knockbackDampTime: 0.1
-  coinPickupPrefab: {fileID: 8464981365113011934, guid: c52848448e508284eab8bf05df2b6805, type: 3}
-  minCoins: 10
-  maxCoins: 10
-  dropScatter: 1
 --- !u!61 &1118059340
 BoxCollider2D:
   m_ObjectHideFlags: 0
@@ -28442,7 +28408,7 @@ BoxCollider2D:
   m_UsedByEffector: 0
   m_CompositeOperation: 0
   m_CompositeOrder: 0
-  m_Offset: {x: 0.09, y: -0.18}
+  m_Offset: {x: -0.05, y: -0.2}
   m_SpriteTilingProperty:
     border: {x: 0, y: 0, z: 0, w: 0}
     pivot: {x: 0.5, y: 0.5}
@@ -28452,7 +28418,7 @@ BoxCollider2D:
     drawMode: 0
     adaptiveTiling: 0
   m_AutoTiling: 0
-  m_Size: {x: 1.76, y: 1.78}
+  m_Size: {x: 1.39, y: 1.44}
   m_EdgeRadius: 0
 --- !u!50 &1118059341
 Rigidbody2D:
@@ -28545,10 +28511,11 @@ Transform:
   m_GameObject: {fileID: 1118059337}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -50.21, y: -30.79, z: 0}
+  m_LocalPosition: {x: -50.21, y: -24.1, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children: []
+  m_Children:
+  - {fileID: 2094491609}
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!95 &1118059344
@@ -28573,6 +28540,35 @@ Animator:
   m_AllowConstantClipSamplingOptimization: 1
   m_KeepAnimatorStateOnDisable: 0
   m_WriteDefaultValuesOnDisable: 0
+--- !u!114 &1118059345
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1118059337}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 291484499d565e7438076a9d1120014c, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  rb: {fileID: 1118059341}
+  firePoint: {fileID: 2094491609}
+  bulletPrefab: {fileID: 8201827547203600839, guid: 7973825e0771e54429a0ddf01744725e, type: 3}
+  activationRange: 4
+  drawActivationGizmo: 1
+  maxHealth: 2147483647
+  introMoveSpeed: 2
+  chaseSpeed: 1.5
+  stepInterval: 0.4
+  shotgunPellets: 5
+  shotgunSpreadAngle: 35
+  shotgunBulletSpeed: 8
+  shotgunInterval: 0.6
+  shotgunCooldown: 15
+  singleShotInterval: 2
+  singleBulletSpeed: 7
+  damage: 1
 --- !u!1 &1123323762
 GameObject:
   m_ObjectHideFlags: 0
@@ -50292,6 +50288,37 @@ SpriteRenderer:
   m_WasSpriteAssigned: 1
   m_MaskInteraction: 0
   m_SpriteSortPoint: 0
+--- !u!1 &2094491608
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 2094491609}
+  m_Layer: 7
+  m_Name: FirePoint
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &2094491609
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2094491608}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0.81, y: -0.46, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 1118059343}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &2103657167
 GameObject:
   m_ObjectHideFlags: 0

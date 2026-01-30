@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Suspiciously Green Glasses
   description: The lenses glow with a strange light...
-  code: 0
+  code: 115
   effects: +1 Projectile, +0.3 Firerate

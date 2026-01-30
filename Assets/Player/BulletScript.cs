@@ -18,7 +18,6 @@ public class BulletScript : MonoBehaviour
     private void Start()
     {
         // If your bullet sprite points RIGHT by default, keep transform.right.
-        // If it points UP by default, change to transform.up.
         rb.linearVelocity = transform.right * speed;
 
         Destroy(gameObject, 3f);
@@ -26,6 +25,7 @@ public class BulletScript : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D col)
     {
+        // ---------- NORMAL ENEMIES ----------
         Enemy enemy = col.collider.GetComponent<Enemy>();
         if (enemy != null)
         {
@@ -34,6 +34,16 @@ public class BulletScript : MonoBehaviour
             return;
         }
 
+        // ---------- BOSS ----------
+        Boss boss = col.collider.GetComponent<Boss>();
+        if (boss != null)
+        {
+            boss.TakeDamage(damage);
+            Destroy(gameObject);
+            return;
+        }
+
+        // ---------- ENVIRONMENT ----------
         if (col.gameObject.layer == LayerMask.NameToLayer("OnTop"))
         {
             Destroy(gameObject);

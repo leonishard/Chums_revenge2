@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Bottle of Water
   description: Necessary hydration for humans, but you're... something more
-  code: 0
+  code: 120
   effects: +2 Projectile, -1 Health

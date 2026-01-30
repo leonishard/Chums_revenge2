@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Hip Hop Cigarette
   description: Legalization saves lives
-  code: 0
+  code: 121
   effects: +2 Projectiles, -1 Damage

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: COOL Apple
   description: He used to bully me in school
-  code: 0
+  code: 118
   effects: -5 Max Ammo, -0.5 Reload Speed

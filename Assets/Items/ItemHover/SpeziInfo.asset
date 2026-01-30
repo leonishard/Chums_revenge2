@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Bottle of Spezi
   description: Germany's best invention
-  code: 113
+  code: 114
   effects: +2 Health

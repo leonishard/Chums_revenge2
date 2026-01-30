@@ -14,6 +14,9 @@ public class AudioManager : MonoBehaviour
     public AudioClip machineOpenClose;
     public AudioClip purchased;
     public AudioClip denied;
+    public AudioClip bossStep;
+    public AudioClip bossSingleFire;
+    public AudioClip bossShotgun;
 
     [Header("Volume")] // SET VOLUME CONTROL FOR NEW SFX / MUSIC HERE
     [Range(0f, 1f)] public float musicVolume = 0.5f;
@@ -24,6 +27,9 @@ public class AudioManager : MonoBehaviour
     [Range(0f, 1f)] public float machineOpenCloseVolume = 1f;
     [Range(0f, 1f)] public float purchasedVolume = 1f;
     [Range(0f, 1f)] public float deniedVolume = 1f;
+    [Range(0f, 1f)] public float bossStepVolume = 1f;
+    [Range(0f, 1f)] public float bossSingleFireVolume = 1f;
+    [Range(0f, 1f)] public float bossShotgunVolume = 1f;
 
 
     private void Start()
@@ -54,8 +60,14 @@ public class AudioManager : MonoBehaviour
             volume*= purchasedVolume;
         else if(clip == denied)
             volume *= deniedVolume;
+        else if (clip == bossStep)
+            volume *= bossStepVolume;
+        else if (clip == bossSingleFire)
+            volume *= bossSingleFireVolume;
+        else if (clip == bossShotgun)
+            volume *= bossShotgunVolume;
 
-            SFXSource.PlayOneShot(clip, volume);
+        SFXSource.PlayOneShot(clip, volume);
     }
 
 #if UNITY_EDITOR

@@ -14,5 +14,5 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   itemName: Cigarettes
   description: Can cause cancer, but you have bigger problems right now
-  code: 0
+  code: 111
   effects: +1 Damage, -1 Health
