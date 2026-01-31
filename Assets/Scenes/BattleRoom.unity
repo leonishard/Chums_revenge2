@@ -11411,6 +11411,7 @@ MonoBehaviour:
   background: {fileID: 8300000, guid: af3e4c8c3daef5040830f5aa4d037294, type: 3}
   coinPickUp: {fileID: 8300000, guid: 8f332bb8b1718694f9876ea55b2223dc, type: 3}
   footstep: {fileID: 8300000, guid: 08cfe792c79bb7945b3c29cd3da0af7d, type: 3}
+  playerDeath: {fileID: 8300000, guid: 06208ec0068cf974db738755f87a045f, type: 3}
   machineBeep: {fileID: 8300000, guid: 521f34c02142ff6408c994293e11056a, type: 3}
   machineOpenClose: {fileID: 8300000, guid: a42ba05de4c83794096e50af1465f34b, type: 3}
   purchased: {fileID: 8300000, guid: 6ae40c6e233ca1b4895701fcebebf711, type: 3}
@@ -11423,6 +11424,7 @@ MonoBehaviour:
   sfxVolume: 1
   coinPickupVolume: 0.05
   footstepVolume: 0.469
+  playerDeathVolume: 0.282
   machineBeepVolume: 0.02
   machineOpenCloseVolume: 0.05
   purchasedVolume: 0.08
