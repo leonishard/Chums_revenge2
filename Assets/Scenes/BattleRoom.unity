@@ -11600,9 +11600,9 @@ Camera:
   m_NormalizedViewPortRect:
     serializedVersion: 2
     x: 0
-    y: 0.055555556
-    width: 1
-    height: 0.8888889
+    y: -0.5
+    width: 0
+    height: 1
   near clip plane: 0.3
   far clip plane: 1000
   field of view: 34
@@ -28513,7 +28513,7 @@ Transform:
   m_GameObject: {fileID: 1118059337}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -50.21, y: -24.1, z: 0}
+  m_LocalPosition: {x: -49.55, y: -24.7, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
