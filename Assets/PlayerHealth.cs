@@ -1,4 +1,4 @@
-using UnityEngine;
+﻿using UnityEngine;
 using System.Collections;
 
 public class PlayerHealth : MonoBehaviour
@@ -15,10 +15,13 @@ public class PlayerHealth : MonoBehaviour
 
     public HealthUI healthUI;
     private SpriteRenderer spriteRenderer;
+    private AudioManager audioManager;
 
     void Start()
     {
         spriteRenderer = GetComponent<SpriteRenderer>();
+        audioManager = FindObjectOfType<AudioManager>();
+
         ApplyFromManager();
 
         if (GameManager.I == null)
@@ -78,6 +81,10 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
+            // 🔊 Death SFX
+            if (audioManager != null)
+                audioManager.PlaySFX(audioManager.playerDeath);
+
             // Player is dead
             return;
         }
@@ -85,14 +92,12 @@ public class PlayerHealth : MonoBehaviour
         StartCoroutine(InvincibilityCoroutine());
     }
 
-    // Now supports negative values too:
     public void Heal(int amount)
     {
         if (amount == 0) return;
 
         if (amount < 0)
         {
-            // Treat negative heal as damage
             TakeDamage(-amount);
             return;
         }
@@ -104,17 +109,13 @@ public class PlayerHealth : MonoBehaviour
         SaveToManager();
     }
 
-    // Now supports negative values too:
     public void AddMaxHealth(int amount)
     {
         if (amount == 0) return;
 
         maxHealth = Mathf.Max(minMaxHealth, maxHealth + amount);
-
-        // If maxHealth decreased, currentHealth might now be too high
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
 
-        // If maxHealth increased, optionally also increase current by same amount:
         if (amount > 0)
             currentHealth = Mathf.Clamp(currentHealth + amount, 0, maxHealth);
 
