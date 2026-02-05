@@ -13,6 +13,10 @@ public class PlayerHealth : MonoBehaviour
     public float invincibilityDuration = 1f;
     private bool isInvincible = false;
 
+    [Header("Death")]
+    [SerializeField] private GameObject deathUI;
+    private bool isDead = false;
+
     public HealthUI healthUI;
     private SpriteRenderer spriteRenderer;
     private AudioManager audioManager;
@@ -60,7 +64,7 @@ public class PlayerHealth : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (isInvincible) return;
+        if (isInvincible || isDead) return;
 
         Enemy enemy = collision.collider.GetComponent<Enemy>();
         if (enemy != null)
@@ -71,7 +75,7 @@ public class PlayerHealth : MonoBehaviour
 
     public void TakeDamage(int damage)
     {
-        if (isInvincible || damage <= 0) return;
+        if (isInvincible || isDead || damage <= 0) return;
 
         currentHealth -= damage;
         currentHealth = Mathf.Clamp(currentHealth, 0, maxHealth);
@@ -81,20 +85,41 @@ public class PlayerHealth : MonoBehaviour
 
         if (currentHealth <= 0)
         {
-            // 🔊 Death SFX
-            if (audioManager != null)
-                audioManager.PlaySFX(audioManager.playerDeath);
-
-            // Player is dead
+            Die();
             return;
         }
 
         StartCoroutine(InvincibilityCoroutine());
     }
 
+    private void Die()
+    {
+        if (isDead) return;
+        isDead = true;
+
+        // 🔄 Reset run data
+        if (GameManager.I != null)
+            GameManager.I.ResetRun();
+
+        // 🔊 Death SFX
+        if (audioManager != null)
+            audioManager.PlaySFX(audioManager.playerDeath);
+
+        // Freeze game
+        Time.timeScale = 0f;
+
+        // Show death UI
+        if (deathUI != null)
+            deathUI.SetActive(true);
+
+        // Unlock cursor
+        Cursor.lockState = CursorLockMode.None;
+        Cursor.visible = true;
+    }
+
     public void Heal(int amount)
     {
-        if (amount == 0) return;
+        if (amount == 0 || isDead) return;
 
         if (amount < 0)
         {
