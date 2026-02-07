@@ -53633,7 +53633,7 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8201827547203600839, guid: 7973825e0771e54429a0ddf01744725e, type: 3}
   activationRange: 4
   drawActivationGizmo: 1
-  maxHealth: 350
+  maxHealth: 1000
   introMoveSpeed: 2
   chaseSpeed: 1.5
   stepInterval: 0.4
