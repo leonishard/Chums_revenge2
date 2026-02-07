@@ -13087,7 +13087,7 @@ MonoBehaviour:
   defaultTimeBetweenFiring: 0.3
   defaultMagazineSize: 10
   defaultReloadTime: 1.2
-  defaultCurrency: 300
+  defaultCurrency: 20
   baseDamage: 1
   bonusDamage: 0
   projectileCount: 1
@@ -13670,7 +13670,7 @@ Camera:
   far clip plane: 1000
   field of view: 34
   orthographic: 1
-  orthographic size: 7.5
+  orthographic size: 6.16
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -53633,12 +53633,12 @@ MonoBehaviour:
   bulletPrefab: {fileID: 8201827547203600839, guid: 7973825e0771e54429a0ddf01744725e, type: 3}
   activationRange: 4
   drawActivationGizmo: 1
-  maxHealth: 10000
+  maxHealth: 150
   introMoveSpeed: 2
   chaseSpeed: 1.5
   stepInterval: 0.4
-  shotgunPellets: 5
-  shotgunSpreadAngle: 35
+  shotgunPellets: 7
+  shotgunSpreadAngle: 60
   shotgunBulletSpeed: 8
   shotgunInterval: 0.6
   shotgunCooldown: 15
