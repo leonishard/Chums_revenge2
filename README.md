@@ -1,13 +1,11 @@
-# 🎮 Chum's Revenge 2
+# Chum's Revenge 2
 
 > A 2D Topdown Roguelike built for university coursework
 
-## 🛠️ Built With
+## Tools:
 
 - **Unity** - Game Engine
 - **C#** - Programming Language
-
-## 🚀 Getting Started
 
 ### Prerequisites
 
@@ -28,20 +26,12 @@ git clone https://github.com/leonishard/Chums_revenge2.git
 
 3. The project should automatically import and build the necessary Library files
 
-## 📁 Project Structure
-```
-Chums_revenge2/
-├── Assets/          # Game assets, scripts, scenes, and resources
-├── Packages/        # Unity package dependencies
-├── ProjectSettings/ # Unity project configuration
-└── .gitignore       # Git ignore rules
-```
 
-## 👥 Contributors
+##  Contributors
 
 - [leonishard](https://github.com/leonishard)
 - [toshvarma](https://github.com/toshvarma)
 
-## 📝 License
+##  License
 
 This project is part of university coursework.
